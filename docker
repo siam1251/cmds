@@ -1,0 +1,31 @@
+docker exec -it d26d8019ff61 /bin/bash
+
+ docker ps
+
+nvidia-docker start 7b9926cf8cfa
+ 7b9926cf8cfa
+
+
+ nvidia-docker run -t -v /media/sdb/sayem/videos:/root/videos -v /media/sdb/sayem/code:/root  tf/1.5:gpu /bin/bash
+
+
+nvidia-docker run -t -v /media/sdd/shared_data:/root/data  tf/1.5:gpu /bin/bash
+
+After running this exit and then run 
+nvidia-docker start name
+nvidia-docker exec –it name /bin/bash
+
+
+
+outlook command
+to:sunwei has:attachment
+
+docker build -f devops/Dockerfile . -t faceengine_build
+
+sudo chmod -R 777 /home/jenkins_home/
+ 
+
+// to run sudo in docker 
+sudo usermod -G sudo,dev,docker sayem
+
+docker run -d -v /home/jenkins_home/workspace:/var/jenkins_home/workspace -p 8080:8080 -p 50000:50000 faceengine_build
