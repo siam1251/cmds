@@ -1,0 +1,178 @@
+#change the permission
+Create a config file in the .ssh directory and copy the following lines in that file
+#chmod 700 -R .ssh/
+Host abyssus
+HostName abyssus.cs.ualberta.ca
+User siam
+IdentityFile "~/.ssh/id_rsa" 
+Creat a file name authorized_keys in the Host .ssh file and copy the local id_rsa.pub contents in that file
+
+
+
+fileidsk
+sudo lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
+
+ du -sh map_merging# file size
+
+
+safe build and install
+./configure --prefix=$HOME/mydir; make; make install
+
+# Finally, we tell the system that new libraries are available
+$ sudo ldconfig -v
+------------------------------------------------------Path is installed ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Exporting path
+
+export PATH=$PATH:/sbin/:/usr/sbin/
+
+Permanently change the path setting by adding the same line to your 
+~/.bashrc file
+
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install build-essential -y
+
+wget -r  --no-parent https://TA:TAaccess7@skatgame.net/mburo/courses/350/secret/a2sol/
+
+wget --user user --password pass http://serveraddress/
+
+
+
+To copy file into multiple folders
+ls |xargs -n 1 cp Untitled\ Document 
+for dir in $(find www/ -type d -maxdepth 1); do cp -i www/index.htm "$dir"/; done
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------Cmake---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+go trunck folder
+type 
+cmake ..
+
+
+go build folder
+sudo make install
+
+sudo make clean
+sudo make uninstall
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ld------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ldd $(which g2o_viewer)
+find -name "libg2o_viewer.so" 2>/dev/null
+
+dpkg-query -l <packagename>
+
+
+
+ld --verbose | grep SEARCH_DIR
+
+ ld --verbose | grep SEARCH_DIR
+ SEARCH_DIR("/usr/x86_64-linux-gnu/lib64");
+ldconfig -p | grep /usr/local/lib
+
+
+The best hot-fix for this problem is often setting LD_LIBRARY_PATH to the directory with the .so file, e.g.:
+$ LD_LIBRARY_PATH=.. ./i2c
+For a long-term solution, you need to either have a close look at the whole LD system with rpath and runpath, or use libtool (which solves these issues for you portably).
+Copying a file to /usr/local/lib is often insufficient because ld caches the available libraries, so you need to re-run sudo ldconfig (as root) after you copied a library to /usr/local/lib.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------- check Package is installed ---------------------------------------------------------------------------------------------------------------------------
+To check if packagename was installed, type:
+dpkg -s <packagename>
+You can also use dpkg-query that has a neater output for your purpose, and accepts wild cards, too.
+dpkg-query -l <packagename>
+sudo dpkg -i skype-ubuntu-precise_*.deb
+
+To find what package owns the command, try:
+dpkg -S `which <command>`
+
+check installed package
+
+dpkg-query -l 'libc6*'
+
+Check all installed software
+dpkg --get-selections | grep -v deinstall
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Uninstall packages-----------------------------------------------------------------
+
+sudo apt-get remove <package name>
+To make sure that you uninstall all related packages AND configuration files, you can type sudo apt-get purge <package-name> or -in Synaptic- "mark for complete removal" instead of just "mark for removal".
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------System76---------------------------------------------------------------------------
+sudo apt-add-repository -ys ppa:system76-dev/stable
+sudo apt-get update
+sudo apt-get install -y system76-driver
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+sudo scp -r sayem@192.168.0.4:/home/siam-ubuntu/Downloads/2014a/Crack /home/siam/
+ ssh abyssus ls
+ssh sayem@192.168.04
+rsync debug.txt abyssus:/home/siam/
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+sudo alien packagename.rpm
+sudo dpkg -i packagename.deb
+or 
+sudo alien -i packagename.rpm
+scangearmp
+
+--------------------------------------------DD command-------------------------------------------------------------
+http://askubuntu.com/questions/6925/is-there-an-easy-way-to-transfer-an-os-from-one-hard-drive-to-another
+
+http://askubuntu.com/questions/491082/steps-to-create-dd-image-file-from-usb-and-restore-image-to-a-different-usb
+
+
+------------------full system backup with rsync-----------------------------------------
+https://wiki.archlinux.org/index.php/Full_system_backup_with_rsync
+--------------------------adding libray path permanently-------------------------------
+http://unix.stackexchange.com/questions/67781/use-shared-libraries-in-usr-local-lib
+
+
+
+screen command
+screen
+screen -ls
+pkill screen # kills all the sessions
+Ctrl+A followed by D          to detach
+Reattach screen -r myprog
+Or screen -r
+
+Sed command
+
+find ./ -type f -exec sed -i 's/test/name/g' {} +
+
+Recursive
+g = for all occurance in a line
+{} + = for all files
+http://unix.stackexchange.com/questions/112023/how-can-i-replace-a-string-in-a-files
+
+
+
+apt-get source package
+ cd package ./configure --prefix=$HOME or ./configure --prefix=$HOME/usr/local
+
+Make
+ make install
+
+
+Addding Manual
+sudo cp rclone /usr/sbin/
+sudo chown root:root /usr/sbin/rclone
+sudo chmod 755 /usr/sbin/rclone
+#install manpage
+sudo mkdir -p /usr/local/share/man/man1
+sudo cp rclone.1 /usr/local/share/man/man1/
+sudo mandb
+
+
+Ubuntu Unity account error
+(/var/cache/apt/archives/account-plugin-google_0.12+16.04.20160126-0ubuntu1_all.deb (--unpack):)
+
+sudo dpkg -P unity-scope-gdrive
+ sudo dpkg -P account-plugin-google
+ sudo dpkg -P account-plugin-facebook
+ sudo apt-get install -f
+
