@@ -6,7 +6,9 @@ HostName abyssus.cs.ualberta.ca
 User siam
 IdentityFile "~/.ssh/id_rsa" 
 Creat a file name authorized_keys in the Host .ssh file and copy the local id_rsa.pub contents in that file
-
+// permission important
+Your ~/.ssh/authorized_keys file (on the remote machine) must be readable (at least 400), but you'll need it to be also writable (600) if you will add any more keys to it.
+Your private key file (on the local machine) must be readable and writable only by you: rw-------, i.e. 600.
 
 
 fileidsk
