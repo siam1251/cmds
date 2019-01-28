@@ -1,1 +1,7 @@
 git diff HEAD^^ HEAD main.c
+git log --after=jun9 --before=jun10
+
+# search log
+git log --all --grep='Build 0051'
+## To search the actual content of commits through a repo's history, use:
+git grep 'Build 0051' $(git rev-list --all)
