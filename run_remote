@@ -1,0 +1,3 @@
+cp face_feature_detection_batch4_v6.cambricon ../models/EMUI9.0-Master-ALL-China-Full-NPU980/cv/kirin980/cv_videoface_face_feature_detection_batch4.cambricon
+
+cp ssd_core_detection_graph.cambricon ../models/EMUI9.0-Master-ALL-China-Full-NPU980/cv/kirin980/cv_videoface_ssd_core_detection_graph.cambricon
