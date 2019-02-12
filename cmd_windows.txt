@@ -1,0 +1,39 @@
+cd C:\Users\S00447005\AppData\Local\Android\Sdk\platform-tools
+.\adb.exe shell
+
+netstat -ano | findstr :5037
+
+taskkill /PID typeyourPIDhere /F
+
+
+"C:\Program Files\CMake\bin\cmake.exe"
+
+"C/Program Files/CMake/bin/cmake.exe"
+
+
+10.193.97.72
+
+
+bharath
+
+
+ffmpeg -i input.mp4 -ss 00:01:00 -to 00:02:00 -c copy output.mp4
+
+ffmpeg -i <input_video.mp4> -vcodec mjpeg <output.mjpeg>
+ffmpeg -i <output.mjpeg> -vcodec mjpeg output.avi
+
+
+
+ scp -r bharath@10.193.97.72:~/code/MobileVideoAI/FaceDetection/app/build/outputs/apk/debug/ ./
+ scp -r bharath@10.193.97.72:~/code/MobileVideoAI/ThirdParty/opencv/release.ta* /d/AndroidStudioProjects/MobileVideoAI/ThirdParty/opencv/
+ scp -r bharath@10.193.97.72:~/code/MobileVideoAI/FaceEngine_sayem/build.tar /d/AndroidStudioProjects/FaceEngine/
+
+rsync -r ./ bharath@10.193.97.72:~/code/MobileVideoAI/tmp_FaceEngine/
+
+ tar -zxvf build.tar.gz //unzip
+tar -czvf name-of-archive.tar.gz /path/to/directory-or-file //zip
+
+
+
+
+git fsck --lost-found
