@@ -1,0 +1,16 @@
+sudo sh -c 'cd /home; ./gitpull.sh'
+sudo sh -c "echo 'something' >> /etc/privilegedfile"
+
+
+#avoid the following
+ sudo bash
+# cd /home/
+# ./gitpull.sh
+
+// do the following instead above
+
+sudo sh -c 'cd /home; ./gitpull.sh'
+
+
+sudo -S
+sudo $user -c -p "./run.sh"
