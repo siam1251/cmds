@@ -9,3 +9,6 @@ adb reboot
 pause
 // ----end------
 
+// huawei 
+apt-get install libc6
+apt-get install libc6
