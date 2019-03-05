@@ -1,0 +1,1 @@
+ adb shell 'find / -name  Hw*apk' -type f 2>/dev/null
