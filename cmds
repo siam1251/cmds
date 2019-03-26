@@ -22,3 +22,8 @@ find /path/to/files -type f -exec sed -i 's/oldstring/new string/g' {} \;
 
 git revert --strategy resolve <commit>
 adb shell pidof com.huawei.videoanalysisengine
+
+
+// show processes
+pstree
+ps -Ae
