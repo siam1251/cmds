@@ -12,3 +12,5 @@ pause
 // huawei 
 apt-get install libc6
 apt-get install libc6
+
+adb shell dumpsys meminfo com.huawei.videoanalysisengine>> ~/dump.txt
