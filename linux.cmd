@@ -26,3 +26,6 @@ adb shell pidof com.huawei.videoanalysisengine
 
 
 xclip -selection clipboard
+
+# bring a background process to foreground
+reptyr pid
