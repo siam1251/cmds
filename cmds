@@ -27,3 +27,6 @@ adb shell pidof com.huawei.videoanalysisengine
 // show processes
 pstree
 ps -Ae
+
+
+ssh -NfL 6006:localhost:6006 username@remote_server_address
