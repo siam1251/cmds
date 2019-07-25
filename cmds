@@ -30,7 +30,7 @@ adb shell pidof com.huawei.videoanalysisengine
 pstree
 ps -Ae
 
-
+//remote port forwarding
 ssh -NfL 6006:localhost:6006 username@remote_server_address
 
 
