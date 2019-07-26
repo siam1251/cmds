@@ -50,4 +50,4 @@ sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
 ----------------------------Windows-----------------------------
  netstat -ano|grep 8888
  taskkill /f /im 24536
-reptyr
+reptyr pid
