@@ -51,3 +51,6 @@ sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
  netstat -ano|grep 8888
  taskkill /f /im 24536
 reptyr pid
+
+
+lsb_release -a 
