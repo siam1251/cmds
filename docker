@@ -7,6 +7,8 @@ nvidia-docker start 7b9926cf8cfa
 
 
  nvidia-docker run -t -v /media/sdb/sayem/videos:/root/videos -v /media/sdb/sayem/code:/root  tf/1.5:gpu /bin/bash
+ or docker run  --name sayem -d -v /home/jenkins_home/workspace:/var/jenkins_home/workspace -p 8080:8080 -p 50000:50000 faceengine_build
+
 
 
 nvidia-docker run -t -v /media/sdd/shared_data:/root/data  tf/1.5:gpu /bin/bash
