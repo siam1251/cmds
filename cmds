@@ -61,3 +61,5 @@ lsb_release -a
 
 
  pip3 install tensorflow-gpu==2.0.0-beta1 --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org
+ 
+ "taskset -c 0 python my_program.py" will limit my_program.py to CPU:0.
