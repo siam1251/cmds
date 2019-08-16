@@ -71,3 +71,4 @@ stat -c "%a" .ssh
 700 for .ssh
 644 for .pub
 600 for id_rsa
+755 for config
