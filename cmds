@@ -71,4 +71,6 @@ stat -c "%a" .ssh
 700 for .ssh
 644 for .pub
 600 for id_rsa
+600 authorized_keys // copy local .pub file into authorized_keys
 755 for config
+

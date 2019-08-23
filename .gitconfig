@@ -1,0 +1,18 @@
+[user]
+	email = sayem.mohammad.siam@abc.com
+	name = Sayem Mohammad Siam
+[core]
+	editor = vi
+[push]
+	default = simple
+[difftool "studio"]
+   cmd = studio diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")
+[diff]
+    tool = studio
+
+[http]
+	sslVerify = false
+[url "https://github.com/"]
+	insteadOf = git@github.com:
+[difftool]
+	prompt = false

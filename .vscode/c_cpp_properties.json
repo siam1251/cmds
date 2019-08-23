@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**", "${workspaceFolder}/../ThirdParty/opencv_linux/release/include"
+                , "${workspaceFolder}/../ThirdParty/googletest/googletest/include"
+                , "${workspaceFolder}/../ThirdParty/tensorflow_linux/release/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang-3.8",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,4 +1,5 @@
 Export certificates from windows machine
+noremap Y "*y
 Import certificates
 
 chrome://settings/certificates
