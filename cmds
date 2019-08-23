@@ -73,4 +73,5 @@ stat -c "%a" .ssh
 600 for id_rsa
 600 authorized_keys // copy local .pub file into authorized_keys
 755 for config
-
+git multiple keys
+https://docs.gitlab.com/ee/ssh/
