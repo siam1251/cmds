@@ -93,3 +93,4 @@ Optional: Stop trusting the key
 ```
 sudo apt-key del 73C62A1B
 ```
+The keyid is the last 8 characters of the gpg key's fingerprint, which is that long hex-code under pub
