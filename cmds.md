@@ -46,13 +46,13 @@ sudo apt-get update
 sudo apt-get autoclean
 sudo apt-get clean
 sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
-'''
----------------------------shared_library----------------------------
+```
+## shared_library ----------------------------
 readelf -d $executable | grep 'NEEDED'
 readelf -d /lib/libOpenCL.so | grep 'NEEDED'
 ldd /path/executable
 
-----------------------------Windows-----------------------------
+## Windows-----------------------------
  netstat -ano|grep 8888
  taskkill /f /im 24536
 reptyr pid
@@ -67,7 +67,7 @@ lsb_release -a
 
 
 
-------------------------.ssh file permision--------------------------
+## .ssh file permision--------------------------
 stat -c "%a" .ssh
 700 for .ssh
 644 for .pub
@@ -77,15 +77,15 @@ stat -c "%a" .ssh
 git multiple keys
 https://docs.gitlab.com/ee/ssh/
 
-###########---apt-key #####################
+##---apt-key #####################
 
-# Remove it from sources.list.
+### Remove it from sources.list.
 
-# If it was added by add-apt-repository then you will find it in its own file in /etc/apt/sources.list.d, not in the main sources.list.
+### If it was added by add-apt-repository then you will find it in its own file in /etc/apt/sources.list.d, not in the main sources.list.
 
 sudo rm /etc/apt/sources.list.d/nemh-systemback-precise.list
 Optional: Stop trusting the key
 
-# Use apt-key list to list trusted keys. Look for an entry like "Launchpad PPA for Kendek" in this case. Then use apt-key del to delete it:
+### Use apt-key list to list trusted keys. Look for an entry like "Launchpad PPA for Kendek" in this case. Then use apt-key del to delete it:
 
 sudo apt-key del 73C62A1B
