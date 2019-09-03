@@ -1,5 +1,5 @@
 
---------------------------------------------------------------------------------------------------------------------------------------
+```
 fdisk -l
 sudo mount  /dev/nvme0n1p4 /mnt/d
 mkdir /mnt/d
@@ -46,6 +46,7 @@ sudo apt-get update
 sudo apt-get autoclean
 sudo apt-get clean
 sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
+'''
 ---------------------------shared_library----------------------------
 readelf -d $executable | grep 'NEEDED'
 readelf -d /lib/libOpenCL.so | grep 'NEEDED'
