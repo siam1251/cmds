@@ -53,6 +53,7 @@ readelf -d /lib/libOpenCL.so | grep 'NEEDED'
 ldd /path/executable
 
 ## Windows-----------------------------
+```
  netstat -ano|grep 8888
  taskkill /f /im 24536
 reptyr pid
@@ -65,9 +66,10 @@ lsb_release -a
  
  "taskset -c 0 python my_program.py" will limit my_program.py to CPU:0.
 
-
+```
 
 ## .ssh file permision--------------------------
+```
 stat -c "%a" .ssh
 700 for .ssh
 644 for .pub
@@ -76,16 +78,18 @@ stat -c "%a" .ssh
 755 for config
 git multiple keys
 https://docs.gitlab.com/ee/ssh/
+```
 
 ##---apt-key #####################
 
 ### Remove it from sources.list.
 
 ### If it was added by add-apt-repository then you will find it in its own file in /etc/apt/sources.list.d, not in the main sources.list.
-
+```
 sudo rm /etc/apt/sources.list.d/nemh-systemback-precise.list
 Optional: Stop trusting the key
-
+```
 ### Use apt-key list to list trusted keys. Look for an entry like "Launchpad PPA for Kendek" in this case. Then use apt-key del to delete it:
-
+```
 sudo apt-key del 73C62A1B
+```
