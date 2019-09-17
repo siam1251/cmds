@@ -110,4 +110,8 @@ With dpkg
 apt-get download package
 dpkg -x package.deb dir
 ```
+#### Bazel download certificate issue
+dd the following line to your ~/.bazelrc
 
+startup --host_jvm_args=-Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts \
+        --host_jvm_args=-Djavax.net.ssl.trustStorePassword=changeit
