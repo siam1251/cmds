@@ -118,4 +118,6 @@ startup --host_jvm_args=-Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts \
         
         
 #### vscode show pointers
+```
 *(float(*)[64])patch.data
+```
