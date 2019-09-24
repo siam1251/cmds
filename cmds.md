@@ -115,3 +115,7 @@ dd the following line to your ~/.bazelrc
 
 startup --host_jvm_args=-Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts \
         --host_jvm_args=-Djavax.net.ssl.trustStorePassword=changeit
+        
+        
+#### vscode show pointers
+*(float(*)[64])patch.data
