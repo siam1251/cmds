@@ -5,3 +5,7 @@ git log --after=jun9 --before=jun10
 git log --all --grep='Build 0051'
 ## To search the actual content of commits through a repo's history, use:
 git grep 'Build 0051' $(git rev-list --all)
+
+// large file issue
+git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/folder>' HEAD
+
