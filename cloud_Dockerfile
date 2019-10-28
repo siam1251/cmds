@@ -1,0 +1,147 @@
+FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu16.04
+
+LABEL maintainer="Huawei Technologies <bharath.sekar@huawei.com>"
+
+ENV "http_proxy=http://192.168.10.200:8080" \
+    "https_proxy=http://192.168.10.200:8080" \
+    "no_proxy=localhost,.hwap,.huawei.com" \
+    "HTTP_PROXY=http://192.168.10.200:8080" \
+    "HTTPS_PROXY=http://192.168.10.200:8080" \
+    "NO_PROXY=localhost,.hwap,.huawei.com"
+
+COPY apt-proxy /etc/apt/apt.conf.d/30proxy
+COPY huawei_proxy_certificate.crt \
+    /usr/local/share/ca-certificates/huawei_proxy_certificates.crt
+
+#Install Necessary linux packages or softwares
+RUN apt-get update && apt-get install -y \
+    ca-certificates \
+    libopenblas-dev \
+    liblapack-dev \
+    python \
+    python-pip \
+    cmake  \
+    vim \
+    bzip2
+
+# Install FFMPEG (Needed for opencv) dependencies
+RUN apt-get install -y \
+    build-essential \
+    checkinstall \
+    git \
+    libfaac-dev \
+    libjack-jackd2-dev \
+    libmp3lame-dev \
+    libopencore-amrnb-dev \
+    libopencore-amrwb-dev \
+    libsdl1.2-dev libtheora-dev \
+    libva-dev \
+    libvdpau-dev \
+    libvorbis-dev \
+    libx11-dev \
+    libxfixes-dev \
+    libxvidcore-dev \
+    texi2html \
+    yasm \
+    zlib1g-dev \
+    libsdl1.2-dev \
+    libvpx-dev \
+    wget \
+    libv4l-0
+
+
+RUN update-ca-certificates
+
+# Create the necessary directories and copy ThirdParty libraries
+RUN mkdir /app
+RUN mkdir /app/ThirdParty
+
+COPY PySceneDetect /app/ThirdParty/PySceneDetect
+
+# Build boost
+COPY boost_1_64_0.tar.bz2 /app/ThirdParty/
+WORKDIR /app/ThirdParty
+RUN tar -jxvf /app/ThirdParty/boost_1_64_0.tar.bz2
+RUN mv /app/ThirdParty/boost_1_64_0 /app/ThirdParty/boost
+WORKDIR /app/ThirdParty/boost
+RUN ./bootstrap.sh --prefix=/app/ThirdParty/boost --with-python=/usr/bin/python --with-libraries=python
+RUN ./b2 cxxflags=-fPIC install
+ENV BOOST_LIBRARYDIR=/app/ThirdParty/boost/lib
+ENV BOOST_INCLUDEDIR=/app/ThirdParty/boost
+ENV BOOST_ROOT=/app/ThirdParty/boost
+
+
+# Compile ffmpeg
+COPY FFmpeg-v3.3.3.tar.gz /app/ThirdParty
+WORKDIR /app/ThirdParty
+RUN tar -zxvf FFmpeg-v3.3.3.tar.gz
+WORKDIR /app/ThirdParty/FFmpeg-n3.3.3
+RUN ./configure --enable-gpl --enable-libmp3lame --enable-libopencore-amrnb \
+    --enable-libopencore-amrwb --enable-libtheora --enable-libvorbis --enable-libxvid \
+    --enable-postproc --enable-version3 --enable-shared --enable-libvpx --enable-pic
+RUN make -j 8
+RUN make install
+
+# Build opencv
+COPY opencv /app/ThirdParty/opencv
+RUN mkdir /app/ThirdParty/opencv/build
+WORKDIR /app/ThirdParty/opencv/build
+ENV "CXXFLAGS=-D__STDC_CONSTANT_MACROS"
+RUN cmake -D CMAKE_INSTALL_PREFIX=/app/ThirdParty/opencv/release \
+          -D WITH_LAPACK=OFF \
+          -D BUILD_opencv_world=ON \
+          -D INSTALL_PYTHON_EXAMPLES=OFF \
+          -D INSTALL_C_EXAMPLES=OFF \
+          -D PYTHON_EXECUTABLE=OFF \
+          -D CUDA_ARCH_PTX=OFF \
+          -D CUDA_ARCH_BIN=60 \
+          -D WITH_CUDA=ON \
+          -D WITH_LIBV4L=ON \
+          -D WITH_GSTREAMER=NO \
+          -D WITH_OPENCL=OFF \
+          -D BUILD_TESTS=OFF \
+          -D BUILD_PERF_TESTS=OFF \
+          -D WITH_FFMPEG=ON \
+           ../sources/
+
+RUN make -j 8
+RUN make install
+
+# Compile opencv for Python
+# Since using openc_world ON suppresses opencv_python ON
+# Buidling in seperately
+# Issue raised in opencv and solved in the next release > 3.2
+RUN apt-get install -y python-numpy
+RUN rm -rf /app/ThirdParty/opencv/build/*
+RUN cmake -D CMAKE_INSTALL_PREFIX=/app/ThirdParty/opencv/release \
+          -D WITH_LAPACK=OFF \
+          -D BUILD_opencv_world=OFF \
+          -D INSTALL_PYTHON_EXAMPLES=OFF \
+          -D INSTALL_C_EXAMPLES=OFF \
+          -D PYTHON_EXECUTABLE=OFF \
+          -D CUDA_ARCH_PTX=OFF \
+          -D CUDA_ARCH_BIN=60 \
+          -D WITH_CUDA=ON \
+          -D WITH_LIBV4L=ON \
+          -D WITH_GSTREAMER=NO \
+          -D WITH_OPENCL=OFF \
+          -D BUILD_TESTS=OFF \
+          -D BUILD_PERF_TESTS=OFF \
+          -D WITH_FFMPEG=ON \
+          -D WITH_opencv_python=ON \
+          -D PYTHON_EXECUTABLE=/usr/bin/python \
+           ../sources/
+RUN make -j 9
+RUN make install
+
+#Build google test
+COPY googletest /app/ThirdParty/googletest
+RUN mkdir /app/ThirdParty/googletest/build
+WORKDIR /app/ThirdParty/googletest/build
+RUN cmake -D BUILD_GTEST=ON -D BUILD_SHARED_LIB=ON -D BUILD_GMOCK=OFF ..
+RUN make -j 4
+
+# Build dlib
+COPY dlib /app/ThirdParty/dlib
+WORKDIR /app/ThirdParty/dlib
+RUN python setup.py install --yes USE_AVX_INSTRUCTIONS --yes DLIB_USE_CUDA
