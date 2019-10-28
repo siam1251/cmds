@@ -1,10 +1,10 @@
 FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu16.04
 
-LABEL maintainer="Huawei Technologies <bharath.sekar@huawei.com>"
+LABEL maintainer="abc@email.com>"
 
 ENV "http_proxy=http://192.168.10.200:8080" \
     "https_proxy=http://192.168.10.200:8080" \
-    "no_proxy=localhost,.hwap,.huawei.com" \
+    "no_proxy=localhost,.hwap,.abc.com" \
     "HTTP_PROXY=http://192.168.10.200:8080" \
     "HTTPS_PROXY=http://192.168.10.200:8080" \
     "NO_PROXY=localhost,.hwap,.huawei.com"
