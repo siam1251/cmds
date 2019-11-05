@@ -10,3 +10,31 @@ Note:
 The length of the array is in range [1, 20,000].
 The range of numbers in the array is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
 https://leetcode.com/problems/subarray-sum-equals-k/
+
+```
+class Solution {
+public:
+    int subarraySum(vector<int>& nums, int k) {
+        int s = nums.size();
+        std::map<int, int> tb;
+        int cnt = 0;
+        int sum = 0;
+        tb[0] = 1;
+        for(int i = 0; i < s; i++){
+            int cur = nums[i];
+            sum += cur;
+            if(tb.count(sum-k) > 0){
+                cnt+=tb[sum-k];
+            }
+            if(tb.count(sum) > 0){
+                tb[sum] += 1;
+            }else{
+                tb[sum] = 1;
+            }
+        }
+        
+        
+        return cnt;
+    }
+};
+```
