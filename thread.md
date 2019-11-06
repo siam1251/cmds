@@ -38,3 +38,13 @@
 return true;
 
   ```
+  
+  ## wait:
+  
+  There is way big difference between wait_until vs wait that is wait_util doesn't wait anymore however wait continuesly wait until the pred function returns true;
+  
+  ```
+  while (!pred()) {
+    wait(lock);
+}
+  ```
