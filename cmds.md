@@ -1,5 +1,7 @@
 
 ```
+alias apt_get_no='sudo apt-get -o Acquire::http::proxy=false '
+
 fdisk -l
 sudo mount  /dev/nvme0n1p4 /mnt/d
 mkdir /mnt/d

@@ -1,0 +1,40 @@
+# install cntlm
+# add a cntlm.conf in /etc/cntlm.conf
+sudo service cntlm start
+
+# add following /etc/apt/apt.conf
+Acquire::http::proxy "http://localhost:3128/";                                                        
+Acquire::https::proxy "https://localhost:3128/";                                                      
+Acquire::ftp::proxy "ftp://localhost:3128/";                                                          
+Acquire::socks::proxy "socks://localhost:3128/";                                                      
+            
+
+# To generate the password run the following
+
+```
+cntlm -H -u username -d domain.abc.com
+
+warning: then input the password of s00447005 not your pc
+
+
+
+
+Username	username
+Domain		domain.abc.com
+PassLM          2DB8FD5942333865136086962DDDF284
+PassNT          5556391437888dDDDDDDC79F30A7C2
+PassNTLMv2      0546ECF094BD3FFFFFFFFFFFB7fds138C31943    # Only for user 'user', domain 'domain.abc.com'
+```
+
+in .bashrc add the following
+
+```
+export no_proxy="localhost,127.0.0.1,.doamin.com,*.domain.com,*.dw"
+export HTTP_PROXY="http://localhost:3128"
+export HTTPS_PROXY="http://localhost:3128"
+export http_proxy="http://localhost:3128"
+export https_proxy="http://localhost:3128"
+export NO_PROXY="localhost,127.0.0.1,.domain.com,*.domain.com,*.do"
+
+```
+Then in network change the manual proxy and fillup the form attached[cntlm.conf](uploads/879324ffbc4ca5757b1cb46d5d1b6b1c/cntlm.conf)

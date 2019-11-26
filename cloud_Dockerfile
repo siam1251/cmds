@@ -2,16 +2,16 @@ FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu16.04
 
 LABEL maintainer="abc@email.com>"
 
-ENV "http_proxy=http://192.168.10.200:8080" \
-    "https_proxy=http://192.168.10.200:8080" \
+ENV "http_proxy=http://192.168.15.200:8080" \
+    "https_proxy=http://192.168.15.200:8080" \
     "no_proxy=localhost,.hwap,.abc.com" \
-    "HTTP_PROXY=http://192.168.10.200:8080" \
-    "HTTPS_PROXY=http://192.168.10.200:8080" \
-    "NO_PROXY=localhost,.hwap,.huawei.com"
+    "HTTP_PROXY=http://192.168.15.200:8080" \
+    "HTTPS_PROXY=http://192.168.15.200:8080" \
+    "NO_PROXY=localhost,.hwap,.abc.com"
 
 COPY apt-proxy /etc/apt/apt.conf.d/30proxy
-COPY huawei_proxy_certificate.crt \
-    /usr/local/share/ca-certificates/huawei_proxy_certificates.crt
+COPY abc_proxy_certificate.crt \
+    /usr/local/share/ca-certificates/abc_proxy_certificates.crt
 
 #Install Necessary linux packages or softwares
 RUN apt-get update && apt-get install -y \

@@ -30,5 +30,6 @@ sudo chmod -R 777 /home/jenkins_home/
 // to run sudo in docker 
 sudo usermod -G sudo,dev,docker sayem
 
-docker run  --name sayem -d -v /home/jenkins_home/workspace:/var/jenkins_home/workspace -p 8080:8080 -p 50000:50000 faceengine_build
+// -d for background mode or detached mode
+docker run  --name sayem -it -d -v /home/jenkins_home/workspace:/var/jenkins_home/workspace -p 8080:8080 -p 50000:50000 faceengine_build
 docker run --runtime=nvidia -it --rm -v /home/sayem/handpose-master:/home/handpose crossinfonet:gpu
