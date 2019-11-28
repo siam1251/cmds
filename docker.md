@@ -1,5 +1,6 @@
 ### docker commands
 
+```
 docker exec -it d26d8019ff61 /bin/bash
 
  docker ps
@@ -28,16 +29,21 @@ docker build -f devops/Dockerfile . -t faceengine_build
 
 sudo chmod -R 777 /home/jenkins_home/
  
-
+```
 ### to run sudo in docker 
+```
 sudo usermod -G sudo,dev,docker sayem
+```
 
 ### -d for background mode or detached mode
+```
 docker run  --name sayem -it -d -v /home/jenkins_home/workspace:/var/jenkins_home/workspace -p 8080:8080 -p 50000:50000 faceengine_build
 docker run --runtime=nvidia -it --rm -v /home/sayem/handpose-master:/home/handpose crossinfonet:gpu
+```
 
 
 ### docker set-up
+```
 mkdir /etc/systemd/system/docker.service.d
 Now create a file called /etc/systemd/system/docker.service.d/http-proxy.conf that adds the HTTP_PROXY environment variable:
 
@@ -57,3 +63,4 @@ Environment=HTTP_PROXY=http://proxy.example.com:80/
 Restart Docker:
 
 $ sudo systemctl restart docker
+```
