@@ -178,3 +178,5 @@ export utest='FaceDetectionAndTracking/Unittest/Bin/Unittest'
 export wine_home='/home/sayem/.wine/drive_c/users/sayem'
 export dst="/home/sayem/code/gestureapp/app/libs/arm64-v8a/"
 export src="/home/sayem/code/FaceEngine/build/FaceDetectionAndTracking/VideoAnalysisEngine/libVideoAnalysisEngine.so"
+alias xcp="xclip -sel clip" 
+alias adb_r="adb kill-server&&adb start-server" 
