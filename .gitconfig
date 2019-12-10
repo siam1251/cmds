@@ -1,5 +1,5 @@
 [user]
-	email = sayem.mohammad.siam@abc.com
+	email = sayem.mohammad.siam@huawei.com
 	name = Sayem Mohammad Siam
 [core]
 	editor = vi
@@ -16,3 +16,8 @@
 	insteadOf = git@github.com:
 [difftool]
 	prompt = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
