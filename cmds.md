@@ -123,3 +123,10 @@ startup --host_jvm_args=-Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts \
 ```
 *(float(*)[64])patch.data
 ```
+
+#### Docker
+```
+docker build -t tag
+sudo docker run --name sayem -it -d   -v /home/sayem:/home/sayem -p sayem:latest
+docker exec -it <name or id> /bin/bash
+```
