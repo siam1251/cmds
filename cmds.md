@@ -81,6 +81,19 @@ stat -c "%a" .ssh
 git multiple keys
 https://docs.gitlab.com/ee/ssh/
 ```
+## git commands
+```
+git diff HEAD^^ HEAD main.c
+git log --after=jun9 --before=jun10
+
+### search log
+git log --all --grep='Build 0051'
+### To search the actual content of commits through a repo's history, use:
+git grep 'Build 0051' $(git rev-list --all)
+
+// large file issue
+git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/folder>' HEAD
+```
 
 ## apt-key #####################
 
@@ -130,3 +143,5 @@ docker build -t tag
 sudo docker run --name sayem -it -d   -v /home/sayem:/home/sayem -p sayem:latest
 docker exec -it <name or id> /bin/bash
 ```
+
+
