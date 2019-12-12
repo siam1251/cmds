@@ -1,4 +1,4 @@
-
+### Ubuntu commands
 ```
 alias apt_get_no='sudo apt-get -o Acquire::http::proxy=false '
 
@@ -83,6 +83,7 @@ https://docs.gitlab.com/ee/ssh/
 ```
 ## git commands
 ```
+git config --local -e
 git diff HEAD^^ HEAD main.c
 git log --after=jun9 --before=jun10
 
