@@ -32,9 +32,6 @@ adb shell pidof com.huawei.videoanalysisengine
 pstree
 ps -Ae
 
-//remote port forwarding
-ssh -NfL 6006:localhost:6006 username@remote_server_address
-
 
 dpkg-query --list 'pattern*' lists all packages that have not been purged
 dpkg-query --search 'pattern*' searches for individual files installed
@@ -49,6 +46,12 @@ sudo apt-get autoclean
 sudo apt-get clean
 sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
 ```
+## tunnelling -------------------------------
+```
+//remote port forwarding
+ssh -NfL 6006:localhost:6006 username@remote_server_address
+```
+
 ## shared_library ----------------------------
 readelf -d $executable | grep 'NEEDED'
 readelf -d /lib/libOpenCL.so | grep 'NEEDED'
