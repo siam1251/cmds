@@ -51,7 +51,10 @@ sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
 //remote port forwarding
 ssh -NfL 6006:localhost:6006 username@remote_server_address
 ```
-
+## Attached a process which is detached
+```
+reptyr PID
+```
 ## shared_library ----------------------------
 readelf -d $executable | grep 'NEEDED'
 readelf -d /lib/libOpenCL.so | grep 'NEEDED'
