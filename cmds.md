@@ -141,7 +141,7 @@ startup --host_jvm_args=-Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts \
 #### Docker
 ```
 docker build -t tag
-sudo docker run --name sayem -it -d   -v /home/sayem:/home/sayem -p sayem:latest
+sudo docker run --name sayem -it -d   -v /home/sayem:/home/sayem -p 8000:8000 sayem:latest
 docker exec -it <name or id> /bin/bash
 ```
 
