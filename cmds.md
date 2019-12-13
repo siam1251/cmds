@@ -154,4 +154,8 @@ docker run --restart unless-stopped --link memcached:memcached -d -e DJANGO_SETT
 fea04f87550b5d7b8677f39f3c2fcff90075ab8ea20af8f6a52a7f3abdc05790
 ```
 
+### http server
+```
+ python -m http.server 8001  
+```
 
