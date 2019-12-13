@@ -143,6 +143,9 @@ startup --host_jvm_args=-Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts \
 docker build -t tag
 sudo docker run --name sayem -it -d   -v /home/sayem:/home/sayem -p 8000:8000 sayem:latest
 docker exec -it <name or id> /bin/bash
+web server:
+docker run --restart unless-stopped --link memcached:memcached -d -e DJANGO_SETTINGS_MODULE=smartplayer_controller.settings.production -e FRONT_END_HOST=10.193.97.76 -e FRONT_END_PORT=8000 -e REACT_APP_BACK_END_URL=10.193.97.76:8000 -v /app/data:/media -v /app/backend:/db -p 8000:80 -t smartplayer:v1
+fea04f87550b5d7b8677f39f3c2fcff90075ab8ea20af8f6a52a7f3abdc05790
 ```
 
 
