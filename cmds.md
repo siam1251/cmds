@@ -45,6 +45,11 @@ sudo apt-get update
 sudo apt-get autoclean
 sudo apt-get clean
 sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
+
+```
+## ffmpeg ----------------------------------
+```
+ffmpeg -i VID_2_persons_distance.mp4 -vf "scale=1080:1920" 2_persons_distance.mp4
 ```
 ## tunnelling -------------------------------
 ```
