@@ -163,4 +163,11 @@ fea04f87550b5d7b8677f39f3c2fcff90075ab8ea20af8f6a52a7f3abdc05790
 ```
  python -m http.server 8001  
 ```
-
+### Java installation ubuntu
+There are two componets jre and jdk
+you can configure the environment of java
+```
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/"
+```
