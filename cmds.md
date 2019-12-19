@@ -1,7 +1,12 @@
 ## Table of Contents  
-
+[.ssh](#ssh)  
+[git](#git)
 [Ubuntu commands](#ubuntu_cmds)  
 [FFMPEG](#ffmpeg)  
+[Tunnelling](#tunnelling)  
+[Attach a process](#attach_a_process)  
+[Shared Library](#shared_library)  
+[Windows](#windows)  
 
 <a name="ubuntu_cms"/>
 
@@ -60,20 +65,28 @@ sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
 ```
 ffmpeg -i VID_2_persons_distance.mp4 -vf "scale=1080:1920" 2_persons_distance.mp4
 ```
+<a name="tunnelling"/>
+
 ## tunnelling -------------------------------
 ```
 //remote port forwarding
 ssh -NfL 6006:localhost:6006 username@remote_server_address
 ```
+< a name="attached_a_process"
+
 ## Attached a process which is detached
 ```
 reptyr PID
 ```
+<a name="shared_library">
+ 
 ## shared_library ----------------------------
 readelf -d $executable | grep 'NEEDED'
 readelf -d /lib/libOpenCL.so | grep 'NEEDED'
 ldd /path/executable
 
+<a name="windows">
+ 
 ## Windows-----------------------------
 ```
  netstat -ano|grep 8888
@@ -89,7 +102,8 @@ lsb_release -a
  "taskset -c 0 python my_program.py" will limit my_program.py to CPU:0.
 
 ```
-
+<a name="ssh">
+ 
 ## .ssh file permision--------------------------
 ```
 stat -c "%a" .ssh
@@ -101,6 +115,8 @@ stat -c "%a" .ssh
 git multiple keys
 https://docs.gitlab.com/ee/ssh/
 ```
+<a name="git>
+         
 ## git commands
 ```
 git config --local -e
