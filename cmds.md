@@ -1,8 +1,10 @@
 ##### Table of Contents  
+
 [Ubuntu commands](#ubuntu_cmds)  
 [FFMPEG](#ffmpeg)  
 
 <a name="ubuntu_cms"/>
+
 ### Ubuntu commands
 ```
 alias apt_get_no='sudo apt-get -o Acquire::http::proxy=false '
@@ -53,6 +55,7 @@ sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
 
 ```
 <a name="ffmpeg"/>
+
 ## ffmpeg ----------------------------------
 ```
 ffmpeg -i VID_2_persons_distance.mp4 -vf "scale=1080:1920" 2_persons_distance.mp4
