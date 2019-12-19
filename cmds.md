@@ -174,3 +174,8 @@ sudo update-alternatives --config java
 sudo update-alternatives --config javac
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/"
 ```
+
+### python http server or ftp server
+```
+python3 -m http.server 8001
+```
