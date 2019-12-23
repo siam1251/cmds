@@ -50,7 +50,7 @@ sudo apt-get update
 sudo apt-get autoclean
 sudo apt-get clean
 sudo apt-get autoremove //apt-get -s autoremove to do a simulated dry
-
+sudo apt-get build-dep packagename // means to install all dependencies for 'packagename' so that I can build it".
 ```
 <a name="ffmpeg"/>
 
