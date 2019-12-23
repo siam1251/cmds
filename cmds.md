@@ -7,6 +7,7 @@
 [Attach a process](#attach_a_process)  
 [Shared Library](#shared_library)  
 [Windows](#windows)  
+[Building from source](#building_from_source)
 
 <a name="ubuntu_cms"/>
 
@@ -207,3 +208,21 @@ export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/"
 ```
 python3 -m http.server 8001
 ```
+<a name="building_from_source">
+### building from source code (git)
+ 
+ ```
+ sudo apt-get install build-essential fakeroot dpkg-dev -y
+sudo apt-get build-dep git -y
+sudo apt-get install libcurl4-openssl-dev -y
+cd ~
+mkdir source-git
+cd source-git/
+apt-get source git
+cd git-2.*.*/
+sed -i -- 's/libcurl4-gnutls-dev/libcurl4-openssl-dev/' ./debian/control
+sed -i -- '/TEST\s*=\s*test/d' ./debian/rules
+dpkg-buildpackage -rfakeroot -b -uc -us
+sudo dpkg -i ../git_*ubuntu*.deb
+
+ ```
