@@ -8,8 +8,7 @@
 [Shared Library](#shared_library)  
 [Windows](#windows)  
 [Building from source](#building_from_source)
-
-<a name="ubuntu_cms"/>
+.[C++ environment and compilers](#c++_environment)
 
 ### Ubuntu commands
 ```
@@ -227,3 +226,16 @@ dpkg-buildpackage -rfakeroot -b -uc -us
 sudo dpkg -i ../git_*ubuntu*.deb
 
  ```
+<a name="c++_environment">
+ 
+### C++ environment and compilers
+gcc: GNU C      Compiler
+g++: GNU C++ Compiler
+
+```
+System wide C change on Ubuntu:
+sudo update-alternatives --config cc
+System wide C++ change on Ubuntu:
+
+sudo update-alternatives --config c++
+``
