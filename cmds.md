@@ -8,7 +8,7 @@
 [Shared Library](#shared_library)  
 [Windows](#windows)  
 [Building from source](#building_from_source)
-.[C++ environment and compilers](#c++_environment)
+[C++ environment and compilers](#c++_environment)
 
 ### Ubuntu commands
 ```
@@ -238,4 +238,4 @@ sudo update-alternatives --config cc
 System wide C++ change on Ubuntu:
 
 sudo update-alternatives --config c++
-``
+```
