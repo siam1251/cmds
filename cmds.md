@@ -7,9 +7,9 @@
 [Attach a process](#attach_a_process)  
 [Shared Library](#shared_library)  
 [Windows](#windows)  
-[Building from source](#building_from_source)
-[C++ environment and compilers](#c++_environment)
-[C++ environment and compilers](#c++_environment)
+[Building from source](#building_from_source)   
+[C++ environment and compilers](#c++_environment)   
+
 
 ### Ubuntu commands
 ```
