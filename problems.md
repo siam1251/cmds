@@ -1,6 +1,6 @@
 # Problems that I could not solve at first attempt
 
-#### 1. If the problems says that you have solve in n times and looks like it's not possilbe, most probably you have to use map.
+#### 1. If the problems says that you have to solve in n times and looks like it's impossilbe, most probably you have to use map.
 
 ### 1. Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
 
