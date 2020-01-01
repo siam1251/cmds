@@ -1,7 +1,8 @@
 # Modern C++
 
 ### std::transform vs std::for_each
-std::transform doesn't guarantee in order access means it runs in parallel while for_each access orderly and doesn't run in parallel
+std::transform doesn't guarantee in order access means it may run in parallel based on the executation policy that you pass
+while for_each access orderly and doesn't run in parallel
 
 #### Weird behavior, passing object properties as a parameter (int)
 I was passing the object properties directly as a parameter like (this->controllerID) and It was crashing
