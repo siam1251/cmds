@@ -201,6 +201,15 @@ startup --host_jvm_args=-Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts \
 ```
 
 #### Docker
+Initial proxy set-up
+edit: /etc/systemd/system/docker.service.d/http-proxy.conf 
+```
+[Service]
+Environment="HTTP_PROXY=http://localhost:3128"
+Environment="NO_PROXY=localhost,.hwap,.huawei.com"
+
+```
+Docker commands:
 ```
 docker build -t tag
 sudo docker run --name sayem -it -d   -v /home/sayem:/home/sayem -p 8000:8000 sayem:latest
