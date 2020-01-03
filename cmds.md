@@ -9,6 +9,26 @@
 [Windows](#windows)  
 [Building from source](#building_from_source)   
 [C++ environment and compilers](#c++_environment)   
+[Service systemctl](#service_systemctl)   
+
+<a name="service_systemctl>
+
+### Service vs systemctl
+#### systemctl
+```
+ls /etc/systemd/system/
+```
+##### you can add service enable scripts to startup or disable and set environment
+
+
+#### service
+
+```
+ls /etc/init.d/
+```
+
+#### you can start or stop or restart scripts
+
 
 <a name="ubuntu_cmds">
  
