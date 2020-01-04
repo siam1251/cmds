@@ -117,17 +117,17 @@ ldd /path/executable
  
 ## Windows-----------------------------
 ```
- netstat -ano|grep 8888
- taskkill /f /im 24536
+netstat -ano|grep 8888
+taskkill /f /im 24536
 reptyr pid
 
 
 lsb_release -a 
 
 
- pip3 install tensorflow-gpu==2.0.0-beta1 --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org
+pip3 install tensorflow-gpu==2.0.0-beta1 --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org
  
- "taskset -c 0 python my_program.py" will limit my_program.py to CPU:0.
+taskset -c 0 python my_program.py" will limit my_program.py to CPU:0.
 
 ```
 <a name="ssh">
@@ -250,7 +250,7 @@ python3 -m http.server 8001
 ### building from source code (git)
  
  ```
- sudo apt-get install build-essential fakeroot dpkg-dev -y
+sudo apt-get install build-essential fakeroot dpkg-dev -y
 sudo apt-get build-dep git -y
 sudo apt-get install libcurl4-openssl-dev -y
 cd ~
