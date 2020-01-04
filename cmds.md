@@ -108,10 +108,11 @@ reptyr PID
 <a name="shared_library">
  
 ## shared_library ----------------------------
+```
 readelf -d $executable | grep 'NEEDED'
 readelf -d /lib/libOpenCL.so | grep 'NEEDED'
 ldd /path/executable
-
+```
 <a name="windows">
  
 ## Windows-----------------------------
