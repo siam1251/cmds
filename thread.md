@@ -23,7 +23,7 @@
   
   ## Wait_until:
   ```
-   if(cv.wait_until(lk, now + idx*100ms, [](){return i == 1;}))
+   if(cv.wait_until(lk, std::chrono::system_clock::now()+std::chrono::microseconds(2000), [](){return i == 1;}))
         std::cerr << "Thread " << idx << " finished waiting. i == " << i << '\n';
     else
         std::cerr << "Thread " << idx << " timed out. i == " << i << '\n';
