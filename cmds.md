@@ -48,7 +48,7 @@ cat deleteMeLater.tmp | grep fullscreenUrl
 wget -O rickroll.flv 'http://www.youtube.com/get_video?video_id=eBGIQ7ZuuiU&l=210&sk=QHSGy-6-eiJ6h5qtrj1kR2OJanvL6tLlC&fmt_map=&t=OEgsToPDskIjlCX_1shTRBRDv2UQzVb-&hl=en&plid=AAROOIUyvpMFnjvzAAAAoARsYAg&tk=6J3d54cPnMJP7mUN2BtMkd2OmbgxTvB_GPcrV3ckGUbzd7KVMiH1kA%3D%3D&title=Rick Roll'
 
  git stash save -p "my commit message"
-
+find / -name opencl 2>/dev/null
 find /path/to/files -type f -exec sed -i 's/oldstring/new string/g' {} \;
 (frame|ipuProcess.cpp:752)
 
