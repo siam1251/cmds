@@ -281,3 +281,10 @@ System wide C++ change on Ubuntu:
 
 sudo update-alternatives --config c++
 ```
+<a name="usb_camera">
+ 
+ ###
+ ```
+ v4l2-ctl --list-devices
+ vlc v4l2:///dev/video3
+ ```
