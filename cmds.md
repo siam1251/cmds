@@ -11,6 +11,7 @@
 [Building from source](#building_from_source)   
 [C++ environment and compilers](#c++_environment)   
 [Service systemctl](#service_systemctl)   
+[Linux shell commands](#shell)   
 
 <a name="service_systemctl">
 
@@ -287,4 +288,9 @@ sudo update-alternatives --config c++
  ```
  v4l2-ctl --list-devices
  vlc v4l2:///dev/video3
+ ```
+<a name="shell">
+ 
+ ```
+ ps -ef | head -1; ps -ef | grep "your-pattern-goes-here"
  ```
