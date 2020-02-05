@@ -291,6 +291,7 @@ sudo update-alternatives --config c++
  ```
 <a name="shell">
  
+ ### Linux shell commands    
  ```
  ps -ef | head -1; ps -ef | grep "your-pattern-goes-here"
  ```
