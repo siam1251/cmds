@@ -292,6 +292,11 @@ sudo update-alternatives --config c++
 <a name="shell">
  
  ### Linux shell commands    
+ ps command with column names
  ```
  ps -ef | head -1; ps -ef | grep "your-pattern-goes-here"
  ```
+linux fix time zone
+```
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
