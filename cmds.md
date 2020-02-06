@@ -299,4 +299,5 @@ sudo update-alternatives --config c++
 linux fix time zone
 ```
 timedatectl set-local-rtc 1 --adjust-system-clock
+timedatectl set-local-rtc 0 --adjust-system-clock
 ```
