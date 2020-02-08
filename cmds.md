@@ -15,7 +15,7 @@
 
 <a name="service_systemctl">
 
-### Service vs systemctl
+### Service VS systemctl
 #### systemctl
 ```
 ls /etc/systemd/system/
