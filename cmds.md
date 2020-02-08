@@ -10,12 +10,12 @@
 [Windows](#windows)  
 [Building from source](#building_from_source)   
 [C++ environment and compilers](#c++_environment)   
-[Service systemctl](#service_systemctl)   
+[Service VS systemctl](#service_systemctl)   
 [Linux shell commands](#shell)   
 
 <a name="service_systemctl">
 
-### Service VS systemctl
+### Service  systemctl
 #### systemctl
 ```
 ls /etc/systemd/system/
