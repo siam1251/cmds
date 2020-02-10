@@ -1,6 +1,7 @@
+### Erase a substring from a string  
 
-
-<a name="string">      
+<a name="string">    
+	
 ### Erase a substring from a string     
 ```
 #include <algorithm>
