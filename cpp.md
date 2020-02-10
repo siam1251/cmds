@@ -57,7 +57,8 @@ std::for_each(data.begin(), data.end(), [](char & c){
 ```
 
 
-<a name="thread">   
+ 
+<a name="lock">   
 	
 ## shared_lock:
 
@@ -81,7 +82,8 @@ std::for_each(data.begin(), data.end(), [](char & c){
   The purpose is reading value by multiple threads won't hurt but at the time of changing value no other thread should
   able to read.
   
-  
+  <a name="thread">  
+	
   ## Wait_until:
   ```
    if(cv.wait_until(lk, std::chrono::system_clock::now()+std::chrono::microseconds(2000), [](){return i == 1;}))
