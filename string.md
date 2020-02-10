@@ -13,3 +13,12 @@ void some_func() {
   std::replace( s.begin(), s.end(), 'x', 'y'); // replace all 'x' to 'y'
 }
 ```
+### split a string by delimeter
+
+```
+stringstream ss(str); // Turn the string into a stream.
+string tok;
+while(getline(ss, tok, delimiter)) {
+    internal.push_back(tok);
+}
+```
