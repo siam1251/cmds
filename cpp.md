@@ -114,6 +114,8 @@ return true;
  if you use shared_lock and shared_mutex, you have to use condition_variable_any
  
 <a name="modern">   
+	
+	
 ## Modern C++
 
 ### std::transform vs std::for_each
