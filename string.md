@@ -22,3 +22,13 @@ while(getline(ss, tok, delimiter)) {
     internal.push_back(tok);
 }
 ```
+### turn a string lowercase    
+```
+#include <algorithm>
+#include <cctype>
+#include <string>
+
+std::string data = "Abc";
+std::transform(data.begin(), data.end(), data.begin(),
+    [](unsigned char c){ return std::tolower(c); });
+```
