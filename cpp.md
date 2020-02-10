@@ -1,5 +1,6 @@
 ## Table of Contents  
-[.String](#string)  
+[String](#string)  
+[shared_lock vs lock](#lock)  
 [Thread wait and wait_until](#thread)  
 [Modern C++](#modern)  
  
