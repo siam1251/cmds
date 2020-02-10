@@ -38,3 +38,12 @@ std::transform(data.begin(), data.end(), data.begin(),
  std::transform(s.begin(), s.end(), std::back_inserter(ordinals),
                    [](unsigned char c) -> std::size_t { return c; });
 ```
+### for C++ 11   
+```
+std::string data = "This is a sample string.";
+ 
+// convert string to upper case
+std::for_each(data.begin(), data.end(), [](char & c){
+	c = ::toupper(c);
+});
+```
