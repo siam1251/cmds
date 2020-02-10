@@ -32,3 +32,9 @@ std::string data = "Abc";
 std::transform(data.begin(), data.end(), data.begin(),
     [](unsigned char c){ return std::tolower(c); });
 ```
+### std::transform   
+```
+ std::vector<std::size_t> ordinals;
+    std::transform(s.begin(), s.end(), std::back_inserter(ordinals),
+                   [](unsigned char c) -> std::size_t { return c; });
+```
