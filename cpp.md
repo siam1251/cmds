@@ -1,3 +1,5 @@
+
+
 <a name="string">      
 ### Erase a substring from a string     
 ```
