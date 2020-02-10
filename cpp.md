@@ -1,6 +1,6 @@
 ## Table of Contents  
 [.String](#string)  
-[Thread](#thread)  
+[Thread wait and wait_until](#thread)  
 [Modern C++](#modern)  
  
 
