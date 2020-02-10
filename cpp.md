@@ -1,4 +1,8 @@
-### Erase a substring from a string  
+## Table of Contents  
+[.String](#string)  
+[Thread](#thread)  
+[Modern C++](#modern)  
+ 
 
 <a name="string">    
 	
