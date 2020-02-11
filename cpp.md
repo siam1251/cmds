@@ -30,13 +30,15 @@ while(auto index = test.find("abc") && index != std::string::npos){
 ```
 ### Replace all occurance of a string   
 ```
-size_t index;
-while(true){
-	index = test.find("abc");
-	if(index == std::string::npos)break;
-	std::cout<<index<<std::endl;
-	test.replace(index, 3, "hij");
-
+size_t pos = data.find(toSearch);
+ 
+	// Repeat till end is reached
+while( pos != std::string::npos)
+{
+	// Replace this occurrence of Sub String
+	data.replace(pos, toSearch.size(), replaceStr);
+	// Get the next occurrence from the current position
+	pos =data.find(toSearch, pos + replaceStr.size());
 }
 ```
 ### split a string by delimeter
