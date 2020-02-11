@@ -20,6 +20,7 @@ str.erase(std::remove(str.begin(), str.end(), 'a'), str.end());
 void some_func() {
   std::string s = "example string";
   std::replace( s.begin(), s.end(), 'x', 'y'); // replace all 'x' to 'y'
+  // not s.replace() that is differenct function
 }
 ```
 ### split a string by delimeter
@@ -27,7 +28,7 @@ void some_func() {
 ```
 stringstream ss(str); // Turn the string into a stream.
 string tok;
-while(getline(ss, tok, delimiter)) {
+while(getline(ss, tok, ' ')) {
     internal.push_back(tok);
 }
 ```
