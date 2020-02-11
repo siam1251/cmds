@@ -21,6 +21,9 @@ void some_func() {
   std::string s = "example string";
   std::replace( s.begin(), s.end(), 'x', 'y'); // replace all 'x' to 'y'
   // not s.replace() that is differenct function
+  
+ // occurence of "abc" to "hij"
+test.replace( test.find("abc"), 3, "hij");
 }
 ```
 ### split a string by delimeter
