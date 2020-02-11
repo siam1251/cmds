@@ -12,7 +12,7 @@
 #include <algorithm>
 str.erase(std::remove(str.begin(), str.end(), 'a'), str.end());
 ```
-### Replace all occurance    
+### Replace all occurance of a char     
 ```
 #include <algorithm>
 #include <string>
@@ -24,6 +24,19 @@ void some_func() {
   
  // occurence of "abc" to "hij"
 test.replace( test.find("abc"), 3, "hij");
+while(auto index = test.find("abc") && index != std::string::npos){
+	test.replace( test.find("abc"), 3, "hij");
+}
+```
+### Replace all occurance of a string   
+```
+size_t index;
+while(true){
+	index = test.find("abc");
+	if(index == std::string::npos)break;
+	std::cout<<index<<std::endl;
+	test.replace(index, 3, "hij");
+
 }
 ```
 ### split a string by delimeter
