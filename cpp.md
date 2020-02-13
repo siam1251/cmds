@@ -3,6 +3,7 @@
 [shared_lock vs lock](#lock)  
 [Thread wait and wait_until](#thread)  
 [Modern C++](#modern)  
+[Time duration chrono](#chrono)  
  
 
 <a name="string">    
@@ -157,3 +158,17 @@ However when I just passed as int id = this->controllerID and function(id), it r
 
 ### Tuple vs Tie
 std::tie can be used to introduce lexicographical comparison to a struct or to unpack a tuple:
+
+
+<a name="chrono">
+
+### Evaluate execution time using chrono    
+
+```
+std::chrono::high_resolution_clock::time_point s = std::chrono::high_resolution_clock::now();					
+
+    net_->Forward();
+    std::chrono::high_resolution_clock::time_point e = std::chrono::high_resolution_clock::now();					
+    int t = std::chrono::duration_cast<std::chrono::milliseconds>(e - s).count();
+    printf("\n\n--------\n %s duration %d", this->name.c_str(), t);
+```
