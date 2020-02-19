@@ -11,7 +11,8 @@
 [Building from source](#building_from_source)   
 [C++ environment and compilers](#c++_environment)   
 [Service VS systemctl](#service_systemctl)   
-[Linux shell commands](#shell)   
+[Linux shell commands](#shell)  
+[CMake](#cmake)   
 
 <a name="service_systemctl">
 
@@ -301,3 +302,14 @@ linux fix time zone
 timedatectl set-local-rtc 1 --adjust-system-clock
 timedatectl set-local-rtc 0 --adjust-system-clock
 ```
+<a name="cmake">   
+ 
+ ### CMake
+ 
+ common errors:
+ ```
+ Error when installing Makefile: “make: *** No targets specified and no makefile found. Stop.”
+
+ ```
+ Means you have to delete all the CMakeCache.txt Makefile cmake_install files
+ 
