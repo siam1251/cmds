@@ -96,7 +96,7 @@ ffmpeg -i output.avi -qscale 0 -ss 00:00:05.0 -t 00:00:10.0 cut.avi
 
 ffmpeg -i  bridal_shower.mp4 -ss 00:03:02 -to 00:03:10 -acodec copy -vcodec copy  cut.mp4
 
-ffmpeg  Nirvana2.mp4 -ss 00:09:10 -t 00:10:10 nirvana/nirvana_%d.png
+ffmpeg  -i Nirvana2.mp4 -ss 00:09:10 -t 00:10:10 nirvana/nirvana_%d.png
 ffmpeg -i This_is_Happy.mp4 Happy/This_is_Happy_%d.png
 
 ffmpeg -i VID_2_persons_distance.mp4 -vf "scale=1080:1920" 2_persons_distance.mp4
