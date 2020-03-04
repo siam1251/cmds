@@ -13,6 +13,7 @@
 [Service VS systemctl](#service_systemctl)   
 [Linux shell commands](#shell)  
 [CMake](#cmake)   
+[VScode Debugging](#vscode)   
 
 <a name="service_systemctl">
 
@@ -317,3 +318,10 @@ timedatectl set-local-rtc 0 --adjust-system-clock
  ```
  Means you have to delete all the CMakeCache.txt Makefile cmake_install files
  
+<a name="vscode">    
+ 
+ ### VScode debugging     
+ You need a main function with argc and argv, like following    
+ ```
+ int main(int argc, char** argv)
+ ```
