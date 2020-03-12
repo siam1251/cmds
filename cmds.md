@@ -324,4 +324,8 @@ timedatectl set-local-rtc 0 --adjust-system-clock
  You need a main function with argc and argv, like following    
  ```
  int main(int argc, char** argv)
+ make the folowing --
+ "stopAtEntry": true,
+ run and change it back
+ "stopAtEntry": false,
  ```
