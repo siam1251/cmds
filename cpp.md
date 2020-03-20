@@ -182,6 +182,8 @@ std::chrono::high_resolution_clock::time_point s = std::chrono::high_resolution_
 #include <iostream>
 #include <map>
 #include <unordered_map>
+#include<functional>
+#include<memory>
 
 struct A{
     A(int i):x(i){}
