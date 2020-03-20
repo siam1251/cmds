@@ -4,6 +4,7 @@
 [Thread wait and wait_until](#thread)  
 [Modern C++](#modern)  
 [Time duration chrono](#chrono)  
+[unorderd_map](#unordered_map)   
  
 
 <a name="string">    
@@ -171,4 +172,42 @@ std::chrono::high_resolution_clock::time_point s = std::chrono::high_resolution_
     std::chrono::high_resolution_clock::time_point e = std::chrono::high_resolution_clock::now();					
     int t = std::chrono::duration_cast<std::chrono::milliseconds>(e - s).count();
     printf("\n\n--------\n %s duration %d", this->name.c_str(), t);
+```
+
+<a name="unordered_map">   
+	
+### Unordered_map with hash function   
+```
+#include <stdio.h>
+#include <iostream>
+#include <map>
+#include <unordered_map>
+
+struct A{
+    A(int i):x(i){}
+    A(){}
+    int x = -1;
+    int z = -1;
+    bool operator<(const A& rhs)const{return x < rhs.x;}
+    bool operator==(const A& rhs)const{return x == rhs.x;}
+    
+};
+struct KeyHasher
+{
+  std::size_t operator()(const A& k) const
+  {
+    
+
+    return std::hash<int>()(k.x) << 1;
+  }
+};
+using namespace std;
+int main(int arch, char** argv)
+{
+    unordered_map<A, int,KeyHasher> mp = {{A(0), 100}, {A(1), 200}, {A(2), 300}, {A(3), 400}};
+    unordered_map<A, int,KeyHasher>::iterator it = mp.find(A(1));
+    //std::cout<<it->second<<std::endl;
+    if(it != mp.end())std::cout<<it->second<<std::endl;
+    return 0;
+}
 ```
