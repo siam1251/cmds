@@ -188,10 +188,13 @@ struct A{
     A(){}
     int x = -1;
     int z = -1;
+    // this one is needed for map
     bool operator<(const A& rhs)const{return x < rhs.x;}
+    // this one is needed for unordered_map
     bool operator==(const A& rhs)const{return x == rhs.x;}
     
 };
+// this one is needed for unordered_map
 struct KeyHasher
 {
   std::size_t operator()(const A& k) const
