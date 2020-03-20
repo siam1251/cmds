@@ -211,6 +211,17 @@ int main(int arch, char** argv)
     unordered_map<A, int,KeyHasher>::iterator it = mp.find(A(1));
     //std::cout<<it->second<<std::endl;
     if(it != mp.end())std::cout<<it->second<<std::endl;
+    
+    std::shared_ptr<A> a1 = make_shared<A>(2);
+    std::shared_ptr<A> a2 = make_shared<A>(2);
+    A* a_raw1 = new A(100);
+    A* a_raw2 = new A(100);
+    if(a_raw1 == a_raw2){
+      std::cout<<"two are equals"<<std::endl;
+    }
+    mp2[*a1.get()] = 10;
+    auto it2 = mp2.find(*a2.get());
+    if(it2 != mp2.end())std::cout<<it2->second<<std::endl;
     return 0;
-}
+    }
 ```
