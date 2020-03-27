@@ -204,6 +204,10 @@ struct KeyHasher
     
 
     return std::hash<int>()(k.x) << 1;
+    // or complex hash
+    return ((hash<string>()(k.first)
+               ^ (hash<string>()(k.second) << 1)) >> 1)
+               ^ (hash<int>()(k.third) << 1);
   }
 };
 using namespace std;
