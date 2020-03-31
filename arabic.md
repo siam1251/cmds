@@ -6,7 +6,18 @@ aala - the most high, supreme, exalted
 
 ### Fatiha    
 rabbil-alamin - the lord of the creating     
-l-ʿālamīna - of the universe    
+l-ʿālamīna - of the universe  
+yawmi - (of the) Day	    
+iyyāka - You Alone     
+naʿbudu - we worship,     
+nastaʿīnu - we ask for help.   
+ih'dinā - Guide us   
+alladhīna - (of) those   
+anʿamta - You have bestowed (Your) Favors    
+ʿalayhim - on them, 
+ghayri - not (of)    
+l-maghḍūbi - those who earned (Your) wrath   
+l-ḍālīna - (of) those who go astray.    
 ### 112. Ikhlas - Sincerity or Monotheism   
 Huwa - he     
 Samad - the Eternal, the Absolute.   
