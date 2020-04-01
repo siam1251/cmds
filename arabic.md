@@ -14,7 +14,7 @@ nastaʿīnu - we ask for help.
 ih'dinā - Guide us   
 alladhīna - (of) those   
 anʿamta - You have bestowed (Your) Favors    
-ʿalayhim - on them, 
+ʿalayhim - on them,      
 ghayri - not (of)    
 l-maghḍūbi - those who earned (Your) wrath   
 l-ḍālīna - (of) those who go astray.    
