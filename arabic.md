@@ -18,6 +18,20 @@ anʿamta - You have bestowed (Your) Favors
 ghayri - not (of)    
 l-maghḍūbi - those who earned (Your) wrath   
 l-ḍālīna - (of) those who go astray.    
+### 106. Quraish      
+ilaf - 'uniting together / familiality     
+liīlāfi - For (the) familiarity    
+īlāfihim - Their familiarity     
+riḥ'lata - (with the) journey    
+l-shitāi - (of) winter    
+wal-ṣayfi - and summer,   
+hādhā - (of) this    
+l-bayti - House,      
+alladhī - The One Who   
+aṭʿamahum - feeds them     
+waāmanahum - and gives them security 
+jūʿiw -  (against) hunger	     
+khawfin - fear.     
 ### 112. Ikhlas - Sincerity or Monotheism   
 Huwa - he     
 Samad - the Eternal, the Absolute.   
