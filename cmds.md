@@ -38,6 +38,8 @@ ls /etc/init.d/
  
 ### Ubuntu commands
 ```
+pactl -- set-sink-volume 0 150%    
+
 alias apt_get_no='sudo apt-get -o Acquire::http::proxy=false '
 
 fdisk -l
