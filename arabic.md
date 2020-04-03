@@ -8,6 +8,7 @@ aala - the most high, supreme, exalted
 rabbil-alamin - the lord of the creating     
 l-ʿālamīna - of the universe  
 yawmi - (of the) Day	    
+l-dīni - (of the) Judgment.     
 iyyāka - You Alone     
 naʿbudu - we worship,     
 nastaʿīnu - we ask for help.   
@@ -17,7 +18,12 @@ anʿamta - You have bestowed (Your) Favors
 ʿalayhim - on them,      
 ghayri - not (of)    
 l-maghḍūbi - those who earned (Your) wrath   
-l-ḍālīna - (of) those who go astray.    
+l-ḍālīna - (of) those who go astray.   
+### 105. Sura Fil (elephant)     
+alam - Have not   
+tara - you seen    
+faʿala - dealt   
+
 ### 106. Quraish      
 ilaf - 'uniting together / familiality     
 liīlāfi - For (the) familiarity    
@@ -25,6 +31,7 @@ liīlāfi - For (the) familiarity
 riḥ'lata - (with the) journey    
 l-shitāi - (of) winter    
 wal-ṣayfi - and summer,   
+falyaʿbudū - So let them worship   
 hādhā - (of) this    
 l-bayti - House,      
 alladhī - The One Who   
