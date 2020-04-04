@@ -23,7 +23,17 @@ l-ḍālīna - (of) those who go astray.
 alam - Have not   
 tara - you seen    
 faʿala - dealt   
-
+bi-aṣḥābi - with (the) Companions     
+yajʿal - He make    
+taḍlīl - astray?     
+ṭayran - birds     
+abābīl - (in) flocks.     
+tarmīhim - Striking them     
+biḥijāratin - with stones      
+sijjīl -  baked clay.     
+fajaʿalahum - Then He made them   
+kaʿaṣfin - ke straw    
+makūlin - eaten up  
 ### 106. Quraish      
 ilaf - 'uniting together / familiality     
 liīlāfi - For (the) familiarity    
