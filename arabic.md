@@ -6,9 +6,9 @@ aala - the most high, supreme, exalted
 
 ### Fatiha    
 rabbil-alamin - the lord of the creating     
-l-ʿālamīna - of the universe  
+ʿālamīna - of the universe  
 yawmi - (of the) Day	    
-l-dīni - (of the) Judgment.     
+dīn - (of the) Judgment.     
 iyyāka - You Alone     
 naʿbudu - we worship,     
 nastaʿīnu - we ask for help.   
@@ -17,8 +17,8 @@ alladhīna - (of) those
 anʿamta - You have bestowed (Your) Favors    
 ʿalayhim - on them,      
 ghayri - not (of)    
-l-maghḍūbi - those who earned (Your) wrath   
-l-ḍālīna - (of) those who go astray.   
+maghḍūbi - those who earned (Your) wrath   
+ḍālīna - (of) those who go astray.   
 ### 105. Sura Fil (elephant)     
 alam - Have not   
 tara - you seen    
