@@ -19,6 +19,9 @@ anʿamta - You have bestowed (Your) Favors
 ghayri - not (of)    
 maghḍūbi - those who earned (Your) wrath   
 ḍālīna - (of) those who go astray.   
+## 95. At-Tin (Fig)     
+fa - Then    
+
 ### 105. Sura Fil (elephant)     
 alam - Have not   
 tara - you seen    
