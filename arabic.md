@@ -21,7 +21,20 @@ maghḍūbi - those who earned (Your) wrath
 ḍālīna - (of) those who go astray.   
 ## 95. At-Tin (Fig)     
 fa - Then    
-
+### 97. Qadr (the night of decree)    
+anzalnāhu - revealed it	     
+laylatul - (the) Night	  
+l-qadri - (of) Power    
+adrāka - can make you know     
+alfi - a thousand	     
+shahr - month(s)     
+tanazzalu - Descend    
+bi-idh'ni - by (the) permission	    
+kulli - every	   
+amr/ amrin - affair     
+hiya - it (is)     
+hatta - until     
+maṭlaʿi - (the) emergence	    
 ### 105. Sura Fil (elephant)     
 alam - Have not   
 tara - you seen    
