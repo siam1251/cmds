@@ -29,7 +29,7 @@ adrāka - can make you know
 alfi - a thousand	     
 shahr - month(s)     
 tanazzalu - Descend    
-bi-idh'ni - by (the) permission	    
+bi-ijh'ni - by (the) permission	    
 kulli - every	   
 amr/ amrin - affair     
 hiya - it (is)     
