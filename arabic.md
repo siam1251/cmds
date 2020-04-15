@@ -58,7 +58,7 @@ riḥ'lata - (with the) journey
 l-shitāi - (of) winter    
 wal-ṣayfi - and summer,   
 falyaʿbudū - So let them worship   
-hādhā - (of) this    
+hājhā - (of) this    
 l-bayti - House,      
 alladhī - The One Who   
 aṭʿamahum - feeds them     
