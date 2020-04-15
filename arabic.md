@@ -62,7 +62,7 @@ hājhā - (of) this
 l-bayti - House,      
 alladhī - The One Who   
 aṭʿamahum - feeds them     
-waāmanahum - and gives them security 
+waāmanahum - and gives them security      
 jūʿiw -  (against) hunger	     
 khawfin - fear.     
 ### 112. Ikhlas - Sincerity or Monotheism   
