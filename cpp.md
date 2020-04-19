@@ -232,7 +232,8 @@ int main(int arch, char** argv)
     return 0;
     }
 ```
-<a name="bs">    
+<a name="bs">   
+	
 ### Binary search: lower_bound     
 
 ```
