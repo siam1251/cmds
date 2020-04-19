@@ -4,7 +4,7 @@
 ### Binary search: lower_bound     
 
 ```
-int bsearch_low(int a[], int size, int v)
+int lower_bound(int a[], int size, int v)
 {
     int mid, low = 0, high = size - 1;
     while(low < high){
@@ -24,7 +24,7 @@ int bsearch_low(int a[], int size, int v)
 ##### binary search: upper_bound    
 
 ```
-int bsearch_high(int a[], int size, int v)
+int upper_bound(int a[], int size, int v)
 {
     int mid, low = 0, high = size - 1;
     while(low < high){
