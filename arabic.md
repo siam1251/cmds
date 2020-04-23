@@ -34,7 +34,8 @@ kulli - every
 amr/ amrin - affair     
 hiya - it (is)     
 hatta - until     
-maṭlaʿi - (the) emergence	    
+maṭlaʿi - (the) emergence	   
+### 103. 
 ### 105. Sura Fil (elephant)     
 alam - Have not   
 tara - you seen    
