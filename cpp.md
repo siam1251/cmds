@@ -21,6 +21,7 @@ s = s + char // this also works
 s.insert(s.begin(), char) // for a char insert
 s.insert(0, str) // for a string insert
 s = s + str // this works
+s.insert(0, 2, 'E'); // 2 times E will be inserted
 ```
 ### Replace all occurance of a char     
 ```
