@@ -15,6 +15,11 @@
 #include <algorithm>
 str.erase(std::remove(str.begin(), str.end(), 'a'), str.end());
 ```
+### inserting a char or string     
+```
+s.insert(s.begin(), char) // for a char insert
+s.insert(0, str) // for a string insert
+```
 ### Replace all occurance of a char     
 ```
 #include <algorithm>
