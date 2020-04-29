@@ -193,12 +193,15 @@ std::chrono::high_resolution_clock::time_point s = std::chrono::high_resolution_
 #include <unordered_map>
 #include<functional>
 #include<memory>
-
+using namespace std;
 struct A{
     A(int i):x(i){}
     A(){}
     int x = -1;
     int z = -1;
+    string first;
+    string second;
+    int third;
     // this one is needed for map
     bool operator<(const A& rhs)const{return x < rhs.x;}
     // this one is needed for unordered_map
@@ -214,9 +217,9 @@ struct KeyHasher
 
     return std::hash<int>()(k.x) << 1;
     // or complex hash
-    return ((hash<string>()(k.first)
-               ^ (hash<string>()(k.second) << 1)) >> 1)
-               ^ (hash<int>()(k.third) << 1);
+    return ((std::hash<string>()(k.first)
+               ^ (std::hash<string>()(k.second) << 1)) >> 1)
+               ^ (std::hash<int>()(k.third) << 1);
   }
 };
 using namespace std;
@@ -234,10 +237,10 @@ int main(int arch, char** argv)
     if(a_raw1 == a_raw2){
       std::cout<<"two are equals"<<std::endl;
     }
-    mp2[*a1.get()] = 10;
-    auto it2 = mp2.find(*a2.get());
-    if(it2 != mp2.end())std::cout<<it2->second<<std::endl;
+    mp[*a1.get()] = 10;
+    auto it2 = mp.find(*a2.get());
+    if(it2 != mp.end())std::cout<<it2->second<<std::endl;
     return 0;
-    }
+}
 ```
 
