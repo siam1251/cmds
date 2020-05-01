@@ -88,3 +88,9 @@ Restart Docker:
 
 $ sudo systemctl restart docker
 ```
+### post installation     
+
+```
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
