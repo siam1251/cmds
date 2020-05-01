@@ -14,6 +14,7 @@
 [Linux shell commands](#shell)  
 [CMake](#cmake)   
 [VScode Debugging](#vscode)   
+[Tmux](#tmux)    
 
 <a name="service_systemctl">
 
@@ -331,3 +332,9 @@ timedatectl set-local-rtc 0 --adjust-system-clock
  run and change it back
  "stopAtEntry": false,
  ```
+
+<a name="tmux">     
+
+### Tmux    
+##### attach a session     
+tmux a -t 0    
