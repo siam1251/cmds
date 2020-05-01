@@ -29,6 +29,22 @@ sudo chmod -R 777 /home/jenkins_home/
 ```
 sudo usermod -G sudo,dev,docker sayem
 ```
+### proxy issue   
+first turn GateWay yes in /etc/cntlm.conf    
+create  .docker/config.json and add the following    
+```
+{
+ "proxies":
+ {
+   "default":
+   {
+     "httpProxy": "http://127.0.0.1:3128",
+     "httpsProxy": "http://127.0.0.1:3128",
+     "noProxy": "localhost,.hwap,.huawei.com"
+   }
+ }
+}
+````
 
 ### -d for background mode or detached mode
 ```
