@@ -35,8 +35,21 @@ sudo usermod -G sudo,dev,docker sayem
 docker run  --name sayem -it -d -v /home/jenkins_home/workspace:/var/jenkins_home/workspace -p 8080:8080 -p 50000:50000 faceengine_build
 docker run --runtime=nvidia -it --rm -v /home/sayem/handpose-master:/home/handpose crossinfonet:gpu
 ```
-
-
+### docker image command    
+remove an image
+```
+ sudo docker image rm tf_1.4:gpu
+ ```
+ rename an image    
+ ```
+ sudo docker tag image_ID tf_1.4_gpu:1
+ ```
+ save or export an image
+ ```
+ docker save image_id > image.tar
+ docker load < image.tar
+ ```
+ 
 ### docker set-up
 ```
 mkdir /etc/systemd/system/docker.service.d
