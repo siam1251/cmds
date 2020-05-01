@@ -20,11 +20,6 @@ After running this exit and then run
 nvidia-docker start name
 nvidia-docker exec –it name /bin/bash
 
-
-
-outlook command
-to:sunwei has:attachment
-
 docker build -f devops/Dockerfile . -t faceengine_build
 
 sudo chmod -R 777 /home/jenkins_home/
