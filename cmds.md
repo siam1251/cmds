@@ -219,6 +219,7 @@ startup --host_jvm_args=-Djavax.net.ssl.trustStore=/etc/ssl/certs/java/cacerts \
 <a name="docker">
  
 #### Docker
+For more [docker](#https://github.com/siam1251/cmds/blob/master/docker.md)    
 Initial proxy set-up
 edit: /etc/systemd/system/docker.service.d/http-proxy.conf 
 ```
