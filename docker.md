@@ -94,3 +94,8 @@ $ sudo systemctl restart docker
 sudo groupadd docker
 sudo usermod -aG docker $USER
 ```
+### docker build    
+```
+ sudo docker build -f Dockerfile_tf_py2 .
+
+```
