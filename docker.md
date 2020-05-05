@@ -104,3 +104,9 @@ sudo usermod -aG docker $USER
  sudo docker build -f Dockerfile_tf_py2 .
 
 ```
+
+### X11 server or display forwarding
+[link](#http://wiki.ros.org/docker/Tutorials/GUI)
+```
+docker run --runtime=nvidia  -it  --network="host"  --name="sayem1"  --user=$USER  --env="DISPLAY"  --workdir="/home/$USER"  --volume="/home/$USER:/home/$USER"  --volume="/etc/group:/etc/group:ro"   --volume="/etc/passwd:/etc/passwd:ro"  --volume="/etc/shadow:/etc/shadow:ro"  --volume="/etc/sudoers.d:/etc/sudoers.d:ro"  --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"  tf_1.4:s2
+```
