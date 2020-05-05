@@ -1,3 +1,8 @@
+### quick commands   
+```
+ docker run --network="host" -e NVIDIA_VISIBLE_DEVICES=all c197cbab8593 apt-get update
+```
+
 ### docker commands
 
 ```
@@ -45,11 +50,11 @@ create  .docker/config.json and add the following
  }
 }
 ````
-
+docker run --network="host"
 ### -d for background mode or detached mode
 ```
-docker run  --name sayem -it -d -v /home/jenkins_home/workspace:/var/jenkins_home/workspace -p 8080:8080 -p 50000:50000 faceengine_build
-docker run --runtime=nvidia -it --rm -v /home/sayem/handpose-master:/home/handpose crossinfonet:gpu
+docker run  --name sayem --network="host" -it -d -v /home/jenkins_home/workspace:/var/jenkins_home/workspace -p 8080:8080 -p 50000:50000 faceengine_build
+docker run --runtime=nvidia --network="host" -it --rm -v /home/sayem/handpose-master:/home/handpose crossinfonet:gpu
 ```
 ### docker image command    
 remove an image
