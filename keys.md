@@ -5,4 +5,6 @@ cntl+shift+o => functions name
 cntl+T => search class or Types
 cntl+K enter => keep file open
 
+cntl+k, cntl+p => theme selection
+
 
