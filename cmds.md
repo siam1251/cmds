@@ -126,6 +126,9 @@ reptyr PID
 readelf -d $executable | grep 'NEEDED'
 readelf -d /lib/libOpenCL.so | grep 'NEEDED'
 ldd /path/executable
+// show symbols
+nm -gD libdsf.so| grep abc
+nm -A -G libfds.so
 ```
 <a name="windows">
  
