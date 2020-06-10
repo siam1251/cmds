@@ -130,6 +130,7 @@ ldd /path/executable
 nm -gD libdsf.so| grep abc
 nm -A -G libfds.so
 ```
+### Warning::some times just copying (cp) so files doesn't copy actual file!!!
 <a name="windows">
  
 ## Windows-----------------------------
