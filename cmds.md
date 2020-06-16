@@ -58,6 +58,8 @@ find / -name opencl 2>/dev/null
 find /path/to/files -type f -exec sed -i 's/oldstring/new string/g' {} \;
 (frame|ipuProcess.cpp:752)
 
+find . -name "*.gcda" -print0 | xargs -0 rm
+
 git revert --strategy resolve <commit>
 adb shell pidof com.huawei.videoanalysisengine
 
