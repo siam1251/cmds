@@ -345,9 +345,10 @@ timedatectl set-local-rtc 0 --adjust-system-clock
 
 ### Tmux    
 ##### attach a session     
-tmux a -t 0    
-
+tmux a -t 0      
 
 <a name="tensorflow">    
+ 
+ ### Tensorflow    
  #### build tensorflow for c api   
  https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/lib_package
