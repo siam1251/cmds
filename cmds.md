@@ -351,4 +351,11 @@ tmux a -t 0
  
  ### Tensorflow    
  #### build tensorflow for c api   
- https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/lib_package
+ https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/lib_package    
+ 
+ ### Python   
+ <a name="pytyhon">   
+ 
+ ```
+ np.set_printoptions(suppress=True)
+ ```
