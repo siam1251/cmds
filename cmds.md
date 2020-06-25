@@ -15,7 +15,9 @@
 [CMake](#cmake)   
 [VScode Debugging](#vscode)   
 [Tmux](#tmux)    
-[Tensorflow](#tensorflow)    
+[Tensorflow](#tensorflow)   
+[Python](#python)    
+
 
 <a name="service_systemctl">
 
