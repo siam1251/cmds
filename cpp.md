@@ -8,13 +8,12 @@
  
 
 <a name="iterator">     
-
+	
 ### Iterator and invalidation       
 you should always assign to the return value of erase()
 ```
 it = numbers.erase(it);
-``
-
+```
 ```
 for (auto it = numbers.begin(); it != numbers.end(); ) {
     if (*it % 2 == 0) {
