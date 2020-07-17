@@ -1,7 +1,30 @@
 [Binary search](#bs)   
 <a name="bs">   
-	
+
+#### Binary search lower and uppper bound   
+
+```
+private int extremeInsertionIndex(int[] nums, int target, boolean left) {
+        int lo = 0;
+        int hi = nums.length;
+
+        while (lo < hi) {
+            int mid = (lo + hi) / 2;
+            if (nums[mid] > target || (left && target == nums[mid])) {
+                hi = mid;
+            }
+            else {
+                lo = mid+1;
+            }
+        }
+
+        return lo;
+    }
+    
+```
 ### Binary search: lower_bound     
+
+
 
 ```
 int lower_bound(int a[], int size, int v)
