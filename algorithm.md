@@ -1,7 +1,8 @@
 [Binary search](#bs)   
 <a name="bs">   
 
-#### Binary search lower and uppper bound   
+### Binary search lower and upper bound     
+#### equal to c++ lower_bound and uppper_bound function       
 
 ```
 private int extremeInsertionIndex(int[] nums, int target, boolean left) {
