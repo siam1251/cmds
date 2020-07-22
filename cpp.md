@@ -261,4 +261,19 @@ int main(int arch, char** argv)
     return 0;
 }
 ```
+### typedef vs using     
+#### using works best with template     
+```
+template<typename T1, typename T2> using Map = std::map<T1, std::vector<T2>>;
+```
 
+```
+typedef [original-type] [your-alias]
+typedef int Pixel;
+typedef std::map<std::string, std::vector<std::string>> Map;
+The other one, introduced in C++11, is with the using keyword:
+
+using [your-alias] = [original-type];
+using Pixel = int;
+using Map   = std::map<std::string, std::vector<std::string>>;
+```
