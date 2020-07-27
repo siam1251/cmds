@@ -110,6 +110,11 @@ sudo usermod -aG docker $USER
 ```
 docker run --runtime=nvidia  -it  --network="host"  --name="sayem1"  --user=$USER  --env="DISPLAY"  --workdir="/home/$USER"  --volume="/home/$USER:/home/$USER"  --volume="/etc/group:/etc/group:ro"   --volume="/etc/passwd:/etc/passwd:ro"  --volume="/etc/shadow:/etc/shadow:ro"  --volume="/etc/sudoers.d:/etc/sudoers.d:ro"  --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"  tf_1.4:s2
 ```
+
+```
+ docker run --runtime=nvidia  -it  -d --network="host"  --name="s3"   --env="DISPLAY"  --workdir="/home/$USER"  --volume="/home/$USER:/home/$USER"  --volume="/etc/group:/etc/group:ro"   --volume="/etc/passwd:/etc/passwd:ro"  --volume="/etc/shadow:/etc/shadow:ro"  --volume="/etc/sudoers.d:/etc/sudoers.d:ro"  --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"  tf_1.4:s3
+00cbb2eff3243a00a2b7ee30639055887aaa72eee76c892807794b4252fc63a5
+```
 #### copy  ~/.Xauthority    
 ```
 cp  .Xauthority ~/
