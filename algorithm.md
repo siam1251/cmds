@@ -5,7 +5,7 @@
 <a name="bit">     
 	
 ### Bit operation   
-
+#### warning (n&right) == right is not same as n&right== right !!!!     
 Keep only the rightmost 1 and set all to zeros   
 ```
 ans = x & -x;
