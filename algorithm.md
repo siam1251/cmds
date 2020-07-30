@@ -2,7 +2,8 @@
 [Bit operations](#bit)   
 
 
-<a name="bit">    
+<a name="bit">     
+	
 ### Bit operation   
 
 Keep only the rightmost 1 and set all to zeros   
