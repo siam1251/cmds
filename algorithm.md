@@ -1,4 +1,20 @@
 [Binary search](#bs)   
+[Bit operations](#bit)   
+
+
+<a name="bit">    
+### Bit operation   
+
+Keep only the rightmost 1 and set all to zeros   
+```
+ans = x & ~x;
+```
+Set the rightmost 1 to zeros   
+```
+ans = x & (x-1)
+```
+[reference](https://leetcode.com/articles/power-of-two/)    
+
 <a name="bs">   
 
 ### Binary search lower and upper bound     
