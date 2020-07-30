@@ -8,7 +8,7 @@
 
 Keep only the rightmost 1 and set all to zeros   
 ```
-ans = x & ~x;
+ans = x & -x;
 ```
 Set the rightmost 1 to zeros   
 ```
