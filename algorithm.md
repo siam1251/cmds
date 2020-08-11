@@ -20,7 +20,10 @@ ans = x & (x-1)
 
 ### Binary search lower and upper bound     
 #### equal to c++ lower_bound and uppper_bound function       
-
+#### To remember    
+```
+nums[mid] > target
+```
 ```
 private int extremeInsertionIndex(int[] nums, int target, boolean left) {
         int lo = 0;
