@@ -22,7 +22,7 @@ ans = x & (x-1)
 #### equal to c++ lower_bound and uppper_bound function       
 #### To remember    
 ```
-nums[mid] > target
+target < nums[mid]
 ```
 ```
 private int extremeInsertionIndex(int[] nums, int target, boolean left) {
@@ -31,7 +31,7 @@ private int extremeInsertionIndex(int[] nums, int target, boolean left) {
 
         while (lo < hi) {
             int mid = lo + (hi -lo) / 2;
-            if (nums[mid] > target || (left && target == nums[mid])) {
+            if (target < nums[mid] || (left && target == nums[mid])) {
                 hi = mid;
             }
             else {
