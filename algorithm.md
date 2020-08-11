@@ -30,7 +30,7 @@ private int extremeInsertionIndex(int[] nums, int target, boolean left) {
         int hi = nums.length;
 
         while (lo < hi) {
-            int mid = lo + (hi -lo) / 2;
+            int mid = floor(lo + (hi -lo) / 2);
             if (target < nums[mid] || (left && target == nums[mid])) {
                 hi = mid;
             }
