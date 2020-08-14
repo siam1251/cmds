@@ -5,12 +5,13 @@
 [Modern C++](#modern)  
 [Time duration chrono](#chrono)  
 [unorderd_map](#unordered_map)   
-[C++ lamda vs python](#cpp_lambda)    
+[C++ lambda vs python](#cpp_lambda)    
 
 
 
 <a name="cpp_lambda">     
 
+### C++ lambda vs python    
 transform == map     
 accumulate == reduce    
 copy_if  == filter     
