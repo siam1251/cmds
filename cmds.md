@@ -7,6 +7,7 @@
 [Tunnelling](#tunnelling)  
 [Attach a process](#attach_a_process)  
 [Shared Library](#shared_library)  
+[Static Library](#static_library)  
 [Windows](#windows)  
 [Building from source](#building_from_source)   
 [C++ environment and compilers](#c++_environment)   
@@ -135,6 +136,12 @@ ldd /path/executable
 nm -gD libdsf.so| grep abc
 nm -A -G libfds.so
 ```
+
+<a name="static_library">
+ 
+## Static_library ----------------------------
+### in static library when we target .a, remember order is important    
+
 ### Warning::some times just copying (cp) so files doesn't copy actual file!!!
 <a name="windows">
  
