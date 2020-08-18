@@ -1,7 +1,7 @@
 [Binary search](#bs)   
 [Binary search finding median](#bs_median)  
 [Bit operations](#bit)   
-[Quick Sort Partition](#partition)   
+[QuickSort Partition](#quicksort)   
 
 
 <a name="bit">     
