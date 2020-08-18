@@ -1,4 +1,5 @@
 [Binary search](#bs)   
+[Binary search finding median](#bs_median)  
 [Bit operations](#bit)   
 
 
@@ -106,4 +107,18 @@ int bsearch(int a[], int size, int v)
     }
     return -1;
 }
+```
+
+<a name="bs_median">   
+
+### Binary search finding median    
+
+choosing left and right is very important     
+right should be out of range, so initial assignment     
+```
+right = nums.size()
+```
+and always asignment of right will be out of range   
+```
+while(left < right)
 ```
