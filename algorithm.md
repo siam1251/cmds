@@ -1,6 +1,7 @@
 [Binary search](#bs)   
 [Binary search finding median](#bs_median)  
 [Bit operations](#bit)   
+[Quick Sort Partition](#partition)   
 
 
 <a name="bit">     
@@ -121,4 +122,24 @@ right = nums.size()
 and always asignment of right will be out of range   
 ```
 while(left < right)
+```
+
+<a name="quicksort">   
+
+### QuickSort partition    
+```
+int partition(vector<int>& nums, int l, int r){
+        int p = l + (r-l)/2;
+        swap(nums[r], nums[p]);
+        int pivot = nums[r];
+        int i = l;
+        for(int j = l; j < r; j++){
+            if(nums[j]<pivot){
+                swap(nums[j], nums[i]);
+                i++;
+            }
+        }
+        swap(nums[i], nums[r]);
+        return i;
+    }
 ```
