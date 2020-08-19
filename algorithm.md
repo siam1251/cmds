@@ -1,5 +1,6 @@
 [Binary search](#bs)   
-[Binary search finding median](#bs_median)  
+[Binary search finding median](#bs_median)    
+[Binary search finding 3 elements](#bs_3_elements) 
 [Bit operations](#bit)   
 [QuickSort Partition](#quicksort)   
 
@@ -143,3 +144,12 @@ int partition(vector<int>& nums, int l, int r){
         return i;
     }
 ```
+
+
+<a name="bs_3_elements">     
+	
+## Finding 3 elements problem     
+#### First sort the elements    
+#### Second, keep one element fixed    
+#### Third, choose left and right and check until left < right    
+
