@@ -4,6 +4,7 @@
 [Thread wait and wait_until](#thread)  
 [Modern C++](#modern)  
 [Time duration chrono](#chrono)  
+[map, set, multimap, multiset, unordered_map](#map_set_multimap)   
 [unorderd_map](#unordered_map)   
 [C++ lambda vs python](#cpp_lambda)    
 
@@ -287,3 +288,10 @@ using [your-alias] = [original-type];
 using Pixel = int;
 using Map   = std::map<std::string, std::vector<std::string>>;
 ```
+
+
+<a name="map_set_multimap">     
+	
+## map, set, multimap, multiset, unordered_map, unordered_set     
+
+#### While only unordered container uses hash to key values other uses Redblack tree to construct the containers    
