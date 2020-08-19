@@ -149,7 +149,33 @@ int partition(vector<int>& nums, int l, int r){
 <a name="bs_3_elements">     
 	
 ## Finding 3 elements problem     
-#### First sort the elements    
+#### First sort the elements and keep one element fixed, from there find the sub-problem    
+##### For example finding the valid triangle problem, You have two things    
+1. One triangle side is the largest, so start from last element and keep it fixed (last element is the largest)   
+2. Then you have to find pair of two sides which are larger than the fixed side !! Yahoo!! done   
+```
+int triangleNumber(vector<int>& nums) {
+        int cnt = 0;
+        sort(nums.begin(), nums.end());
+        for(int i =  nums.size()-1; i >= 0; i--){
+            
+                int l = 0, r = i-1;
+                int c = nums[i];
+                while(l < r){
+                    int s = nums[l]+nums[r];
+                    if(c >= s){
+                        l++;
+                    }else{
+                        cnt += r-l;
+                        r--;
+                    }
+                    
+                }
+            
+        }
+        return cnt;
+}
+```
 #### Second, keep one element fixed    
 #### Third, choose left and right and check until left < right    
 
