@@ -184,5 +184,5 @@ int triangleNumber(vector<int>& nums) {
 	
 	
 ## Interview Tips       
-### Tip 1: if too complex logic bring little efficiency then go for simple logic      
+### Tip 1: if too complex logic brings little efficiency then go for simple logic      
 
