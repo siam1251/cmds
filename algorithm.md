@@ -1,3 +1,4 @@
+[Reverse Iteration](#riteration)
 [Binary search](#bs)   
 [Binary search finding median](#bs_median)    
 [Binary search finding 3 elements](#bs_3_elements)     
@@ -5,6 +6,15 @@
 [QuickSort Partition](#quicksort)   
 [Interview Tips](#interview)   
 
+<a name="riteration"       
+
+### Reverse iteration   
+#### c++ has a nice way of reverse iteration which resolve many complex problem into very simple      
+```
+v.rbegin()
+v.rend()
+```
+Particularly binary search problem with reverse order can be solved easily  with this   
 
 <a name="bit">     
 	
