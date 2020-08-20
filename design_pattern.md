@@ -1,7 +1,7 @@
 
 ### Functional vs Object oriented     
 
-#### Functional 
+#### Functional (you can remember things by using clousure)     
 ```
 def Friend(friend_names):
   def is_my_friend(name):
