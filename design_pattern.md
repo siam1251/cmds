@@ -1,6 +1,7 @@
 
 ### Functional vs Object oriented     
 
+#### Functionl best fits when you need data transformation, input arr and output is squared of inputs    
 #### Functional (you can remember things by using clousure)     
 ```
 def Friend(friend_names):
