@@ -3,6 +3,7 @@
 [Binary search finding 3 elements](#bs_3_elements)     
 [Bit operations](#bit)   
 [QuickSort Partition](#quicksort)   
+[Interview Tips](#interview)   
 
 
 <a name="bit">     
@@ -178,4 +179,10 @@ int triangleNumber(vector<int>& nums) {
 ```
 #### Second, keep one element fixed    
 #### Third, choose left and right and check until left < right    
+
+<a name="interview">      
+	
+	
+## Interview Tips       
+### Tip 1: if too complex logic bring little efficiency then go for simple logic      
 
