@@ -6,7 +6,7 @@
 [QuickSort Partition](#quicksort)   
 [Interview Tips](#interview)   
 
-<a name="riteration"       
+<a name="riteration">     
 
 ### Reverse iteration   
 #### c++ has a nice way of reverse iteration which resolve many complex problem into very simple      
