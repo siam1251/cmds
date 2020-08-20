@@ -1,4 +1,4 @@
-[Reverse Iteration](#riteration)
+[Reverse Iteration](#riteration)      
 [Binary search](#bs)   
 [Binary search finding median](#bs_median)    
 [Binary search finding 3 elements](#bs_3_elements)     
