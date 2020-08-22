@@ -1,4 +1,6 @@
 ## Table of Contents  
+[C++ lambda](#cpp_lambda) 
+[C++ erase, remove_if, container basics](#cpp_basics)    
 [String](#string)  
 [shared_lock vs lock](#lock)  
 [Thread wait and wait_until](#thread)  
@@ -16,6 +18,22 @@
 transform == map     
 accumulate == reduce    
 copy_if  == filter     
+
+
+<a name="cpp_basics">    
+	
+	
+### C++ erase, remove_if, container basics     
+
+##### You can only erase an element from its  member function only (obj.erase) 
+##### When you pass iterator, you cannot change array structure !!!       
+##### or passing container itself by reference erase(obj), inside erase function it will call member obj.erase  
+
+```
+auto it = remove_if(S.begin(), S.end(), [&mp](const char & c){ return mp[c-'a'] == 1;});
+S.erase(it, S.end());
+
+```
 
 
 <a name="iterator">     
