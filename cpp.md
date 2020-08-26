@@ -322,5 +322,5 @@ if a class is define virtual, the body must be there and it can be overriden in 
 For for interface, if you want not to add body of the function, you have to declare as pure      
 
 ```
-virtual virutal int f()=0;
+virtual int f()=0;
 ```
