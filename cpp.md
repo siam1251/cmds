@@ -9,7 +9,7 @@
 [map, set, multimap, multiset, unordered_map](#map_set_multimap)   
 [unorderd_map](#unordered_map)   
 [C++ lambda vs python](#cpp_lambda)    
-
+[C++ iterface class](#cpp_interface)    
 
 
 <a name="cpp_lambda">     
@@ -313,3 +313,14 @@ using Map   = std::map<std::string, std::vector<std::string>>;
 ## map, set, multimap, multiset, unordered_map, unordered_set     
 
 #### While only unordered container uses hash to key values other uses Redblack tree to construct the containers    
+
+
+<a name="cpp_interface">     
+	
+## Interface Class     
+if a class is define virtual, the body must be there and it can be overriden in sub class.
+For for interface, if you want not to add body of the function, you have to declare as pure      
+
+```
+virtual virutal int f()=0;
+```
