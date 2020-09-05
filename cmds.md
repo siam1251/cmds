@@ -19,6 +19,10 @@
 [Tensorflow](#tensorflow)   
 [Python](#python)    
 
+```
+ find . -name "*.gcda" -print0 | xargs -0 rm
+
+```
 
 <a name="service_systemctl">
 
