@@ -197,6 +197,6 @@ int triangleNumber(vector<int>& nums) {
 #### 1: if too complex logic brings little efficiency then go for simple logic      
 #### 2: Do not go with the complex logic, implement the simple one first and at the end mention the complex one (don't code the complex one)     
 #### 3: Binary tree problems code will be less than 4-5 lines, so spend more time on the whiteboard or building the actual idea        
-[problem](#https://leetcode.com/problems/distribute-coins-in-binary-tree/submissions/)     
+[problem](#"https://leetcode.com/problems/distribute-coins-in-binary-tree/submissions/")     
 [Bit operations](#bit)     
 
