@@ -10,6 +10,7 @@
 [unorderd_map](#unordered_map)   
 [C++ lambda vs python](#cpp_lambda)    
 [C++ iterface class](#cpp_interface)    
+[C++ Operators](#cpp_operators)    
 
 
 <a name="cpp_lambda">     
@@ -323,4 +324,18 @@ For for interface, if you want not to add body of the function, you have to decl
 
 ```
 virtual int f()=0;
+```
+
+
+
+<a name="cpp_operators>     
+	 
+### C++ Operators    
+```
+void* operator new(size_t s){
+	return malloc(s);
+}
+void operator delete(void* mem, size_t s){
+	free(mem);
+}
 ```
