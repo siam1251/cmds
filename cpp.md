@@ -174,7 +174,7 @@ std::for_each(data.begin(), data.end(), [](char & c){
   ```
   while (!pred()) {
     if (wait_until(lock, timeout_time) == std::cv_status::timeout) {
-        break;
+       return pred();
     }
 }
 return true;
