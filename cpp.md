@@ -331,6 +331,8 @@ virtual int f()=0;
 <a name="cpp_operators>     
 	 
 ### C++ Operators    
+
+#### Tracks memory allocation and deallocation   
 ```
 void* operator new(size_t s){
 	return malloc(s);
