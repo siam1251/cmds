@@ -1,3 +1,4 @@
+[common problems](#common_problems)     
 [Reverse Iteration](#riteration)      
 [Binary search](#bs)   
 [Binary search finding median](#bs_median)    
@@ -200,5 +201,12 @@ int triangleNumber(vector<int>& nums) {
  
  ## Complexity Analysis    
  #### 1: O(n^(n/m) runtime for this [problem](https://leetcode.com/problems/combination-sum/). In backtracking if you have option to use loop use loop that way you reduce the depth i.e reducing the call back stack memory also helps it to analyze the complexity well.
+ 
+ 
+ <a name="common_problems">      
+ 
+ ## Interview leetcode problems    
+ #### Binary Search   
+ 1. [rotated bs array](https://leetcode.com/problems/search-in-rotated-sorted-array/)     
  
 
