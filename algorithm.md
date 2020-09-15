@@ -199,6 +199,6 @@ int triangleNumber(vector<int>& nums) {
 #### 3: Binary tree problems code will be less than 4-5 lines, so spend more time on the whiteboard or building the actual idea [problem](https://leetcode.com/problems/distribute-coins-in-binary-tree/submissions/)        
  
  ## Complexity Analysis    
- #### 1: O(n^(n/m) runtime for this [problem](https://leetcode.com/problems/combination-sum/)  
+ #### 1: O(n^(n/m) runtime for this [problem](https://leetcode.com/problems/combination-sum/). In backtracking if you have option to use loop use loop that way you reduce the depth i.e reducing the call back stack memory also helps it to analyze the complexity well.
  
 
