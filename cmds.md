@@ -23,6 +23,10 @@
  find . -name "*.gcda" -print0 | xargs -0 rm
 
 ```
+#### find out complete python environment     
+```
+pip list 
+```
 
 <a name="service_systemctl">
 
