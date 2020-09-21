@@ -7,6 +7,9 @@
 
  tflite_convert  --graph_def_file=output_graph.pb --output_file=output.tflite  --output_format=TFLITE  --input_shapes=1,255,255,3 --input_arrays=search_images --output_arrays=output_embed,detection/response --allow_custom_ops
  
+ 
+  tflite_convert  --graph_def_file=output_graph.pb --output_file=output.tflite  --output_format=TFLITE  --input_shapes=1,255,255,3:6,6,256,1 --input_arrays=search_images,input_template --output_arrays=output_embed,detection/response --allow_custom_ops  --post_training_quantize
+  
   ./omg --om out.om --json abc.json --mode 1
 
 ```
