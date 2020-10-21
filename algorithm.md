@@ -191,6 +191,55 @@ int triangleNumber(vector<int>& nums) {
 #### Second, keep one element fixed    
 #### Third, choose left and right and check until left < right    
 
+<a name="union_find">     
+
+### Union-Find     
+
+```
+class Solution {
+    vector<int> parents;
+    vector<int> cnt;
+    int find(int v){
+        int p = parents[v];
+        if(p != v){
+           p = find(p);
+            //shortcut
+           parents[v] = p;
+        }
+        return p;
+    }
+    bool add(int v1, int v2){
+        int p1 = find(v1);
+        int p2 = find(v2);
+        if(p1 == p2) return false;
+        if(cnt[p1] > cnt[p2]){
+            cnt[p1]+= cnt[p2];
+            cnt[p2] = 0;
+            parents[p2] = p1;
+        }else{
+            cnt[p2]+= cnt[p1];
+            cnt[p1] = 0;
+            parents[p1] = p2;
+        }
+        return true;
+    }
+public:
+    bool validTree(int n, vector<vector<int>>& edges) {
+        parents.resize(n, 0);
+        cnt.resize(n, 1);
+        iota(parents.begin(), parents.end(), 0);
+        for(auto &e : edges){
+           if(add(e[0], e[1]) == false) return false;
+        }
+        int p = find(0);
+        for(int i = 1; i < n; i++){
+            if(find(i) != p) return false;
+        }
+        return true;
+    }
+};
+```
+
 <a name="interview">      
 	
 	
@@ -209,4 +258,5 @@ int triangleNumber(vector<int>& nums) {
  #### Binary Search   
  1. [rotated bs array](https://leetcode.com/problems/search-in-rotated-sorted-array/)     
  
+
 
