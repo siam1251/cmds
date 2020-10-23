@@ -21,7 +21,7 @@
 
 ```
 df -h
- find . -name "*.gcda" -print0 | xargs -0 rm
+find . -name "*.gcda" -print0 | xargs -0 rm
 
 ```
 #### find out complete python environment     
