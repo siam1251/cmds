@@ -21,6 +21,7 @@
 
 ```
 df -h
+du -shc ./*
 find . -name "*.gcda" -print0 | xargs -0 rm
 
 ```
