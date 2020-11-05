@@ -240,6 +240,74 @@ public:
 };
 ```
 
+### Implement Tree iterator (Using stack to emulate recursion)    
+
+#### Inorder traversal iterator   
+
+##### Fist look at the tree traversal using recursion     
+```
+void Rec(TreeNode* r){
+	if(r){
+		Rec(r->left);
+		print(r->val);
+		Rec(r->right);
+	}
+}
+```
+In the above code, copiler will push these instruction in stack (in reverse order, last instruction first and so on)  
+So, the stack insertion will be something like below   
+
+st.push(Rec(r->right))
+st.push(print(r->val))
+st.push(Rec(r->left))
+
+We will emulate the same thing in our code 
+
+```
+class BSTIterator {
+    struct State{
+        State(TreeNode* node, bool p):r(node), print(p){}
+        TreeNode* r;
+        
+        bool print = false;
+    };
+    stack<State> st;
+public:
+    BSTIterator(TreeNode* root) {
+        if(root){
+           insert(root);
+        }
+    }
+    void insert(TreeNode* r){
+        if(r->right){
+            st.push(State(r->right, false));
+        }
+        st.push(State(r, true));
+        if(r->left)
+            st.push(State(r->left, false));
+    }
+    /** @return the next smallest number */
+    int next() {
+        
+        while(st.size()){
+            auto top = st.top();
+            st.pop();
+            if(top.print){
+                return top.r->val;
+            }else{
+                insert(top.r);
+            }
+           
+        }
+        return -1;
+    }
+    
+    /** @return whether we have a next smallest number */
+    bool hasNext() {
+        return st.size();
+    }
+};
+```
 <a name="interview">      
 	
 	
