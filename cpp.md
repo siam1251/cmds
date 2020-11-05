@@ -11,7 +11,7 @@
 [C++ lambda vs python](#cpp_lambda)    
 [C++ iterface class](#cpp_interface)    
 [C++ Operators](#cpp_operators)    
-
+[C++ Memory tracking](#mem_track)    
 
 <a name="cpp_lambda">     
 
@@ -329,7 +329,8 @@ virtual int f()=0;
 
 
 <a name="cpp_operators>     
-	 
+
+
 ### C++ Operators    
 
 #### Tracks memory allocation and deallocation   
@@ -339,5 +340,29 @@ void* operator new(size_t s){
 }
 void operator delete(void* mem, size_t s){
 	free(mem);
+}
+```
+
+<a name="mem_track">    
+	
+### Memory tracking     
+```
+void * operator new(std::size_t size) throw(std::bad_alloc) {
+    // we are required to return non-null
+    void * mem = std::malloc(size == 0 ? 1 : size);
+    if(mem == 0) {
+        throw std::bad_alloc();
+    }
+    (*get_map())[mem] = size;
+    return mem;
+}
+
+void operator delete(void * mem) throw() {
+    if(get_map()->erase(mem) == 0) {
+        // this indicates a serious bug
+        std::cerr << "bug: memory at " 
+                  << mem << " wasn't allocated by us\n";
+    }
+    std::free(mem);
 }
 ```
