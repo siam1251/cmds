@@ -5,6 +5,7 @@
 [Binary search finding 3 elements](#bs_3_elements)     
 [Bit operations](#bit)   
 [QuickSort Partition](#quicksort)   
+[Tree Iterator](#tree_iter)     
 [Interview Tips](#interview)   
 
 <a name="riteration">     
@@ -239,7 +240,8 @@ public:
     }
 };
 ```
-
+<a name="tree_iter">    
+	
 ### Implement Tree iterator (Using stack to emulate recursion)    
 
 #### Inorder traversal iterator   
