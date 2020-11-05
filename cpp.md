@@ -338,7 +338,7 @@ virtual int f()=0;
 void* operator new(size_t s){
 	return malloc(s);
 }
-void operator delete(void* mem, size_t s){
+void operator delete(void* mem){
 	free(mem);
 }
 ```
