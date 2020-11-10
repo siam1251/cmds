@@ -26,6 +26,7 @@ find . -name "*.gcda" -print0 | xargs -0 rm
 tar -xvf articles.tar -C /tmp/my_article/
 tar -xvf articles.tar -directory /tmp/my_article/
 pkill -f my_pattern
+kill -9 3139
 ```
 #### find out complete python environment     
 ```
