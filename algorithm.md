@@ -313,11 +313,13 @@ public:
 <a name="interview">      
 	
 	
-## Interview Tips       
+## Interview Tips    
+
 #### 1: if too complex logic brings little efficiency then go for simple logic      
 #### 2: Do not go with the complex logic, implement the simple one first and at the end mention the complex one (don't code the complex one)     
 #### 3: Binary tree problems code will be less than 4-5 lines, so spend more time on the whiteboard or building the actual idea [problem](https://leetcode.com/problems/distribute-coins-in-binary-tree/submissions/)        
  
+ #### 4: Do not write code from memory (memorise tricks but the the code)    
  ## Complexity Analysis    
  #### 1: O(n^(n/m) runtime for this [problem](https://leetcode.com/problems/combination-sum/). In backtracking if you have option to use loop use loop that way you reduce the depth i.e reducing the call back stack memory also helps it to analyze the complexity well.
  
