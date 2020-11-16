@@ -67,6 +67,10 @@ remove an image
  ```
  save or export an image
  ```
+  docker save -o tf.tar image_id
+  to load
+  cat exampleimage.tgz | docker import - exampleimagelocal:new 
+  
  docker save image_id > image.tar
  docker load < image.tar
  ```
