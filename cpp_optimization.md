@@ -44,7 +44,7 @@ A func3(){
  //will do RVO .. return value optimization
  return A();
 }
-```
+
 
 A func2(){
  A a;
@@ -60,3 +60,4 @@ int main(){
  cout<<a.x<<" ,"<<a.y<<endl;
  return 0;
 }
+```
