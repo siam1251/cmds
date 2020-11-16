@@ -1,3 +1,5 @@
+
+```
 #include <vector>
 #include <string>
 using namespace std;
@@ -42,7 +44,7 @@ A func3(){
  //will do RVO .. return value optimization
  return A();
 }
-
+```
 
 A func2(){
  A a;
