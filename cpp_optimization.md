@@ -29,9 +29,9 @@ A& operator=(A&& a){
   y = move(a.y); 
 }
 A(A& a){
-cout<<"copy constructor"<<endl;
-this->x = a.x;
-this->y = a.y;
+ cout<<"copy constructor"<<endl;
+ this->x = a.x;
+ this->y = a.y;
 }
 };
 
