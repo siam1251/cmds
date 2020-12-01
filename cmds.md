@@ -23,6 +23,7 @@
 ```
 %s/word/new_word/g
 // % does for all the line
+cntl+v // for visual mode to select multi lines
 
 ```
 
