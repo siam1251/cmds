@@ -19,6 +19,13 @@
 [Tensorflow](#tensorflow)   
 [Python](#python)    
 
+#### VI commands
+```
+%s/word/new_word/g
+// % does for all the line
+
+```
+
 ```
 df -h
 du -shc ./*
