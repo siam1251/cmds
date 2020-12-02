@@ -13,6 +13,13 @@
 [C++ Operators](#cpp_operators)    
 [C++ Memory tracking](#mem_track)    
 
+### common syntax to remember      
+#### priority queue
+```
+ auto f = [](auto &a, auto& b){ return a < b;}; //should be reverse of less operator
+ priority_queue< int, vector<int>, decltype(f)> q(f);
+```
+
 <a name="cpp_lambda">     
 
 ### C++ lambda vs python    
