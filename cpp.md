@@ -16,7 +16,7 @@
 ### common syntax to remember      
 #### priority queue
 ```
- auto f = [](auto &a, auto& b){ return a < b;}; //should be reverse 
+ auto f = [](auto &a, auto& b){ return a < b;}; //reverse of sorting comparator 
  priority_queue< int, vector<int>, decltype(f)> q(f);
 ```
 
