@@ -6,6 +6,7 @@
 [Bit operations](#bit)   
 [QuickSort Partition](#quicksort)   
 [Tree Iterator](#tree_iter)     
+[Dynamic Problem](#dp)     
 [Interview Tips](#interview)   
 
 
