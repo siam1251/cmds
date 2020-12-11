@@ -8,6 +8,7 @@
 [Tree Iterator](#tree_iter)     
 [Interview Tips](#interview)   
 
+
 <a name="riteration">     
 
 ### Reverse iteration   
@@ -310,6 +311,17 @@ public:
     }
 };
 ```
+
+<a name="dp">     
+
+## dynamic programming      
+
+1. First figure out it has sub problem   
+2. Define state (find complexity from possible states)  
+3. If you see you can build from middle, meaning you can also start from both end and squeeze [problem](https://leetcode.com/problems/longest-palindromic-subsequence/)
+4. You may also reduce the number of state by figuring out these states are actully same [problem](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
+5. You may have define a state, that takes the corresponding element too. Like LIS, LCS or others [problem](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+
 <a name="interview">      
 	
 	
