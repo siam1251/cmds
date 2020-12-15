@@ -65,6 +65,18 @@ for (auto it = numbers.begin(); it != numbers.end(); ) {
 
 <a name="string">    
 	
+### Substr   
+```
+ std::string a = "0123456789abcdefghij";
+ 
+// count is npos, returns [pos, size())
+std::string sub1 = a.substr(10);
+std::cout << sub1 << '\n';
+
+// both pos and pos+count are within bounds, returns [pos, pos+count)
+std::string sub2 = a.substr(5, 3);
+std::cout << sub2 << '\n';
+```
 ### Erase a substring from a string     
 ```
 #include <algorithm>
