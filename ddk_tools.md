@@ -1,3 +1,10 @@
+### for ddk 310     
+
+```
+./omg --model tinyhrnet.pb --weight tinyhrnet.pb --framework 3 --output ./modelname --input_shape "input:1,3,224,224"--out_nodes "HRNet/Squeeze:0" --out_nodes "HRNet/conv_final/BiasAdd:0"
+```
+
+
 #### for ddk 300, you need to spefify all the input and output nodes of the graph otherwise it will throw error    
 
 #### convert a model to om    
