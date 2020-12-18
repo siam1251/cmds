@@ -115,6 +115,11 @@ lsblk -o NAME,ROTA
 #### permission
 ```
 setfacl -m u:username:rwx myfolder
+chmod g+w filename
+chmod g-wx filename
+chmod o+w filename
+chmod o-rwx foldername
+[line](https://www.pluralsight.com/blog/it-ops/linux-file-permissions#:~:text=To%20change%20directory%20permissions%20for,only%20read%20permission%20for%20everyone)
 ```
 <a name="ffmpeg"/>
 
