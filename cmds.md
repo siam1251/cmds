@@ -157,6 +157,7 @@ reptyr PID
 ```
 readelf -d $executable | grep 'NEEDED'
 readelf -d /lib/libOpenCL.so | grep 'NEEDED'
+ldd file.so // shows dependecy lib paths
 ldd /path/executable
 // show symbols
 nm -gD libdsf.so| grep abc
