@@ -1,3 +1,6 @@
+
+(https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec)[#link]       
+
 ```
 
 def forward(x):
