@@ -1,7 +1,10 @@
 
 I built boost from source using 1.65
 It has libboost_python3.so file and configured to use anaconda python3
-It links perfectly however the so file gives a runtime error " undefined symbol: PyClass_Type"
+It links perfectly however the so file gives a runtime error 
+```
+undefined symbol: PyClass_Type
+```
 
 
 But I installed boost from conda using:
