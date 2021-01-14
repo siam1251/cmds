@@ -19,6 +19,9 @@
 [Tensorflow](#tensorflow)   
 [Python](#python)    
 
+```
+tar --exclude-vcs -zcvf foo.tar.gz ./FOLDER_NAME
+```
 #### VI commands
 ```
 %s/word/new_word/g
