@@ -13,6 +13,25 @@
 [C++ Operators](#cpp_operators)    
 [C++ Memory tracking](#mem_track)    
 
+
+#### Bit operation
+
+Turn off rightmost set bit
+```
+n & (n - 1)
+```
+Keep the rightmost set bit
+
+```
+x & (-x)
+```
+
+Get postion of rightmost set bit
+
+```
+log2(n & -n); + 1
+```
+
 ### common syntax to remember      
 #### priority queue
 ```
