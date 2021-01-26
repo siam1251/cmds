@@ -18,18 +18,18 @@
 
 Turn off rightmost set bit
 ```
-n & (n - 1)
+n & (n - 1) // using AND
 ```
 Keep the rightmost set bit
 
 ```
-x & (-x)
+x & (-x) // using AND and reverse
 ```
 
 Get postion of rightmost set bit
 
 ```
-log2(n & -n); + 1
+log2(n & -n); + 1 
 ```
 
 ### common syntax to remember      
