@@ -18,12 +18,14 @@
 
 Turn off rightmost set bit
 ```
-n & (n - 1) // using AND
+n &= (n - 1) // using AND
 ```
 Keep the rightmost set bit
 
 ```
-x & (-x) // using AND and reverse
+x &= (-x) // using AND and reverse
+// or
+x &= (~x + 1) //because -x = ~x+1
 ```
 
 Get postion of rightmost set bit
