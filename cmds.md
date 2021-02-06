@@ -19,6 +19,8 @@
 [Tensorflow](#tensorflow)   
 [Python](#python)    
 
+
+bazel build -c opt //tensorflow:libtensorflow.so
 ```
 tar --exclude-vcs -zcvf foo.tar.gz ./FOLDER_NAME
 ```
