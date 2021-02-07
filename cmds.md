@@ -22,6 +22,7 @@
 
 bazel build -c opt //tensorflow:libtensorflow.so
 ```
+dpkg-query -l
 apt list --installed
 tar --exclude-vcs -zcvf foo.tar.gz ./FOLDER_NAME
 ```
