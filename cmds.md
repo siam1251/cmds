@@ -20,7 +20,7 @@
 [Python](#python)    
 
 
-bazel build -c opt //tensorflow:libtensorflow.so
+bazel build -c opt --config=cuda //tensorflow:libtensorflow.so
 ```
 dpkg-query -l
 apt list --installed
