@@ -70,6 +70,13 @@ ls /etc/init.d/
 <a name="ubuntu_cmds">
  
 ### Ubuntu commands
+You can make this setting permanent by using your own config file at /etc/apt/apt.conf.d/ dir. The filename can be 99myown and it may contain this line:    
+```
+
+
+APT::Get::AllowUnauthenticated "true";
+```
+or
 ```
 pactl -- set-sink-volume 0 150%    
 
