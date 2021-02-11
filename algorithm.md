@@ -15,7 +15,7 @@
 	
 ### Divide and Conquer     
 
-[linke](#https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/)  
+[link](https://geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/)  
 
 <a name="riteration">     
 
