@@ -10,6 +10,13 @@
 [Interview Tips](#interview)   
 
 
+
+<a name="dived_conquer">    
+	
+### Divide and Conquer     
+
+[linke](#https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/)  
+
 <a name="riteration">     
 
 ### Reverse iteration   
