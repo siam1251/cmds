@@ -12,7 +12,7 @@
 [C++ iterface class](#cpp_interface)    
 [C++ Operators](#cpp_operators)    
 [C++ Memory tracking](#mem_track)    
-[copy ellision](#copy_ellision)    
+[copy ellision, move assignmet, move constructor](#copy_ellision)    
 
 #### Bit operation
 
