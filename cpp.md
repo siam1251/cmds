@@ -487,3 +487,13 @@ void foo(Thing t);
 
 foo(Thing());
 ```
+##### copy ellision happens when exception is caught by value    
+
+```int main() {
+  try {
+    foo();
+  }
+  catch(Thing c) {  
+  }             
+}
+```
