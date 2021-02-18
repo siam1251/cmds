@@ -411,7 +411,7 @@ void operator delete(void * mem) throw() {
 <a name="copy_ellision">    
 	
 ### Copy Ellision     
-	
+##### Omits copy and move (since C++11) constructors, resulting in zero-copy pass-by-value semantics.	
 
 ```
 #include <vector>
