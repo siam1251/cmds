@@ -8,6 +8,7 @@
 [Tree Iterator](#tree_iter)     
 [Dynamic Problem](#dp)     
 [Dynamic Problem space optimization](#dp_space)    
+[Backtracking top-down or bottom up](#back_tracking)    
 [Interview Tips](#interview)   
 
 
@@ -360,3 +361,11 @@ public:
 ##### However if it's like 0-1 knapsac then you cannot optimize
 
 ##### Another way to optimize is to look the state(i,j), can you convert the state space to only state(i) or state(j)
+
+<a name="back_tracking">
+
+## Backtracking
+
+#### You may try both ways to see which one works
+    #### Fist try top-down
+    #### then try bottom-up  
