@@ -369,3 +369,4 @@ public:
 #### You may try both ways to see which one works
     #### Fist try top-down
     #### then try bottom-up  
+    #### for back-tracking you don't have same sub-problem as in DP because each state is completely different so you dont have common subproblems
