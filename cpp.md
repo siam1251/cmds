@@ -497,6 +497,8 @@ foo(Thing());
   }             
 }
 ```
+##### foo(A());// copy ellision so nothing will be called
+
 #### foo(A &&a) is just a type saying that it will accept only rvalue
 #### A(A && other)noexcept{} is move constructor  
 #### A& operator=(A && other)noexcept{} is move copy constructor  
