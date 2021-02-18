@@ -475,4 +475,15 @@ int main(){
  return 0;
 }
 ```
+##### Other common places where copy elision takes place is when a temporary is passed by value:
+```
+class Thing {
+public:
+  Thing();
+  ~Thing();
+  Thing(const Thing&);
+};
+void foo(Thing t);
 
+foo(Thing());
+```
