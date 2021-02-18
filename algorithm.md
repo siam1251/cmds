@@ -7,6 +7,7 @@
 [QuickSort Partition](#quicksort)   
 [Tree Iterator](#tree_iter)     
 [Dynamic Problem](#dp)     
+[Dynamic Problem space optimization](#dp_space)    
 [Interview Tips](#interview)   
 
 
@@ -350,5 +351,12 @@ public:
  #### Binary Search   
  1. [rotated bs array](https://leetcode.com/problems/search-in-rotated-sorted-array/)     
  
+<a name="dp_space">     
 
+## dynamic programming space optimization    
 
+##### To evaluate the current state_i how manay previous states you need?
+##### If you only look back only few last states (2), then you can optimize the space
+##### However if it's like 0-1 knapsac then you cannot optimize
+
+##### Another way to optimize is to look the state(i,j), can you convert the state space to only state(i) or state(j)
