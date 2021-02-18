@@ -497,3 +497,70 @@ foo(Thing());
   }             
 }
 ```
+#### foo(A &&a) is just a type saying that it will accept only rvalue
+#### A(A && other)noexcept{} is move constructor  
+#### A& operator=(A && other)noexcept{} is move copy constructor  
+```
+#include <iostream>
+#include <cstring>
+
+class A{
+	
+public:
+	std::string m_name;
+	A()=default;
+	~A(){
+		std::cout<<"destructor\n";
+	}
+	A(A && other)noexcept{
+		std::cout<<"moved constructor\n";
+		this->m_name = std::move(other.m_name);
+		
+		other.m_name = "value has been moved";
+	}
+	A& operator=(A && other)noexcept{
+		std::cout<<"moved assignment\n";
+		this->m_name = std::move(other.m_name);
+		
+		other.m_name = "value has been moved";
+		return *this;
+	}
+};
+// works both with rvalue and lvalue
+
+// void foo(A b){
+// 	std::cout<<"foo: copy "<<b.m_name<<"\n";
+// 	//move constructor will be called
+// 	//std::cout<<a.c<<std::endl;
+// }
+// works only with lvalue
+void foo(A &b){
+	std::cout<<"foo: reference "<<b.m_name<<"\n";
+	//move constructor will be called
+	//std::cout<<a.c<<std::endl;
+}
+// works only with rvalue
+void foo(A &&b){
+	std::cout<<"foo: rvalue "<<b.m_name<<"\n";
+	//move constructor will be called
+	//std::cout<<a.c<<std::endl;
+}
+int main(){
+  A a;
+  a.m_name = "apple";
+  foo(A());// copy ellision so nothing will be called
+  foo(std::move(a)); // this is type casting, so won't call move operators
+  std::cout<<"a: "<<a.m_name<<"\n";
+  //A aa = std::move(a);
+  A b; b.m_name = "orange";
+  // a.assign(b);
+  a = std::move(b); // move assignment will be invoked not move constructor
+  std::cout<<"a: "<<a.m_name<<"\n";
+  std::cout<<"b: "<<b.m_name<<"\n";
+  return 0;
+
+}
+
+
+
+```
