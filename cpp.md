@@ -409,6 +409,7 @@ void operator delete(void * mem) throw() {
 
 
 <a name="copy_ellision">    
+	
 ### Copy Ellision     
 	
 
