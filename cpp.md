@@ -566,3 +566,12 @@ int main(){
 
 
 ```
+
+#### static, inline, static inline, normal function
+
+##### normal function: they get exported to other TU ( transaltion units or source file)
+##### static function: they don't get exported to other TU ( transaltion units) 
+##### static inline function: they don't get exported to other TU ( transaltion units) 
+##### inline function: it tells the compiler to replace with original code in wherever it is called 
+
+###### A translation unit is the basic unit of compilation in C++. It consists of the contents of a single source file, plus the contents of any header files directly or indirectly included by it, minus those lines that were ignored using conditional preprocessing statements.
