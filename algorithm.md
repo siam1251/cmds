@@ -10,6 +10,8 @@
 [Dynamic Problem space optimization](#dp_space)    
 [Backtracking top-down or bottom up](#back_tracking)    
 [Interview Tips](#interview)   
+[Union find, set algorithm](#union_find)    
+
 
 
 
