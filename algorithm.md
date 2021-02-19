@@ -11,6 +11,7 @@
 [Backtracking top-down or bottom up](#back_tracking)    
 [Interview Tips](#interview)   
 [Union find, set algorithm](#union_find)    
+[Topological sort (kahn algorithm)](#topological_sort)     
 
 
 
@@ -372,3 +373,33 @@ public:
     #### Fist try top-down
     #### then try bottom-up  
     #### for back-tracking you don't have same sub-problem as in DP because each state is completely different so you dont have common subproblems
+    
+    
+<a name="topological_sort> 
+
+### Topological Sort     
+
+```
+vector<int> topSort()  {
+  queue<int> Q;
+  for(int i=1; i<=n; i++) {
+    if(inDegree[i] == 0)  {
+      Q.push(i);
+    }
+  }
+  vector<int> res;
+  while(not Q.empty())  {
+    int now = Q.front();
+    res.push_back(now);
+    for(int next: graph[now]) {
+      if(inDegree[next] > 0)  {
+        inDegree[next]--;
+        if(inDegree[next] == 0) {
+          Q.push(next);
+        }
+      }
+    }
+  }
+  return res;
+}
+```
