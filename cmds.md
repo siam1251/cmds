@@ -175,6 +175,9 @@ ldd executable // shows dependecy lib paths
 ldd /path/executable
 // show symbols
 nm -gD libdsf.so| grep abc
+nm --demangle --dynamic --defined-only --extern-only <lib.so> | grep <symbol>.
+Without --defined-only your command also shows undefined symbols.
+Without --extern-only it also shows symbols with internal linkage which are unavailable for linking.
 nm -A -G libfds.so
 ```
 
