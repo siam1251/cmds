@@ -271,11 +271,11 @@ void Rec(TreeNode* r){
 ```
 In the above code, copiler will push these instruction in stack (in reverse order, last instruction first and so on)  
 So, the stack insertion will be something like below   
-
+```
 st.push(Rec(r->right))
 st.push(print(r->val))
 st.push(Rec(r->left))
-
+```
 We will emulate the same thing in our code 
 
 ```
