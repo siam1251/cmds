@@ -15,9 +15,9 @@
 [copy ellision, move assignmet, move constructor](#copy_ellision)    
 
 ### VScode with gtags
-install gtags in linux
-go to project folder:
-run: gtags
+install gtags in linux       
+go to project folder:        
+run: gtags            
 
 #### Bit operation
 
