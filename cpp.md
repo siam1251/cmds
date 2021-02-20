@@ -14,6 +14,11 @@
 [C++ Memory tracking](#mem_track)    
 [copy ellision, move assignmet, move constructor](#copy_ellision)    
 
+### VScode with gtags
+install gtags in linux
+go to project folder:
+run: gtags
+
 #### Bit operation
 
 Turn off rightmost set bit
