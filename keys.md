@@ -1,11 +1,14 @@
-### vim   
+### vim    
+
+
 V // multi-line selection j or k to up or down
 v // range of selection
 cntl+v // visual selection
 y // to copy
 p // to pase
-* / to hightlight all the words under cursor
-##### to replace
+* / to hightlight all the words under cursor  
+##### to replace         
+
 type colon
  - then type s/^/   / 
 
