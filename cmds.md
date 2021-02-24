@@ -216,6 +216,10 @@ stat -c "%a" .ssh
 755 for config
 git multiple keys
 https://docs.gitlab.com/ee/ssh/
+// add keys
+# start the ssh-agent in the background
+$ eval `ssh-agent -s`
+> Agent pid 59566
 ```
 <a name="git">
          
