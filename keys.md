@@ -1,5 +1,4 @@
 ### vim    
-
 ```
 V // multi-line selection j or k to up or down
 v // range of selection
@@ -9,11 +8,11 @@ p // to pase
 * / to hightlight all the words under cursor  
 ```
 ##### to replace         
-
+```
 type colon
  - then type s/^/   / 
 
-
+```
 ### vscode 
 cntl+F2 => find all occurances and change it     
 alt+shift+i => select all lines   
