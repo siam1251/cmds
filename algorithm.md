@@ -404,6 +404,36 @@ vector<int> topSort()  {
   return res;
 }
 ```
+
+#### Number of sub-matrix in a Matrix     
+
+```
+private int helper(int[] A) {
+
+	int[] sum = new int[A.length];
+	Stack<Integer> stack = new Stack<>();
+
+	for (int i = 0; i < A.length; ++i) {
+
+		while (!stack.isEmpty() && A[stack.peek()] >= A[i]) stack.pop();
+
+		if (!stack.isEmpty()) {
+			int preIndex = stack.peek();
+			sum[i] = sum[preIndex];
+			sum[i] += A[i] * (i - preIndex);
+		} else {
+			sum[i] = A[i] * (i + 1);
+		}
+
+		stack.push(i);
+	}
+
+	int res = 0;
+	for (int s : sum) res += s;
+
+	return res;
+}
+```
 <a name="bucket_sort">
 
 ### Bucket sort     
