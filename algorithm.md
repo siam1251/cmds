@@ -12,6 +12,7 @@
 [Interview Tips](#interview)   
 [Union find, set algorithm](#union_find)    
 [Topological sort (kahn algorithm)](#topological_sort)     
+[Bucket sort](#bucket_sort)     
 
 
 
@@ -403,3 +404,9 @@ vector<int> topSort()  {
   return res;
 }
 ```
+<a name="bucket_sort">
+
+### Bucket sort     
+
+
+##### if any range is small then try changing the input dimension to frequency dimension  
