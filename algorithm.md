@@ -369,7 +369,10 @@ public:
  
  ### Hash Map   
   group the words together where in each group all the words has same isomorphic structure
-  [[egg, ddb, cll], [klllm, aaabc]]
+  ```
+  	Input: ["apple", "apply", "dog", "cog", "romi"]
+	Output: [["dog", "cog"], ["romi"], ["apple", "apply"]]
+```
   
  ## Interview leetcode problems    
  #### Binary Search   
