@@ -19,8 +19,8 @@
 <a name="segment">
 	
 ### Segment tree  
-
-[segment tree code](https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/SegmentTreeMinimumRangeQuery.java)
+[shafayet blog](http://www.shafaetsplanet.com/planetcoding/wp-content/uploads/2014/08/2014-08-19-17.08.10.jpg)
+[segment tree code (Binary indexed tree)](https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/SegmentTreeMinimumRangeQuery.java)
 
 <a name="heap">  
 	
