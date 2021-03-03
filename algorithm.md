@@ -367,6 +367,10 @@ public:
  
  <a name="common_problems">      
  
+ ### Hash Map   
+  group the words together where in each group all the words has same isomorphic structure
+  [[egg, ddb, cll], [klllm, aaabc]]
+  
  ## Interview leetcode problems    
  #### Binary Search   
  1. [rotated bs array](https://leetcode.com/problems/search-in-rotated-sorted-array/)     
