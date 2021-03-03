@@ -16,10 +16,16 @@
 [Heap algorithm](#heap)  
 
 
+<a name="segment">
+	
+### Segment tree  
+
+[segment tree code](https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/SegmentTreeMinimumRangeQuery.java)
+
 <a name="heap">  
 	
 ### Heap algorithm  
-[link](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/heap.py)
+[heap code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/heap.py)
 
 
 
