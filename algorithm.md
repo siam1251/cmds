@@ -13,7 +13,13 @@
 [Union find, set algorithm](#union_find)    
 [Topological sort (kahn algorithm)](#topological_sort)     
 [Bucket sort](#bucket_sort)     
+[Heap algorithm](#heap)  
 
+
+<a name="heap">  
+	
+### Heap algorithm  
+[link](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/heap.py)
 
 
 
