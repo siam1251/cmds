@@ -246,11 +246,14 @@ class Solution {
             cnt[p1]+= cnt[p2];
             cnt[p2] = 0;
             parents[p2] = p1;
-        }else{
+        }else if(cnt[p1] < cnt[p2]){
             cnt[p2]+= cnt[p1];
             cnt[p1] = 0;
             parents[p1] = p2;
-        }
+        }else{
+	   parents[p1] = p2;
+	   cnt[p2]++;
+	}
         return true;
     }
 public:
