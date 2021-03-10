@@ -302,6 +302,13 @@ struct A{
     
 };
 // this one is needed for unordered_map
+// another way to put inside std namespace, then you do not need to pass it 
+namespace std{
+	template<>
+	struct hash<A>{
+	    size_t operator()(const A& k)const{ return ..}
+	};
+}
 struct KeyHasher
 {
   std::size_t operator()(const A& k) const
