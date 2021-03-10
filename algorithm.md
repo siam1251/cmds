@@ -228,13 +228,13 @@ int triangleNumber(vector<int>& nums) {
 ```
 class Solution {
     vector<int> parents;
-    vector<int> cnt;
-    int find(int v){
-        int p = parents[v];
-        if(p != v){
-           p = find(p);
-            //shortcut
-           parents[v] = p;
+    vector<int> sizes;
+    int find(int p){
+       
+        if(parents[p] != p){
+	   //shortcut	
+           parents[p] = find(p);
+           p = parents[p];
         }
         return p;
     }
@@ -242,24 +242,19 @@ class Solution {
         int p1 = find(v1);
         int p2 = find(v2);
         if(p1 == p2) return false;
-        if(cnt[p1] > cnt[p2]){
-            cnt[p1]+= cnt[p2];
-            cnt[p2] = 0;
-            parents[p2] = p1;
-        }else if(cnt[p1] < cnt[p2]){
-            cnt[p2]+= cnt[p1];
-            cnt[p1] = 0;
-            parents[p1] = p2;
-        }else{
-	   parents[p1] = p2;
-	   cnt[p2]++;
-	}
+	// make p1 greater than p2
+        if(size[p1] < size[p2]){
+           swap(p1, p2);
+        }
+	parents[p2] = p1;
+	sizes[p1] += sizes[p2];
+	
         return true;
     }
 public:
     bool validTree(int n, vector<vector<int>>& edges) {
         parents.resize(n, 0);
-        cnt.resize(n, 1);
+        sizes.resize(n, 1);
         iota(parents.begin(), parents.end(), 0);
         for(auto &e : edges){
            if(add(e[0], e[1]) == false) return false;
