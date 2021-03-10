@@ -14,6 +14,7 @@
 [Topological sort (kahn algorithm)](#topological_sort)     
 [Bucket sort](#bucket_sort)     
 [Heap algorithm](#heap)  
+[Approching any unknown problem](#unknown)  
 
 
 <a name="segment">
@@ -462,3 +463,14 @@ private int helper(int[] A) {
 
 
 ##### if any range is small then try changing the input dimension to frequency dimension  
+
+
+
+<a name="unknown">   
+
+### Approching Any unknown problem   
+
+* Pattern matching (try to match the pattern with previous problems)
+* start from base case, can you build up n from n-1  
+* Simplify and now look for matching with algorithm
+* 
