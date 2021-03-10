@@ -224,7 +224,14 @@ int triangleNumber(vector<int>& nums) {
 <a name="union_find">     
 
 ### Union-Find     
-
+Time complexity:
+```
+Algorithm	Average		Worst case
+Space		O(n)[1]		O(n)
+Search		O(α(n))		O(α(n))
+Merge		O(α(n))		O(α(n))
+```
+ where α(n) is the extremely slow-growing inverse Ackermann function. 
 ```
 class Solution {
     vector<int> parents;
