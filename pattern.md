@@ -20,6 +20,7 @@ if there are schedules of time
 ### Creating O(1) access, insert, delete, search using Hashmap, vector, list, set    
 * Ask the following questings
 ** How to search multi-set constant time (unordered_map<int, set<int>>)
+  
   ** How to erase an element constant time (linkedlist)
   ** Is order required in linkedlist or vector
   ** you can pop last element from vector in constant time
