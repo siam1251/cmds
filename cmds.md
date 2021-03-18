@@ -101,8 +101,8 @@ find . -name "*.gcda" -print0 | xargs -0 rm
 
 git revert --strategy resolve <commit>
 adb shell pidof com.huawei.videoanalysisengine
-
-
+// conflicts, checkout theirs
+git checkout --theirs path/to/file
 // show processes
 pstree
 ps -Ae
