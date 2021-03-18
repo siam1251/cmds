@@ -16,3 +16,12 @@ if there are schedules of time
 * If there is another feature where the value ranges are small (0-1000) then probably try buckek or counting sort     
 * If there is a time series
 *  [meeting rooms](https://leetcode.com/problems/meeting-rooms-ii/)      
+
+### Creating O(1) access, insert, delete, search using Hashmap, vector, list, set    
+* Ask the following questings
+** How to search multi-set constant time (unordered_map<int, set<int>>)
+  ** How to erase an element constant time (linkedlist)
+  ** Is order required in linkedlist or vector
+  ** you can pop last element from vector in constant time
+  [insert delet getRandom](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
+ 
