@@ -1,4 +1,8 @@
 
+### stack pattern     
+try both using stak and recursion
+[exclusive function duration](https://leetcode.com/problems/exclusive-time-of-functions/)
+
 ### Binary Search Pattern  
 finding some value that satisfies the conditons     
 [minimum eating bananas](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
