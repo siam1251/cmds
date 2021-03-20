@@ -12,7 +12,7 @@ put all the elements into the same bucket
 [group shifted strings](https://leetcode.com/problems/group-shifted-strings/)  
 
 ### Greedy pattern    
-if there are schedules of time 
+if there are schedules of time          
 [employee free time](https://leetcode.com/problems/employee-free-time/)     
 [gas station](https://leetcode.com/problems/gas-station/)      
 [jump game](https://leetcode.com/problems/jump-game/)     
