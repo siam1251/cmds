@@ -1,3 +1,8 @@
+### Quick coding style    
+
+* Use enum whenver is possible
+* Use class whenever is possible
+* 
 
 ### stack pattern     
 try both using stak and recursion
@@ -15,7 +20,8 @@ put all the elements into the same bucket
 if there are schedules of time          
 [employee free time](https://leetcode.com/problems/employee-free-time/)    
 best choice at each state      
-[gas station](https://leetcode.com/problems/gas-station/)      
+[gas station](https://leetcode.com/problems/gas-station/)    
+apply DP algorithm with greedy!!     
 [jump game](https://leetcode.com/problems/jump-game/)     
 
 ### Bucket sort or counting sort pattern  
