@@ -2,6 +2,10 @@
 
 * Use enum whenver is possible
 * Use class whenever is possible
+
+### Quick Algorithm tips    
+
+* If state representation is easy then bottom-up dp is also easy  
 * 
 
 ### stack pattern     
