@@ -14,6 +14,8 @@ put all the elements into the same bucket
 ### Greedy pattern    
 if there are schedules of time 
 [employee free time](https://leetcode.com/problems/employee-free-time/)     
+[gas station](https://leetcode.com/problems/gas-station/)      
+[jump game](https://leetcode.com/problems/jump-game/)     
 
 ### Bucket sort or counting sort pattern  
 
