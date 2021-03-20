@@ -6,7 +6,7 @@
 ### Quick Algorithm tips    
 
 * If state representation is easy then bottom-up dp is also easy  
-* 
+* start bottom-up from opposite end of top-down  
 
 ### stack pattern     
 try both using stak and recursion
