@@ -30,6 +30,8 @@ best choice at each state
 [gas station](https://leetcode.com/problems/gas-station/)    
 apply DP algorithm with greedy!!     
 [jump game](https://leetcode.com/problems/jump-game/)     
+[bulb switcher](https://leetcode.com/problems/bulb-switcher/)    
+
 
 ### Bucket sort or counting sort pattern  
 
