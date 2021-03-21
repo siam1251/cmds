@@ -15,7 +15,9 @@ try both using stak and recursion
 
 ### Binary Search Pattern  
 finding some value that satisfies the conditons     
-[minimum eating bananas](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
+[minimum eating bananas](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)        
+[minimize max distance](https://leetcode.com/problems/minimize-max-distance-to-gas-station/)     
+
 
 ### Hashing pattern
 put all the elements into the same bucket        
