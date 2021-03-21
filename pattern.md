@@ -28,7 +28,7 @@ put all the elements into the same bucket
 if there are schedules of time          
 [employee free time](https://leetcode.com/problems/employee-free-time/)    
 best choice at each state      
-[gas station](https://leetcode.com/problems/gas-station/) maximum subarray sum  [kadane algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem)                 
+[gas station](https://leetcode.com/problems/gas-station/) similar approach maximum subarray sum  [kadane algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem)                 
 apply DP algorithm with greedy!!     
 [jump game](https://leetcode.com/problems/jump-game/)     
 
