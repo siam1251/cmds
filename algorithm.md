@@ -17,18 +17,20 @@
 [Approching any unknown problem](#unknown)  
 
 
+### Common Algorithm source code    
+
 [DFS_recursion](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/DFS_recursion.cpp)
 
 <a name="segment">
 	
-### Segment tree  
+#### Segment tree  
 [shafayet blog](http://www.shafaetsplanet.com/planetcoding/wp-content/uploads/2014/08/2014-08-19-17.08.10.jpg)              
 
 [segment tree code (Binary indexed tree)](https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/SegmentTreeMinimumRangeQuery.java)
 
 <a name="heap">  
 	
-### Heap algorithm  
+#### Heap algorithm  
 [heap code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/heap.py)
 
 
