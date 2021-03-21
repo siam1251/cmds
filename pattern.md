@@ -8,7 +8,8 @@
 * If state representation is easy then bottom-up dp is also easy  
 * start bottom-up from the opposite end of top-down  
 * Start not only from a given position, try from end or from start
-
+### AD hoc   
+ [bulb switcher](https://leetcode.com/problems/bulb-switcher/)    
 ### stack pattern     
 try both using stak and recursion
 [exclusive function duration](https://leetcode.com/problems/exclusive-time-of-functions/)
@@ -30,7 +31,7 @@ best choice at each state
 [gas station](https://leetcode.com/problems/gas-station/)    
 apply DP algorithm with greedy!!     
 [jump game](https://leetcode.com/problems/jump-game/)     
-[bulb switcher](https://leetcode.com/problems/bulb-switcher/)    
+
 
 
 ### Bucket sort or counting sort pattern  
