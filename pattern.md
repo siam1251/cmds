@@ -19,6 +19,7 @@ finding some value that satisfies the conditons
 [minimum eating bananas](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)        
 [minimize max distance](https://leetcode.com/problems/minimize-max-distance-to-gas-station/)     
 
+finding two elements from two sorted arrays that are closest [link](https://leetcode.com/problems/shortest-word-distance-ii)            
 
 ### Hashing pattern
 put all the elements into the same bucket        
