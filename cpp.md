@@ -134,12 +134,13 @@ while(auto index = test.find("abc") && index != std::string::npos){
 ```
 ### Replace all occurance of a string   
 ```
-size_t pos = data.find(toSearch);
+size_t pos = data.find("toSearch");
+size_t pos = data.find("toSearch", from_position);
  
 	// Repeat till end is reached
 while( pos != std::string::npos)
 {
-	// Replace this occurrence of Sub String
+	// Replace this occurrence of Sub String, repaceStr.size() == toSearch.size
 	data.replace(pos, toSearch.size(), replaceStr);
 	// Get the next occurrence from the current position
 	pos =data.find(toSearch, pos + replaceStr.size());
