@@ -139,6 +139,7 @@ chmod o-rwx foldername
 
 ## ffmpeg ----------------------------------
 ```
+ffmpeg  -i VID_20210302_192208\(1\).mp4 -c copy -metadata:s:v:0 rotate=90 output.mp4 // does not change frame rate or fps
 ffmpeg -i input.mp4 -vcodec mjpeg output.mjpeg
 ffmpeg -i output.mjpeg -vcodec mjpeg output.avi
 
