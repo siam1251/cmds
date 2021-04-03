@@ -280,6 +280,11 @@ std::chrono::high_resolution_clock::time_point s = std::chrono::high_resolution_
 <a name="unordered_map">   
 	
 ### Unordered_map with hash function   
+
+```
+size_t operator()(const vector<int>& v) const{}
+```
+the last const is must   
 ```
 #include <stdio.h>
 #include <iostream>
