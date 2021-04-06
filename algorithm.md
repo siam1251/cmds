@@ -27,6 +27,8 @@
 [shafayet blog](http://www.shafaetsplanet.com/planetcoding/wp-content/uploads/2014/08/2014-08-19-17.08.10.jpg)              
 
 [segment tree code (Binary indexed tree)](https://github.com/mission-peace/interview/blob/master/src/com/interview/tree/SegmentTreeMinimumRangeQuery.java)
+[my link](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/BIT_segment_tree.java)    
+
 
 <a name="heap">  
 	
