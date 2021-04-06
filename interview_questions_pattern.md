@@ -11,7 +11,7 @@
 
 ### if you need a sorting window which is removing from end    
 
-* use set or multiset (every operation is log N)   
+* use set or multiset or map (every operation is log N)   
 * 
 ### AD hoc   
  [bulb switcher](https://leetcode.com/problems/bulb-switcher/)    
