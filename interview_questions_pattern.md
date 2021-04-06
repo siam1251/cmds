@@ -8,6 +8,11 @@
 * If state representation is easy then bottom-up dp is also easy  
 * start bottom-up from the opposite end of top-down  
 * Start not only from a given position, try from end or from start
+
+### if you need a sorting window which is removing from end    
+
+* use set or multiset (every operation is log N)   
+* 
 ### AD hoc   
  [bulb switcher](https://leetcode.com/problems/bulb-switcher/)    
 ### stack pattern     
