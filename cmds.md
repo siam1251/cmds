@@ -72,6 +72,11 @@ ls /etc/init.d/
 ### Ubuntu commands
 You can make this setting permanent by using your own config file at /etc/apt/apt.conf.d/ dir. The filename can be 99myown and it may contain this line:    
 ```
+adduser newuser
+passwd newuser
+sudo usermod -aG sudo newuser // usermod -aG wheel username // only for centOS
+groups newuser
+
 
 
 APT::Get::AllowUnauthenticated "true";
