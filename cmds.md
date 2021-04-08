@@ -75,6 +75,7 @@ You can make this setting permanent by using your own config file at /etc/apt/ap
 adduser newuser
 passwd newuser
 sudo usermod -aG sudo newuser // usermod -aG wheel username // only for centOS
+// for multiple groups , usermod -a -G group1,group2 username
 groups newuser
 
 
