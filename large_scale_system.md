@@ -14,5 +14,6 @@
 ### Load Balancer  
 ### Microservice   
 ### Peer to Peer connection  or download for machines in a same cluster  
-### HFDS ( Hadoop Distributed File System)
-### apache kafka vs apache spark 
+### zookeeper 
+### Hadoop vs spark 
+
