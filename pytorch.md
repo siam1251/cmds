@@ -1,4 +1,12 @@
 
+The batch size is a number of samples processed before the model is updated.
+
+The number of epochs is the number of complete passes through the training dataset.
+
+The size of a batch must be more than or equal to one and less than or equal to the number of samples in the training dataset.
+
+The number of epochs can be set to an integer value between one and infinity. You can run the algorithm for as long as you like and even stop it using other criteria besides a fixed number of epochs, such as a change (or lack of change) in model error over time.
+
 (https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec)[#link]       
 
 ```
