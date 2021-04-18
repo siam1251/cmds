@@ -13,9 +13,19 @@
   * capacity estimation: Troughput(data passes through internet per second), Latency (difference between post and response in seconds)
   * what many users will post at a second?
   * what will be post size? 100 KByte * 5 Posts * 2B = 1000 Billon KB = 10^9*10^3
+   
 #### Calculation:
+ 
   * convert 2B/(24*60*60) per second
+  * Data incoming and data outgoint ?
   * characters
+  * How many servers do I need, one server can serve 1 Million uses so ....
+
+### Database
+  * sharding or partition
+  * replication (no single point of failure)
+  
+Client  -> Gateway server -> load balancer --> clusters --> database
 ## Terms   
 
 ### relational vs nosql
