@@ -69,7 +69,7 @@ ans = x & (x-1)
 
 <a name="bs">   
 	
-### lower_bound returns 1 smaller or equal
+### lower_bound returns a bigger or equal value
 ### upper_bound returns 1 bigger
 ### Binary search lower and upper bound     
 #### equal to c++ lower_bound and uppper_bound function       
