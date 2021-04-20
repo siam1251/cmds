@@ -68,7 +68,9 @@ ans = x & (x-1)
 [reference](https://leetcode.com/articles/power-of-two/)    
 
 <a name="bs">   
-
+	
+### lower_bound returns 1 smaller or equal
+### upper_bound returns 1 bigger
 ### Binary search lower and upper bound     
 #### equal to c++ lower_bound and uppper_bound function       
 #### To remember for ascending
