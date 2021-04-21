@@ -194,7 +194,7 @@ std::for_each(data.begin(), data.end(), [](char & c){
     return value_;
   }
  
-  // Only one thread/writer can increment/write the counter's value.
+  // Only one thread/writer can increment/write the counter's value unique_lock is available when none has acquired via shared_lock
   void increment() {
     std::unique_lock lock(mutex_);
     value_++;
