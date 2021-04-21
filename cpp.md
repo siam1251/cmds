@@ -303,7 +303,7 @@ struct A{
     int third;
     // this one is needed for map
     bool operator<(const A& rhs)const{return x < rhs.x;}
-    // this one is needed for unordered_map
+    // this one is needed for the find() 
     bool operator==(const A& rhs)const{return x == rhs.x;}
     
 };
