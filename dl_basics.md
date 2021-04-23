@@ -8,7 +8,7 @@ another link [activation functions](https://towardsdatascience.com/activation-fu
 
 L1 vs L2 Regularization ?
 
-### Regression Loss vs Classification loss
+### Regression Loss vs Classification loss [link](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/)      
 
 Regression Loss Functions     
 
