@@ -1,4 +1,4 @@
-[pytorch code](https://github.com/siam1251/cmds/edit/master/pytorch.md)                    
+[pytorch code](https://github.com/siam1251/cmds/blob/master/pytorch.md)                    
 [basics](https://www.analyticsvidhya.com/blog/2020/04/comprehensive-popular-deep-learning-interview-questions-answers/)   
 [pdf](https://github.com/siam1251/cmds/blob/master/ML%20Interview%20Cheat%20sheet.pdf)     
 [different activation functions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
