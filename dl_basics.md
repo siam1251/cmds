@@ -33,6 +33,7 @@ Multi-Class Classification Loss Functions
 #### Batch Gradient Descent            
 In Batch Gradient Descent, all the training data is taken into consideration to take a single step. We take the average of the gradients of all the training examples and then use that mean gradient to update our parameters. So that’s just one step of gradient descent in one epoch.
 
-#### gradient vanishing problem          
-we use other activation that sigmoid (since the gradient of sigmoind for very high or very low value tends to zero)
+#### gradient vanishing problem [link](https://en.wikipedia.org/wiki/Vanishing_gradient_problem#:~:text=One%20of%20the%20newest%20and,part%20of%20the%20network%20architecture.)         
+we use other activation that sigmoid (since the gradient of sigmoind for very high or very low value tends to zero)         
+Rectifiers such as ReLU suffer less from the vanishing gradient problem, because they only saturate in one direction         
 
