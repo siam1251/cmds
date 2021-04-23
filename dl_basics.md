@@ -11,14 +11,14 @@ L1 vs L2 Regularization ?
 ### Regression Loss vs Classification loss
 
 Regression Loss Functions         
-    * Mean Squared Error Loss
-    * Mean Squared Logarithmic Error Loss
-    * Mean Absolute Error Loss
-Binary Classification Loss Functions         
-    * Binary Cross-Entropy
-    * Hinge Loss
-    * Squared Hinge Loss
-Multi-Class Classification Loss Functions         
-    * Multi-Class Cross-Entropy Loss
-    * Sparse Multiclass Cross-Entropy Loss
-    * Kullback Leibler Divergence Loss
+    * Mean Squared Error Loss         
+    * Mean Squared Logarithmic Error Loss         
+    * Mean Absolute Error Loss         
+Binary Classification Loss Functions                  
+    * Binary Cross-Entropy         
+    * Hinge Loss         
+    * Squared Hinge Loss         
+Multi-Class Classification Loss Functions                  
+    * Multi-Class Cross-Entropy Loss         
+    * Sparse Multiclass Cross-Entropy Loss         
+    * Kullback Leibler Divergence Loss         
