@@ -16,7 +16,9 @@
 [Heap algorithm](#heap)  
 [Approching any unknown problem](#unknown)  
 
-
+### Finding a distance from source to destination            
+ 
+ * if all the costs of the connections are same that is going from one node to another is same you can apply BFS otherwise you have apply Dijkstrs's algorithm  
 ### Common Algorithm source code    
 
 [DFS_recursion](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/DFS_recursion.cpp)
