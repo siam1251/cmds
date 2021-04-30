@@ -37,3 +37,6 @@ In Batch Gradient Descent, all the training data is taken into consideration to 
 we use other activation that sigmoid (since the gradient of sigmoind for very high or very low value tends to zero)         
 Rectifiers such as ReLU suffer less from the vanishing gradient problem, because they only saturate in one direction         
 
+
+### ML System design   
+[doordash](https://www.youtube.com/watch?v=sEZsIUBIhNk)     
