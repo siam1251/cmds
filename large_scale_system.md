@@ -1,3 +1,7 @@
+[comparison](https://www.prisma.io/dataguide/intro/comparing-database-types)           
+[column family vs row](https://dataschool.com/data-modeling-101/row-vs-column-oriented-databases/)
+
+##### column family is not column oriented database(hbase is column family where redshift is column oriented, redshift is RDMS database but column oriented)
 
 ### Which part I should focus to implement?
 
