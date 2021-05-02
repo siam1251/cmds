@@ -30,6 +30,12 @@
   * replication (no single point of failure)
   
 Client  -> Gateway server -> load balancer --> clusters --> database
+
+### Message Brokers / asynchronous communication / (pub/sub pattern)       
+   * RabbitMQ
+   * Redis
+   * Kafka
+
 ## Terms   
 
 ### relational vs nosql
