@@ -41,6 +41,8 @@ Client  -> Gateway server -> load balancer --> clusters --> database
 ## Terms   
 
 ### relational vs nosql
+### Data denormalization    
+   * Denormalization is a strategy used on a previously-normalized database to increase performance. [link](https://en.wikipedia.org/wiki/Denormalization)     
 ### Kafka           
    * [link](https://www.neovasolutions.com/2020/07/20/apache-kafka-a-quick-overview/)
    * kafka clusters
