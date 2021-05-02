@@ -41,6 +41,11 @@ Client  -> Gateway server -> load balancer --> clusters --> database
 ## Terms   
 
 ### relational vs nosql
+   #### SQL      
+   * Scaling out with SQL is possible, but requires extensive effort (partitioning, sharding, clustering, etc.) and cost. 
+   *  You can run SQL on Azure, for example, but you will be limited in your ability to scale.
+   #### NoSQL  
+   * When scaling out or horizontally we are adding resources to a single node (a computer or server). We can have one database working on multiple nodes. Scaling out (or back in) means we can easily add and remove nodes. This makes NoSQL a perfect match for the cloud. Because it can scale out, you will be maximizing the scalability benefits of the cloud. 
 ### Data denormalization    
    * Denormalization is a strategy used on a previously-normalized database to increase performance. [link](https://en.wikipedia.org/wiki/Denormalization)     
 ### Kafka           
