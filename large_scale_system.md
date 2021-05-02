@@ -46,6 +46,7 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * Zookeeper replicates all your data to every node and lets clients watch the data for changes. Changes are sent very quickly (within a bounded amount of time) to clients. You can also create "ephemeral nodes", which are deleted within a specified time if a client disconnects.
    * cluster-wide locks for your services  
    * Finally, the maximum size of a "file" (znode) in Zookeeper is 1MB, but typically they'll be single strings.
+   * Basically, ZooKeeper (and Curator, which is built on it) helps in handling the mechanics of clustering -- heartbeats, distributing updates/configuration, distributed locks, etc
 ### Fanout/Fanin
 
 ### Clusters vs bucket
