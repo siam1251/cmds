@@ -60,6 +60,14 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * cluster-wide locks for your services  
    * Finally, the maximum size of a "file" (znode) in Zookeeper is 1MB, but typically they'll be single strings.
    * Basically, ZooKeeper (and Curator, which is built on it) helps in handling the mechanics of clustering -- heartbeats, distributing updates/configuration, distributed locks, etc
+
+### Redis [link](https://redis.io/topics/introduction)   
+  * Transactions
+  * Pub/Sub
+  * Lua scripting
+  * Keys with a limited time-to-live
+  * LRU eviction of keys
+  * Automatic failover
 ### Fanout/Fanin
 
 ### Clusters vs bucket
