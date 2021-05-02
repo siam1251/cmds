@@ -41,7 +41,11 @@ Client  -> Gateway server -> load balancer --> clusters --> database
 ## Terms   
 
 ### relational vs nosql
-### Kafka
+### Kafka           
+   * [link](https://www.neovasolutions.com/2020/07/20/apache-kafka-a-quick-overview/)
+   * kafka clusters
+   * zookeaper is used for monitoring kafka clusters  
+   
 ### Zookeeper
    * Zookeeper replicates all your data to every node and lets clients watch the data for changes. Changes are sent very quickly (within a bounded amount of time) to clients. You can also create "ephemeral nodes", which are deleted within a specified time if a client disconnects.
    * cluster-wide locks for your services  
