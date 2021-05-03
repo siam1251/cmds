@@ -69,7 +69,8 @@ Client  -> Gateway server -> load balancer --> clusters --> database
   * LRU eviction of keys
   * Automatic failover
 ### Fanout/Fanin
-
+### NGINX (en·juh-neks)    
+Load balancing software  
 ### Clusters vs bucket
 ### lazy vs eager
 ### persistent data storage
