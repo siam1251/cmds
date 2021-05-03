@@ -53,7 +53,22 @@ Client  -> Gateway server -> load balancer --> clusters --> database
 ### Kafka           
    * [link](https://www.neovasolutions.com/2020/07/20/apache-kafka-a-quick-overview/)
    * kafka clusters
-   * zookeaper is used for monitoring kafka clusters  
+   * zookeaper is used for monitoring kafka clusters 
+   * Kafka is used for data streaming (pub/sub pattern)
+   
+   ```
+       producer1 producer2 producer3
+        |            |         |
+    -----------kafka clusters------------------
+       topic1            topic2           topic3
+       ------            ------           ------
+       partition1       partition1
+       partition2       partition2
+       partition3
+    --------------------------------------------
+        |                 |                 |
+     consumer1         consumer2        consummer3
+   ```
    
 ### Zookeeper
    * Zookeeper replicates all your data to every node and lets clients watch the data for changes. Changes are sent very quickly (within a bounded amount of time) to clients. You can also create "ephemeral nodes", which are deleted within a specified time if a client disconnects.
