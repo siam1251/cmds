@@ -41,7 +41,8 @@ Rectifiers such as ReLU suffer less from the vanishing gradient problem, because
 ### ML System design   
 [doordash](https://www.youtube.com/watch?v=sEZsIUBIhNk)     
 
-### Resnet Blocks   
+### Resnet Blocks    
+
 x->conv2d->batchNorm->activation-------->conv2d->batchnorm->activation +->activation
 |                                                                      |
 ------------------------------------------------------------------------
