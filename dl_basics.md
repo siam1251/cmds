@@ -49,3 +49,5 @@ x->conv2d->batchNorm->activation-------->conv2d->batchnorm->activation +->activa
 Relu or any other activation funcion
  ```
  
+feature-> embeddings
+auto-endcoder
