@@ -240,6 +240,7 @@ Algorithm	Average		Worst case
 Space		O(n)[1]		O(n)
 Search		O(α(n))		O(α(n))
 Merge		O(α(n))		O(α(n))
+DFS with coloring would take O(V+E) vs union find would take O(ElogV) reference:
 ```
  where α(n) is the extremely slow-growing inverse Ackermann function. In fact, α(n) is less than 5 for any practical input size n, since A(4, 4) is on the order of {\displaystyle 2^{2^{2^{2^{16}}}}}2^{2^{2^{2^{16}}}}.
 ```
