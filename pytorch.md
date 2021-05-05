@@ -138,7 +138,7 @@ net = Net()
 
 import torch.optim as optim
 
-criterion = nn.CrossEntropyLoss()
+criterion = nn.CrossEntropyLoss() // loss = nn.MSELoss()
 optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
 
 for epoch in range(2):  # loop over the dataset multiple times
