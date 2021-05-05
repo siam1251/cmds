@@ -9,16 +9,21 @@ another link [activation functions](https://towardsdatascience.com/activation-fu
 [epoch, batch, iteration](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)    
 
 
-L1 vs L2 Regularization ?
+L1 vs L2 Regularization ?         
+```
+The main intuitive difference between the L1 and L2 regularization is that L1 regularization tries to estimate the median of the data while the L2 regularization tries to estimate the mean of the data to avoid overfitting.
+```
 
-Batch Gradient Descent -> all the examples for every step of Gradient Descent                      
-Stochastic Gradient Descent -> one example at a time to take a single step                      
+##### Batch Gradient Descent -> all the examples for every step of Gradient Descent                      
+##### Stochastic Gradient Descent -> one example at a time to take a single step     
+```
 Mini Batch Gradient Descent                                     
       1 Pick a mini-batch                       
       2 Feed it to Neural Network                      
       3 Calculate the mean gradient of the mini-batch                      
       4 Use the mean gradient we calculated in step 3 to update the weights                      
-      5 Repeat steps 1–4 for the mini-batches we created                      
+      5 Repeat steps 1–4 for the mini-batches we created      
+```
 ### Regression Loss vs Classification loss [link](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/)      
 
 Regression Loss Functions     
