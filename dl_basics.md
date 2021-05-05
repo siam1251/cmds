@@ -11,9 +11,9 @@ another link [activation functions](https://towardsdatascience.com/activation-fu
 
 L1 vs L2 Regularization ?
 
-Batch Gradient Descent -> all the examples for every step of Gradient Descent
-Stochastic Gradient Descent -> one example at a time to take a single step
-Mini Batch Gradient Descent               
+Batch Gradient Descent -> all the examples for every step of Gradient Descent                      
+Stochastic Gradient Descent -> one example at a time to take a single step                      
+Mini Batch Gradient Descent                                     
       1 Pick a mini-batch                       
       2 Feed it to Neural Network                      
       3 Calculate the mean gradient of the mini-batch                      
