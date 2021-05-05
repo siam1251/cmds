@@ -11,7 +11,9 @@ another link [activation functions](https://towardsdatascience.com/activation-fu
 
 L1 vs L2 Regularization ?         
 ```
-The main intuitive difference between the L1 and L2 regularization is that L1 regularization tries to estimate the median of the data while the L2 regularization tries to estimate the mean of the data to avoid overfitting.
+The main intuitive difference between the L1 and L2 regularization
+L1 regularization tries to estimate the median of the data while the 
+L2 regularization tries to estimate the mean of the data to avoid overfitting.
 ```
 
 ##### Batch Gradient Descent -> all the examples for every step of Gradient Descent                      
