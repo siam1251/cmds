@@ -16,6 +16,13 @@
 [Heap algorithm](#heap)  
 [Approching any unknown problem](#unknown)  
 
+
+### Matrix problem    
+  if you can solve the same problem for an arry then you can just extend this to marix (take up and down to point all possible combinations of all rows)
+  [count submatrices](https://leetcode.com/problems/count-submatrices-with-all-ones/)               
+  [max sum matrix](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)            
+  
+  
 ### Finding a distance from source to destination            
  
  * if all the costs of the connections are same that is going from one node to another is same you can apply BFS otherwise you have apply Dijkstrs's algorithm  
