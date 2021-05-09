@@ -17,6 +17,25 @@
 [Approching any unknown problem](#unknown)  
 
 
+<a name="interview">      
+	
+	
+## Interview Tips    
+
+##### : cannot think of anything, try finding subproblem or divide and conquer [link](https://leetcode.com/problems/arithmetic-slices/)            
+##### : New subproblem may be dependendent on many other subproblems or on a single subproblem [link](https://leetcode.com/problems/burst-balloons/)                  
+##### : can you send them to same bucket by applying  has to the values?
+##### : If index is not clear draw it (do not skip it will come back again)
+#### 1: if too complex logic brings little efficiency then go for simple logic      
+#### 2: Do not go with the complex logic, implement the simple one first and at the end mention the complex one (don't code the complex one)     
+#### 3: Binary tree problems code will be less than 4-5 lines, so spend more time on the whiteboard or building the actual idea [problem](https://leetcode.com/problems/distribute-coins-in-binary-tree/submissions/)        
+ 
+ #### 4: Do not write code from memory (memorise tricks but the the code)    
+ ## Complexity Analysis    
+ #### 1: O(n^(n/m) runtime for this [problem](https://leetcode.com/problems/combination-sum/). In backtracking if you have option to use loop use loop that way you reduce the depth i.e reducing the call back stack memory also helps it to analyze the complexity well.
+ 
+ 
+
 ### Matrix problem    
   if you can solve the same problem for an arry then you can just extend this to marix (take up and down to point all possible combinations of all rows)
   [count submatrices](https://leetcode.com/problems/count-submatrices-with-all-ones/)               
@@ -373,21 +392,7 @@ public:
 4. You may also reduce the number of state by figuring out these states are actully same [problem](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
 5. You may have define a state, that takes the corresponding element too. Like LIS, LCS or others [problem](https://leetcode.com/problems/longest-arithmetic-subsequence/)
 
-<a name="interview">      
-	
-	
-## Interview Tips    
 
-##### : can you send them to same bucket by applying  has to the values?
-##### : If index is not clear draw it (do not skip it will come back again)
-#### 1: if too complex logic brings little efficiency then go for simple logic      
-#### 2: Do not go with the complex logic, implement the simple one first and at the end mention the complex one (don't code the complex one)     
-#### 3: Binary tree problems code will be less than 4-5 lines, so spend more time on the whiteboard or building the actual idea [problem](https://leetcode.com/problems/distribute-coins-in-binary-tree/submissions/)        
- 
- #### 4: Do not write code from memory (memorise tricks but the the code)    
- ## Complexity Analysis    
- #### 1: O(n^(n/m) runtime for this [problem](https://leetcode.com/problems/combination-sum/). In backtracking if you have option to use loop use loop that way you reduce the depth i.e reducing the call back stack memory also helps it to analyze the complexity well.
- 
  
  <a name="common_problems">      
  
