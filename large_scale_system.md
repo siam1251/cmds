@@ -6,17 +6,12 @@
 http://highscalability.com/amazon-architecture?fbclid=IwAR3oPXtzLW7mVDkHly6sAeGFSOTNb1RN43c8KL3H83XjJ2b459D4TnX5T_U                 
 http://highscalability.com/google-architecture?fbclid=IwAR2mT91b27hE7xEug6x5b3KAathp8YQQhEMwmghhBapTnk5kDiJpPwYDhjY              
 http://highscalability.com/youtube-architecture?fbclid=IwAR3CGL4dxgtRCmusUiipUZGqgKrFVs1JROJBbwV3xiQYpnEe0x-CTBURiMU                     
-http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-8000
-00-simultaneous-viewers.html                              
+http://highscalability.com/blog/2016/6/27/how-facebook-live-streams-to-800000-simultaneous-viewers.html                              
 http://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster                             
-http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook
--bought-for-19-billion.html                             
-http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-mar
-ket-platform.html
-http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-twe
-ets-a-day-using-mysql.html
-https://instagram-engineering.com/what-powers-instagram-hundreds-of-instan
-ces-dozens-of-technologies-adf2e22da2ad
+http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html                             
+http://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html
+http://highscalability.com/blog/2011/12/19/how-twitter-stores-250-million-tweets-a-day-using-mysql.html
+https://instagram-engineering.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad
 https://www.youtube.com/watch?v=PE4gwstWhmc
 
 ##### column family is not column oriented database(hbase is column family where redshift is column oriented, redshift is RDMS database but column oriented)
