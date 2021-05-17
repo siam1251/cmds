@@ -38,6 +38,8 @@ https://www.youtube.com/watch?v=PE4gwstWhmc
   * characters
   * How many servers do I need, one server can serve 1 Million uses so ....
 
+### Federation (or functional partitioning)          
+splits up databases by function. For example, instead of a single, monolithic database, you could have three databases: forums, users, and products, resulting in less read and write traffic to each database and therefore less replication lag
 ### Database
   * sharding or partition
   * replication (no single point of failure)
