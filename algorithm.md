@@ -97,10 +97,11 @@ ans = x & (x-1)
 
 <a name="bs">   
 	
-### lower_bound: (position-1) where all the elements are strictly smaller than target
-### upper_bound: from (position) all the elements are strictly greater  than target
-### Binary search lower and upper bound     
-#### equal to c++ lower_bound and uppper_bound function       
+* lower_bound: (position-1) where all the elements are strictly smaller than target
+* when lower_bound() == upper_bound, target does not exist 
+* upper_bound: from (position) all the elements are strictly greater  than target
+* Binary search lower and upper bound     
+* equal to c++ lower_bound and uppper_bound function       
 #### To remember for ascending
 ```
 target < nums[mid]
