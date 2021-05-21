@@ -589,14 +589,7 @@ int main(){
 <a name="async">      
 ### std::Async         
 ```
- /**
- * // This is the HtmlParser's API interface.
- * // You should not implement it, or speculate about its implementation
- * class HtmlParser {
- *   public:
- *     vector<string> getUrls(string url);
- * };
- */
+ //  https://leetcode.com/problems/web-crawler-multithreaded/
 class Solution {
     public:
     struct A{
