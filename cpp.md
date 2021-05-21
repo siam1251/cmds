@@ -588,8 +588,10 @@ int main(){
 
 <a name="async">      
 ### std::Async         
+	
+[leetcode link](https://leetcode.com/problems/web-crawler-multithreaded/)	 
 ```
- //  https://leetcode.com/problems/web-crawler-multithreaded/
+ 
 class Solution {
     public:
     struct A{
