@@ -3,7 +3,8 @@
 [C++ erase, remove_if, container basics](#cpp_basics)    
 [String](#string)  
 [shared_lock vs lock](#lock)  
-[Thread wait and wait_until](#thread)  
+[Thread wait and wait_until](#thread)   
+[std::aync][#async]              
 [Modern C++](#modern)  
 [Time duration chrono](#chrono)  
 [map, set, multimap, multiset, unordered_map](#map_set_multimap)   
@@ -583,6 +584,80 @@ int main(){
 
 
 
+```
+
+<a name="async">      
+### std::Async         
+```
+ /**
+ * // This is the HtmlParser's API interface.
+ * // You should not implement it, or speculate about its implementation
+ * class HtmlParser {
+ *   public:
+ *     vector<string> getUrls(string url);
+ * };
+ */
+class Solution {
+    public:
+    struct A{
+        vector<string> crawl(HtmlParser htmlParser, string url){
+            return htmlParser.getUrls(url);
+        }
+    };
+    string getHost(string url){
+        size_t pos = url.find('/',7);
+        if(pos != string::npos){
+            string host = url.substr(0,pos);
+            
+            return host;
+        }else return url;
+    }
+    unordered_set<string> visited;
+    queue<string> q;
+
+    vector<string> crawl(string startUrl, HtmlParser htmlParser) {
+        string host = getHost(startUrl);
+        vector<string> ret_results;
+        q.push(startUrl);
+        visited.insert(startUrl);
+        queue<future<vector<string>>> results;
+        while(q.size() || results.size()){
+            while(q.size() == 0 && results.size()){
+              results.front().wait();
+               // future<vector<string>> future_result = move(results.front());
+               //  results.pop();
+                
+               
+                for(string str: results.front().get()){
+                   
+                    //cout<<str<<","<<getHost(str)<<":"<<host<<endl;
+                    if(str.size() && visited.count(str) == 0 && getHost(str) == host){
+                        
+                        visited.insert(str);
+                        
+                        q.push(str);
+                    }
+                        
+                }
+              
+                results.pop();
+                
+            }
+            if(q.size() == 0)break;
+            string front = q.front();
+            ret_results.push_back(front);
+            //cout<<front<<endl;
+            q.pop();//&X::foo, &x,
+            A a;
+            auto ret = std::async(std::launch::async, &A::crawl, a, htmlParser, front);
+            //auto ret = async(&Solution::crawl, this, htmlParser, front);
+            results.push(move(ret));
+        }
+         return ret_results;
+    }
+    
+   
+};
 ```
 
 #### static, inline, static inline, normal function
