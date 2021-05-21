@@ -4,7 +4,7 @@
 [String](#string)  
 [shared_lock vs lock](#lock)  
 [Thread wait and wait_until](#thread)   
-[std::aync][#async]              
+[std::aync](#async)              
 [Modern C++](#modern)  
 [Time duration chrono](#chrono)  
 [map, set, multimap, multiset, unordered_map](#map_set_multimap)   
