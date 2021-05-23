@@ -19,6 +19,15 @@
 install gtags in linux       
 go to project folder:        
 run: gtags            
+
+### find_first_of, find_first_not_off          
+Finds the first character equal to one of the characters in the given character sequence.
+```
+std::string str = std::string("Hello World!");
+// strings and chars to search for
+std::string search_str = std::string("o");
+std::cout << str.find_first_of(search_str) << '\n';
+```
 #### all_of, any_of, none_of    
 ```
 all_of(s.begin(), s.end(), ::isdigit)
