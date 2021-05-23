@@ -19,7 +19,10 @@
 install gtags in linux       
 go to project folder:        
 run: gtags            
-
+#### all_of, any_of, none_of    
+```
+all_of(s.begin(), s.end(), ::isdigit)
+```
 #### Bit operation
 
 Turn off rightmost set bit
