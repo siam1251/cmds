@@ -1,6 +1,7 @@
 [system desing primer](https://github.com/donnemartin/system-design-primer#content-delivery-network)                
 [comparison](https://www.prisma.io/dataguide/intro/comparing-database-types)           
 [column family vs row](https://dataschool.com/data-modeling-101/row-vs-column-oriented-databases/)
+[ovserable pattern vs pub-sub pattern](https://medium.com/easyread/difference-between-pub-sub-pattern-and-observable-pattern-d5ae3d81e6ce)           
 
 
 ### Sabir vai links   
