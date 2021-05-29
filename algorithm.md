@@ -70,6 +70,7 @@
 	  
 #### LinkedList                 
 we can solve any linkedlist problem using the following approach    
+	
 	* Two pointers [link](https://leetcode.com/problems/intersection-of-two-linked-lists)        
 	* Reversing the pointers   
 	* Reversing values if poisitive make neagative [link](https://leetcode.com/problems/intersection-of-two-linked-lists)         
