@@ -15,6 +15,16 @@
 [C++ Memory tracking](#mem_track)    
 [copy ellision, move assignmet, move constructor](#copy_ellision)    
 
+### Do not delete the iterator    
+NO NO
+```
+list<int> lst;
+multiset<list<int>::iterator> m_set;
+auto it = prev(lst.end());
+lst.pop_back()// runtime error
+m_set.erase(it)// runtime error because it will compare the value at that iterator
+```
+
 ### VScode with gtags
 install gtags in linux       
 go to project folder:        
