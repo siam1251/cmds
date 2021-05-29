@@ -15,6 +15,7 @@
 [Bucket sort](#bucket_sort)     
 [Heap algorithm](#heap)  
 [Approching any unknown problem](#unknown)  
+[LinkedList](#linkedlist)   
 
 #### Reverse Polish Notation for expression evaluation [my code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/RPN_reverse_polish_notation.cpp)               
 
@@ -65,6 +66,16 @@
 [heap code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/heap.py)
 
 
+<a name="linkedlist">           
+	  
+#### LinkedList                 
+we can solve any linkedlist problem using the following approach    
+	* Two pointers [link](https://leetcode.com/problems/intersection-of-two-linked-lists)        
+	* Reversing the pointers   
+	* Reversing values if poisitive make neagative [link](https://leetcode.com/problems/intersection-of-two-linked-lists)         
+	* keeping a dummy node 
+	
+	
 
 <a name="dived_conquer">    
 	
