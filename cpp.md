@@ -24,6 +24,10 @@ if(int i = 0; i == 0) printf("condition satisfied");
 ```
 if(int i = 0 && i == 0) printf("condition not satisfied");
 ```
+There will be only one line of initialization
+```
+if(int i = 0, j = 3; j == 3 && i == 0) printf("condition satisfied");
+```
 
 ### Do not delete the iterator    
 NO NO
