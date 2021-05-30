@@ -15,6 +15,16 @@
 [C++ Memory tracking](#mem_track)    
 [copy ellision, move assignmet, move constructor](#copy_ellision)    
 
+### C++ 17 if initialization      
+
+```
+if(int i = 0; i == 0) printf("condition satisfied");
+```
+
+```
+if(int i = 0 && i == 0) printf("condition not satisfied");
+```
+
 ### Do not delete the iterator    
 NO NO
 ```
