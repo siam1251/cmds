@@ -19,22 +19,21 @@
 
 #### Finding a successor or predessor of a given node        
 ```
-pair<TreeNode*, TreeNode*> successor(TreeNode* root, TreeNode* p){
-        if(root){
-            TreeNode* mx_node = nullptr, *min_node = nullptr;
-            if(p->val < root->val){
-                tie(mx_node, min_node) = successor(root->left, p);
+pair<TreeNode*, TreeNode*> predessor(TreeNode* root, TreeNode* p){
+        
+            TreeNode* mx_node = root, *min_node = root;
+            if(p->val <= root->val && root->left){
+                
+                tie(mx_node, min_node) = predessor(root->left, p);
                 //cout<<mx_node->val<<endl;
-                if(!result && mx_node == p) result = root;
-                if(min_node == nullptr) min_node = root; 
-            }else{
-                tie(mx_node, min_node) = successor(root->right, p);
-                if(root == p && min_node && !result) result = min_node;
-                if(mx_node == nullptr) mx_node = root;
+                if( mx_node == p) result = root;
+                
+            }else if(root->right){
+                tie(mx_node, min_node) = predessor(root->right, p);
+                if(root == p && min_node) result = min_node;
+                
             }
             return {mx_node, min_node};
-        }
-        return {nullptr, nullptr};
 }
 ```
 
