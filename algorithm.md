@@ -17,6 +17,9 @@
 [Approching any unknown problem](#unknown)  
 [LinkedList](#linkedlist)   
 
+
+Knuth-Morris Pratt [my code link](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/KMP.cpp)                   
+
 #### Finding a successor or predessor of a given node        
 ```
 pair<TreeNode*, TreeNode*> predessor(TreeNode* root, TreeNode* p){
