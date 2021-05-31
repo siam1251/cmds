@@ -17,6 +17,27 @@
 [Approching any unknown problem](#unknown)  
 [LinkedList](#linkedlist)   
 
+#### Finding a successor or predessor of a given node        
+```
+pair<TreeNode*, TreeNode*> successor(TreeNode* root, TreeNode* p){
+        if(root){
+            TreeNode* mx_node = nullptr, *min_node = nullptr;
+            if(p->val < root->val){
+                tie(mx_node, min_node) = successor(root->left, p);
+                //cout<<mx_node->val<<endl;
+                if(!result && mx_node == p) result = root;
+                if(min_node == nullptr) min_node = root; 
+            }else{
+                tie(mx_node, min_node) = successor(root->right, p);
+                if(root == p && min_node && !result) result = min_node;
+                if(mx_node == nullptr) mx_node = root;
+            }
+            return {mx_node, min_node};
+        }
+        return {nullptr, nullptr};
+}
+```
+
 #### Reverse Polish Notation for expression evaluation [my code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/RPN_reverse_polish_notation.cpp)               
 
 <a name="interview">      
