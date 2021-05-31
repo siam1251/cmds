@@ -18,7 +18,7 @@
 [LinkedList](#linkedlist)   
 
 
-Knuth-Morris Pratt [my code link](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/KMP.cpp)                   
+Knuth-Morris Pratt (kmp algorithm) [my code link](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/KMP.cpp)                   
 
 #### Finding a successor or predessor of a given node        
 ```
