@@ -25,7 +25,6 @@ pair<TreeNode*, TreeNode*> predessor(TreeNode* root, TreeNode* p){
             if(p->val <= root->val && root->left){
                 
                 tie(mx_node, min_node) = predessor(root->left, p);
-                //cout<<mx_node->val<<endl;
                 if( mx_node == p) result = root;
                 
             }else if(root->right){
