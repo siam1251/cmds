@@ -54,7 +54,8 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * Kafka
    
 ### Cassandra (low latency circular database)               
-
+### lambda architecture       
+### kafka messaging (broker/topic)    
 ### Elasticsearch 
    * Application search —- For applications that rely heavily on a search platform for the access, retrieval, and reporting of data.
    * Website search —- Websites which store a lot of content find Elasticsearch a very useful tool for effective and accurate searches. It’s no surprise that Elasticsearch is steadily gaining ground in the site search domain sphere.
