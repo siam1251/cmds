@@ -54,7 +54,7 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * Kafka
    
 ### Cassandra (low latency circular database)               
-### lambda architecture uses kafka (for analyzing data)           
+### lambda architecture uses kafka (for analyzing data) [link](https://www.youtube.com/watch?v=BO761Fj6HH8)           
 ### kafka messaging (broker/topic)    
 ### Elasticsearch 
    * Application search —- For applications that rely heavily on a search platform for the access, retrieval, and reporting of data.
