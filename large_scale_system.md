@@ -53,7 +53,8 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * Redis
    * Kafka
    
-### Cassandra (low latency circular database)               
+### Cassandra (low latency circular database)              
+### stream api using kafka                     
 ### lambda architecture uses kafka (for analyzing data) [link](https://www.youtube.com/watch?v=BO761Fj6HH8)           
 ### kafka messaging (broker/topic)    
 ### Elasticsearch 
