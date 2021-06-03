@@ -55,7 +55,9 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    
 ### apache kafka (data driven architecture)  must visit [link](https://www.youtube.com/watch?v=06iRM1Ghr1k)     
    * kafka topics are same as a database (using ksql)  
-   * 
+
+### Write-ahead logging         
+### Seperating metadata and data         
 ### Cassandra (low latency circular database)              
 ### stream api using kafka                     
 ### lambda architecture uses kafka (for analyzing data) [link](https://www.youtube.com/watch?v=BO761Fj6HH8)           
