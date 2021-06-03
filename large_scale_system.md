@@ -53,8 +53,8 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * Redis
    * Kafka
 
-### Caching software (CDN for video cache)           
-* Redis
+### Caching software (CDN for video cache )           
+* Redis (S3 for object or video cache)  
 * Memcache
 * Casandra
 ### apache kafka (data driven architecture)  must visit [link](https://www.youtube.com/watch?v=06iRM1Ghr1k)     
