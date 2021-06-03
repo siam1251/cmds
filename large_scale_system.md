@@ -42,8 +42,12 @@ https://www.youtube.com/watch?v=PE4gwstWhmc
 
 ### Federation (or functional partitioning [link](https://github.com/donnemartin/system-design-primer#reverse-proxy-web-server))          
 splits up databases by function. For example, instead of a single, monolithic database, you could have three databases: forums, users, and products, resulting in less read and write traffic to each database and therefore less replication lag
-### Database
+### Database Scaling 
   * sharding or partition
+  * sharding is need when lots of write otherwise Replication would work  
+  * vertical sharding, many tables, tweet tabe, user table
+  * horizontal sharding, tweet table will be sharded into multiple machines
+  * horizontal sharding, based on user id (mod id by total number of machines to redirect multiple machines) 
   * replication (no single point of failure)
   
 Client  -> Gateway server -> load balancer --> clusters --> database
