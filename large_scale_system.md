@@ -52,7 +52,11 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * RabbitMQ
    * Redis
    * Kafka
-   
+
+### Caching software (CDN for video cache)           
+* Redis
+* Memcache
+* Casandra
 ### apache kafka (data driven architecture)  must visit [link](https://www.youtube.com/watch?v=06iRM1Ghr1k)     
    * kafka topics are same as a database (using ksql)  
 
