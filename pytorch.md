@@ -1,3 +1,19 @@
+```
+net = Net()
+optimizer = SGD()
+loss = crossEntropy()
+loss.backward()
+optimizer.step()
+
+# zero the parameter gradients
+optimizer.zero_grad()
+
+# forward + backward + optimize
+outputs = net(inputs)
+loss = criterion(outputs, labels)
+loss.backward()
+optimizer.step()
+```
 
 The batch size is a number of samples processed before the model is updated.
 
