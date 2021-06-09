@@ -83,6 +83,7 @@ auto-endcoder
 <a name="metrics">      
     
 ### Evaluation metrics          
+      
       * Classification Accuracy         
       * Logarithmic Loss            
       * Confusion Matrix
