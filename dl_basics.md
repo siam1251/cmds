@@ -84,10 +84,10 @@ auto-endcoder
     
 ### Evaluation metrics          
       
-      * Classification Accuracy         
-      * Logarithmic Loss            
-      * Confusion Matrix
-      * Area under Curve
-      * F1 Score
-      * Mean Absolute Error
-      * Mean Squared Error
+* Classification Accuracy         
+* Logarithmic Loss            
+* Confusion Matrix
+* Area under Curve
+* F1 Score
+* Mean Absolute Error
+* Mean Squared Error
