@@ -16,6 +16,15 @@ L1 regularization tries to estimate the median of the data while the
 L2 regularization tries to estimate the mean of the data to avoid overfitting.
 ```
 
+<a name="optimiztion">                  
+      
+            
+### Model Optimization techniques       
+   *Pruning [link](#https://towardsdatascience.com/pruning-neural-networks-1bb3ab5791f9)
+   *Quantization
+      
+      
+
 ##### Batch Gradient Descent -> all the examples for every step of Gradient Descent                      
 ##### Stochastic Gradient Descent -> one example at a time to take a single step     
 ```
