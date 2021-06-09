@@ -82,12 +82,18 @@ auto-endcoder
       
 <a name="metrics">      
     
-### Evaluation metrics          
-      
-* Classification Accuracy         
-* Logarithmic Loss            
+### Evaluation metrics      
+      P, precision = TP/(TP+FP)
+      R, recall = TP/(TP+FN)
+      TPR, true positive rate = TP/P = TP/(TP+FN) = 1 -FNR
+      TNR, true negative rate = TN/N = TN/(TN+FP) = 1 - FPR
+* Classification Accuracy, accuracy = number of correct predictions/ number of total predictions      
+* Logarithmic Loss = -1/N sum(y_i*log(p_i)            
 * Confusion Matrix
-* Area under Curve
-* F1 Score
+* Area under Curve, for binary classification,
+      true positive rate
+      |
+      |---------> false positive rate
+* F1 Score F1 = 2*P*R/(P+R)
 * Mean Absolute Error
 * Mean Squared Error
