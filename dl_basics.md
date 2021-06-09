@@ -94,8 +94,8 @@ auto-endcoder
 * Confusion Matrix
 * Area under Curve, for binary classification,
       ```
-      true positive rate
-      |
+      true positive rate                       
+      |                             
       |---------> false positive rate
       ```
 * F1 Score F1 = 2*P*R/(P+R)
