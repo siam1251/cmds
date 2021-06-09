@@ -17,7 +17,7 @@ L1 regularization tries to estimate the median of the data while the
 L2 regularization tries to estimate the mean of the data to avoid overfitting.
 ```
 
-<a name="optimiztion">                  
+<a name="optimization">                  
       
             
 ### Model Optimization techniques       
