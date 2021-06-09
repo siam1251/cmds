@@ -1,5 +1,6 @@
 [pytorch code](https://github.com/siam1251/cmds/blob/master/pytorch.md)       
 [model optimiztion](#optimization)        
+[Evaluation metrics](#metrics)       
 [basics](https://www.analyticsvidhya.com/blog/2020/04/comprehensive-popular-deep-learning-interview-questions-answers/)   
 [pdf](https://github.com/siam1251/cmds/blob/master/.images/ML%20Interview%20Cheat%20sheet.pdf)     
 [different activation functions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
@@ -78,3 +79,14 @@ Relu or any other activation funcion
  
 feature-> embeddings
 auto-endcoder
+      
+<a name="metrics">      
+    
+### Evaluation metrics          
+      * Classification Accuracy         
+      * Logarithmic Loss            
+      * Confusion Matrix
+      * Area under Curve
+      * F1 Score
+      * Mean Absolute Error
+      * Mean Squared Error
