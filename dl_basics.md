@@ -20,8 +20,9 @@ L2 regularization tries to estimate the mean of the data to avoid overfitting.
       
             
 ### Model Optimization techniques       
-   *Pruning [link](#https://towardsdatascience.com/pruning-neural-networks-1bb3ab5791f9)
-   *Quantization
+      
+   * Pruning [link](#https://towardsdatascience.com/pruning-neural-networks-1bb3ab5791f9)
+   * Quantization
       
       
 
