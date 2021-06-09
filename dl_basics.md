@@ -93,8 +93,10 @@ auto-endcoder
 * Logarithmic Loss = -1/N sum(y_i*log(p_i)            
 * Confusion Matrix
 * Area under Curve, for binary classification,
-      ```
-      true positive rate                       
+      
+      ```            
+      
+      true positive rate                                          
       |                             
       |---------> false positive rate
       ```
