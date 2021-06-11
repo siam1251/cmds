@@ -265,21 +265,32 @@ int partition(vector<int>& nums, int l, int r){
 ### Quick Select algorithm     
 
 ```
-int quickSelect(vector<vector<int>>& points, int k, int l, int r){
-	while(l < r){
-	    int pivot = l + rand()%(r-l+1);
-	    //cout<<pivot<<endl;
-	    swap(points[pivot], points[r]);
-	    //print(points);
-	    int p = partition(points, l, r);
-	    //print(points);
-	    if(p == k-1) return p;
-	    else if(p < k){
-		l = p+1;
-	    }else r = p-1;
-
+int partition(int l, int r, vector<int>& nums, int pivot){
+	swap(nums[pivot], nums[r]);
+	int j = l;
+	for(int i = l; i < r; i++){
+	    if(nums[i] < nums[r]){
+		swap(nums[i], nums[j]);
+		j++;
+	    }
 	}
-	return l;
+	swap(nums[j], nums[r]);
+	return j;
+}
+int quickSelect(vector<int>& nums, int k){
+        int l = 0, r = nums.size()-1;
+        while(l < r){
+            int pivot = l + rand()%(r-l+1);
+            
+            pivot = partition(l, r, nums, pivot);
+            if(pivot == k) return nums[k];
+            else if(pivot < k){
+                l = pivot+1;
+            }else {
+                r = pivot-1;
+            }
+        }
+        return nums[l];
 }
 ```
 
