@@ -5,6 +5,7 @@
 [Binary search finding 3 elements](#bs_3_elements)     
 [Bit operations](#bit)   
 [QuickSort Partition](#quicksort)   
+[Quick Select Algorithm](#quick_select)    
 [Tree Iterator](#tree_iter)     
 [Dynamic Problem](#dp)     
 [Dynamic Problem space optimization](#dp_space)    
