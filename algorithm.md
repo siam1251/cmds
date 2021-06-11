@@ -259,7 +259,28 @@ int partition(vector<int>& nums, int l, int r){
         return i;
     }
 ```
+<a name="quick_select"> 
+	
+### Quick Select algorithm     
 
+```
+int quickSelect(vector<vector<int>>& points, int k, int l, int r){
+	while(l < r){
+	    int pivot = l + rand()%(r-l+1);
+	    //cout<<pivot<<endl;
+	    swap(points[pivot], points[r]);
+	    //print(points);
+	    int p = partition(points, l, r);
+	    //print(points);
+	    if(p == k-1) return p;
+	    else if(p < k){
+		l = p+1;
+	    }else r = p-1;
+
+	}
+	return l;
+}
+```
 
 <a name="bs_3_elements">     
 	
