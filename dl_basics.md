@@ -102,4 +102,7 @@ auto-endcoder
       ```
 * F1 Score F1 = 2*P*R/(P+R)
 * Mean Absolute Error
-* Mean Squared Error
+* Mean Squared Error                 
+     
+* mAP (mean average precision) [link](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)          
+      
