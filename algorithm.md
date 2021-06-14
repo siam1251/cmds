@@ -44,7 +44,31 @@ pair<TreeNode*, TreeNode*> successor(TreeNode* root, TreeNode* p){
         return {nullptr, nullptr};
     }
 ```
-
+[link](https://www.youtube.com/watch?v=5cPbNCrdotA&t=13s)
+```
+	//Function to find Inorder Successor in a BST
+struct Node* Getsuccessor(struct Node* root,int data) {
+	// Search the Node - O(h)
+	struct Node* current = Find(root,data);
+	if(current == NULL) return NULL;
+	if(current->right != NULL) {  //Case 1: Node has right subtree
+		return FindMin(current->right); // O(h)
+	}
+	else {   //Case 2: No right subtree  - O(h)
+		struct Node* successor = NULL;
+		struct Node* ancestor = root;
+		while(ancestor != current) {
+			if(current->data < ancestor->data) {
+				successor = ancestor; // so far this is the deepest node for which current node is in left
+				ancestor = ancestor->left;
+			}
+			else
+				ancestor = ancestor->right;
+		}
+		return successor;
+	}
+}
+```
 #### Reverse Polish Notation for expression evaluation [my code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/RPN_reverse_polish_notation.cpp)               
 
 <a name="interview">      
