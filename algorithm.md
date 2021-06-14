@@ -68,6 +68,12 @@ struct Node* Getsuccessor(struct Node* root,int data) {
 		return successor;
 	}
 }
+struct Node* FindMin(struct Node* root) {
+	if(root == NULL) return NULL;
+	while(root->left != NULL)
+		root = root->left;
+	return root;
+}
 ```
 #### Reverse Polish Notation for expression evaluation [my code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/RPN_reverse_polish_notation.cpp)               
 
