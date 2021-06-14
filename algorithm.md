@@ -1,6 +1,7 @@
 [common problems](#common_problems)     
 [Reverse Iteration](#riteration)      
 [Binary search](#bs)   
+[Binary search finding predessor](#bs_predessor)    
 [Binary search finding median](#bs_median)    
 [Binary search finding 3 elements](#bs_3_elements)     
 [Bit operations](#bit)   
@@ -20,8 +21,10 @@
 
 
 Knuth-Morris Pratt (kmp algorithm) [my code link](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/KMP.cpp)                   
+<a name="bs_predessor">           
 
 #### Finding a successor or predessor of a given node        
+   the path we traversed will must have predessor or sucessor 
 ```
 pair<TreeNode*, TreeNode*> predessor(TreeNode* root, TreeNode* p){
         
