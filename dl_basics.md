@@ -14,8 +14,10 @@ another link [activation functions](https://towardsdatascience.com/activation-fu
 
 
 ### Terms        
-SoftArgMax/ softmax = arg_max(e^zi/sum(e^z))                 
+SoftArgMax/ softmax = arg_max(e^zi/sum(e^z))  often used as the last activation function                 
 
+ while cross-entropy loss is what we use to measure the error at a softmax layer               
+ L(y,y^)=−∑Ni=1y(i)log y^(i)
 
 L1 vs L2 Regularization ?         
 ```
