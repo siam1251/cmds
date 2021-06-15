@@ -79,9 +79,13 @@ Rectifiers such as ReLU suffer less from the vanishing gradient problem, because
 
 ### Resnet Blocks    
 ```
-x->conv2d->batchNorm->activation-------->conv2d->batchnorm->activation +->activation
-|                                                                      |
-------------------------------------------------------------------------
+x->conv2d->batchNorm->activation-------->conv2d->batchnorm-> +->activation
+|                                                            |
+-------------------------------------------------------------
+ 
+x->Liner>ReLU-------->Linear->+->ReLU
+|                           |                                           |
+-----------------------------
 Relu or any other activation funcion
  ```
  ![title](.images/resnet.png)
