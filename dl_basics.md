@@ -10,13 +10,20 @@ another link [activation functions](https://towardsdatascience.com/activation-fu
 [Batch, Mini Batch & Stochastic Gradient Descent ](https://towardsdatascience.com/batch-mini-batch-stochastic-gradient-descent-7a62ecba642a#:~:text=Batch%20Gradient%20Descent%20can%20be,converges%20faster%20for%20larger%20datasets.)       
 [epoch, batch, iteration](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)    
 
-[ML system](https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html)                  
+[ML system](https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html)      
+
+
+### Terms        
+SoftArgMax/ softmax = arg_max(e^zi/sum(e^z))                 
+
+
 L1 vs L2 Regularization ?         
 ```
 The main intuitive difference between the L1 and L2 regularization
 L1 regularization tries to estimate the median of the data while the 
 L2 regularization tries to estimate the mean of the data to avoid overfitting.
 ```
+
 
 <a name="optimization">                  
       
