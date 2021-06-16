@@ -607,9 +607,11 @@ private int helper(int[] A) {
 #### Sorting      
 
    * if you don't need position information, try sorting    
-
-	
+#### pattern   	
 * Pattern matching (try to match the pattern with previous problems)
-* start from base case, can you build up n from n-1  
-* Simplify and now look for matching with algorithm
+* Simplify (matrix to 1d array) and now look for matching with algorithm
+### sub problem
+* start from base case, can you build up n from n-1      
+	
+
 * 
