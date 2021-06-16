@@ -85,7 +85,7 @@ x->conv2d->batchNorm->activation-------->conv2d->batchnorm-> +->activation
  
 x->Liner>ReLU-------->Linear->+->ReLU
 |                           |                                           |
------------------------------
+------Resudual connection----
 Relu or any other activation funcion
  ```
  ![title](.images/resnet.png)
