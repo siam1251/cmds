@@ -604,9 +604,9 @@ private int helper(int[] A) {
 
 ### Approching Any unknown problem   
 	
-	#### Sorting      
-	
-		* if you don't need position information, try sorting        
+#### Sorting      
+
+	* if you don't need position information, try sorting        
 	
 * Pattern matching (try to match the pattern with previous problems)
 * start from base case, can you build up n from n-1  
