@@ -18,6 +18,7 @@
 [Heap algorithm](#heap)  
 [Approching any unknown problem](#unknown)  
 [LinkedList](#linkedlist)   
+[Approching Any unknown problem](#unknown)        
 
 
 Knuth-Morris Pratt (kmp algorithm) [my code link](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/KMP.cpp)                   
@@ -602,8 +603,11 @@ private int helper(int[] A) {
 <a name="unknown">   
 
 ### Approching Any unknown problem   
+	
 	#### Sorting      
-		* if you don't need position information, try sorting
+	
+		* if you don't need position information, try sorting        
+	
 * Pattern matching (try to match the pattern with previous problems)
 * start from base case, can you build up n from n-1  
 * Simplify and now look for matching with algorithm
