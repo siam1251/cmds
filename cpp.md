@@ -250,7 +250,7 @@ std::for_each(data.begin(), data.end(), [](char & c){
 	  
   ## Thread [link](https://en.cppreference.com/w/cpp/thread/thread/thread)      
 	  
-  ### std::async [link](https://www.youtube.com/watch?v=SZQ6-pf-5Us)            
+        
 ```
     std::thread t1; // t1 is not a thread
     std::thread t2(f1, n + 1); // pass by value
@@ -297,7 +297,7 @@ return true;
 <a name="async">      
 	
 ### std::Async                 
-	
+#### std::async [link](https://www.youtube.com/watch?v=SZQ6-pf-5Us)     
 [leetcode link](https://leetcode.com/problems/web-crawler-multithreaded/)	 
 ```
  
