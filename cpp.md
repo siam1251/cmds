@@ -256,7 +256,8 @@ std::for_each(data.begin(), data.end(), [](char & c){
     std::thread t5(&foo::bar, &f, 3); // t5 runs foo::bar() on object f
     std::thread t6(b); // t6 runs baz::operator() on a copy of object b
 ```
-  ## Wait_until:
+  ## Wait_until:                 
+	 Important: wait will be forever waiting if no other theread called notify (if all threads starts with waiting, everyone will forever wait)      
   ```
    if(cv.wait_until(lk, std::chrono::system_clock::now()+std::chrono::microseconds(2000), [](){return i == 1;}))
         std::cerr << "Thread " << idx << " finished waiting. i == " << i << '\n';
