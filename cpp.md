@@ -253,7 +253,7 @@ std::for_each(data.begin(), data.end(), [](char & c){
     std::thread t2(f1, n + 1); // pass by value
     std::thread t3(f2, std::ref(n)); // pass by reference
     std::thread t4(std::move(t3)); // t4 is now running f2(). t3 is no longer a thread
-    std::thread t5(&foo::bar, &f); // t5 runs foo::bar() on object f
+    std::thread t5(&foo::bar, &f, 3); // t5 runs foo::bar() on object f
     std::thread t6(b); // t6 runs baz::operator() on a copy of object b
 ```
   ## Wait_until:
