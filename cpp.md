@@ -246,8 +246,11 @@ std::for_each(data.begin(), data.end(), [](char & c){
   
   <a name="thread">  
 
+	 
 	  
   ## Thread [link](https://en.cppreference.com/w/cpp/thread/thread/thread)      
+   
+	  std::async [link](https://www.youtube.com/watch?v=SZQ6-pf-5Us)            
 ```
     std::thread t1; // t1 is not a thread
     std::thread t2(f1, n + 1); // pass by value
