@@ -113,7 +113,7 @@ auto-endcoder
       |                             
       |---------> false positive rate
       ```
-* F1 Score F1 = 2*P*R/(P+R)
+* F1 Score F1 = 2*P*R/(P+R), F1 score conveys the balance between the precision and the recall.
 * Mean Absolute Error
 * Mean Squared Error                 
      
