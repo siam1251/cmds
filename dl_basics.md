@@ -1,3 +1,4 @@
+[adm vs sgd](https://shaoanlu.wordpress.com/2017/05/29/sgd-all-which-one-is-the-best-optimizer-dogs-vs-cats-toy-experiment/)                    
 [pytorch code](https://github.com/siam1251/cmds/blob/master/pytorch.md)       
 [model optimiztion](#optimization)        
 [Evaluation metrics](#metrics)       
