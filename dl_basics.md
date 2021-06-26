@@ -1,4 +1,4 @@
-[Batch Normalization](https://towardsdatascience.com/batch-normalization-in-3-levels-of-understanding-14c2da90a338)                
+[Batch Normalization](https://medium.com/jun-devpblog/dl-5-weight-initialization-and-batch-normalization-7442e1246e0f)                
 [adm vs sgd](https://shaoanlu.wordpress.com/2017/05/29/sgd-all-which-one-is-the-best-optimizer-dogs-vs-cats-toy-experiment/)                    
 [pytorch code](https://github.com/siam1251/cmds/blob/master/pytorch.md)       
 [model optimiztion](#optimization)        
