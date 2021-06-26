@@ -13,6 +13,7 @@ another link [activation functions](https://towardsdatascience.com/activation-fu
 [epoch, batch, iteration](https://towardsdatascience.com/epoch-vs-iterations-vs-batch-size-4dfb9c7ce9c9)    
 
 [ML system](https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html)      
+[ML system desing](https://huyenchip.com/machine-learning-systems-design/toc.html)      
 
 
 ### Terms        
