@@ -14,7 +14,7 @@ another link [activation functions](https://towardsdatascience.com/activation-fu
 
 [ML system](https://www.theinsaneapp.com/2021/03/system-design-and-recommendation-algorithms.html)      
 [ML system desing](https://huyenchip.com/machine-learning-systems-design/toc.html)      
-
+[building realtime embedding similarity](https://cloud.google.com/architecture/building-real-time-embeddings-similarity-matching-system)
 
 ### Terms        
 SoftArgMax/ softmax = arg_max(e^zi/sum(e^z))  often used as the last activation function                 
