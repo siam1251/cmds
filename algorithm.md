@@ -18,6 +18,7 @@
 [Heap algorithm](#heap)  
 [Approching any unknown problem](#unknown)  
 [LinkedList](#linkedlist)   
+[tarjan / strongly connected (scc)](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/tarjan.cpp)              
 [Approching Any unknown problem](#unknown)        
 
 
