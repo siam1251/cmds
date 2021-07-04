@@ -29,7 +29,10 @@ https://www.youtube.com/watch?v=PE4gwstWhmc
   * Who are the users of this system? (important!)
   * Will this system server globally? (cluster)
   * what will be the number of users at a time? 5B, dayily 2B, 
-  * capacity estimation: Troughput(data passes through internet per second), Latency (difference between post and response in seconds)
+  * capacity estimation: Vehicle travel time from source to destination is latency.       
+       Types of Roadways are bandwidth.
+       Number of Vehicles traveling is throughput.        
+       Latency (difference between post and response in seconds)            
   * what many users will post at a second?
   * what will be post size? 100 KByte * 5 Posts * 2B = 1000 Billon KB = 10^9*10^3
    
