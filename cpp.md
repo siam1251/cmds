@@ -208,6 +208,8 @@ std::transform(data.begin(), data.end(), data.begin(),
  std::vector<std::size_t> ordinals;
  std::transform(s.begin(), s.end(), std::back_inserter(ordinals),
                    [](unsigned char c) -> std::size_t { return c; });
+
+std::replace( v.begin(), v.end(), 1, 2); // make all 1 to 2	
 ```
 ### for C++ 11   
 ```
