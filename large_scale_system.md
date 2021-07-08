@@ -56,9 +56,9 @@ splits up databases by function. For example, instead of a single, monolithic da
 Client  -> Gateway server -> load balancer --> clusters --> database
 
 ### Message Brokers / asynchronous communication / (pub/sub pattern)       
-   * RabbitMQ
+   * RabbitMQ (default point to point channel/ but can be configured as pub/sub)
    * Redis
-   * Kafka
+   * Kafka (pub/sub)
 
 ### Caching software (CDN for video cache, asset server )           
 * Redis (S3 for object or video cache, asset server)  
