@@ -122,3 +122,9 @@ auto-endcoder
      
 * mAP (mean average precision) [link](https://medium.com/@timothycarlen/understanding-the-map-evaluation-metric-for-object-detection-a07fe6962cf3)          
       
+
+#### number of parameters
+* effnet hand detector 1.32 M
+* classification       300K
+* finger tip detector   1.8K
+* hand Pose             1.4 M
