@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=PE4gwstWhmc
        Latency (difference between post and response in seconds)            
   * what many users will post at a second?
   * what will be post size? 100 KByte * 5 Posts * 2B = 1000 Billon KB = 10^9*10^3
-   
+  * make your system latency p99.99 ? how?
 #### Calculation:
  
   * convert 2B/(24*60*60) per second
