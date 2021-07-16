@@ -3,7 +3,7 @@
 [column family vs row](https://dataschool.com/data-modeling-101/row-vs-column-oriented-databases/)                   
 [ovserable pattern vs pub-sub pattern](https://medium.com/easyread/difference-between-pub-sub-pattern-and-observable-pattern-d5ae3d81e6ce)           
 
-### What’s the Difference Between Columnar Database vs. Wide-column Database?          
+### What’s the Difference Between Columnar Database (redshift) vs. Wide-column Database (hbase, cassandra)?          
 A Columnar data store will store each column separately on disk. A Wide-column database is a type of columnar database that supports a column family stored together on disk, not just a single column.
 
 ### Sabir vai links   
