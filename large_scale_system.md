@@ -86,6 +86,16 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    #### NoSQL  
    *  NoSQL engines are designed to scale out and leverage cloud computing. When scaling out or horizontally we are adding resources to a single node (a computer or server). We can have one database working on multiple nodes. Scaling out (or back in) means we can easily add and remove nodes. This makes NoSQL a perfect match for the cloud. Because it can scale out, you will be maximizing the scalability benefits of the cloud. 
    *  NoSQL vs. SQL Speed (of your team) The ability to store huge amounts of data in a flexible way makes NoSQL faster to develop.
+   *
+  #### SQL vs NOSQL
+| SQL | NOSQL |
+| ------ | ------ |
+|   Data uses schema     |     Schema-less    |
+|   Relations     |    No (very few) relations     |
+|   Data is distributed across multiple table and normalized     |     Data is typicall merged/ nested in a few collections, no join operation is needed as data is self sufficient    |
+|  Horizontal scaling is difficult/impossible; vertical scaling is possible      |  Both horizontal and vertical scaling is easy to implement       |
+|    Limitations for lots of (thousands) read and write queries per second    |     Great performance for mass(simple) read & write |
+
 ### Data denormalization    
    * Denormalization is a strategy used on a previously-normalized database to increase performance. [link](https://en.wikipedia.org/wiki/Denormalization)     
 ### Kafka           
