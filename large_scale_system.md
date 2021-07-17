@@ -1,3 +1,10 @@
+ACL  (authorized client list)        
+### spark vs hadoop   
+Hadoop uses persistent data storage for map/reduce operation while spark use in memory (RDD-resilient distributed datasets)
+* spark is super fast (realtime) vs map/reduce was never meant for realtime
+* hadoop uses yarn (resource manager), pig, hive, sqoop
+* both are fault tolerant 
+* For realtime use spark otherwise hadoop 
 ### CAP theorem       
 Consistency: Every read receives the most recent write or an error           
 Availability: Every request receives a (non-error) response, without the guarantee that it contains the most recent write            
