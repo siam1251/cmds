@@ -6,6 +6,7 @@
 ### What’s the Difference Between Columnar Database (redshift) vs. Wide-column Database (hbase, cassandra)?          
 A Columnar data store will store each column separately on disk. A Wide-column database is a type of columnar database that supports a column family stored together on disk, not just a single column.
 
+[kabir vai](https://docs.google.com/document/d/1-Fv2nih7LZ9EJC-E_f_vMvkOsaAiadXWPXP--7EEd-s/edit)       
 ### Sabir vai links   
 http://highscalability.com/amazon-architecture?fbclid=IwAR3oPXtzLW7mVDkHly6sAeGFSOTNb1RN43c8KL3H83XjJ2b459D4TnX5T_U                 
 http://highscalability.com/google-architecture?fbclid=IwAR2mT91b27hE7xEug6x5b3KAathp8YQQhEMwmghhBapTnk5kDiJpPwYDhjY              
