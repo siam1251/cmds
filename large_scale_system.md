@@ -3,6 +3,8 @@ Consistency: Every read receives the most recent write or an error
 Availability: Every request receives a (non-error) response, without the guarantee that it contains the most recent write            
 Partition tolerance: The system continues to operate despite an arbitrary number of messages being dropped (or delayed) by the network between nodes           
 
+http long polling vs web sockets          
+
 [system desing primer](https://github.com/donnemartin/system-design-primer#content-delivery-network)                
 [comparison](https://www.prisma.io/dataguide/intro/comparing-database-types)           
 [column family vs row](https://dataschool.com/data-modeling-101/row-vs-column-oriented-databases/)                   
