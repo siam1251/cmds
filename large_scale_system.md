@@ -1,6 +1,10 @@
 ACL  (authorized client list)  
 [JWT (JSON Web Token) and OpenID Connect (OIDC, based auth2)](https://www.youtube.com/watch?v=ZjPF8yZ83Wo)       
 * openID activates authn  
+| Databases | features |consistency|
+| ------ | ------ |-----|
+|DynamoDB, amazon| kv store, key–value and document data structures| enentually consistent|
+
 ### spark vs hadoop   
 Hadoop uses persistent data storage for map/reduce operation while spark use in memory (RDD-resilient distributed datasets)
 * spark is super fast (realtime) vs map/reduce was never meant for realtime
