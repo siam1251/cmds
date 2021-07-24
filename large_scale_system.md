@@ -1,4 +1,12 @@
-
+### Capacity estimation   
+youtube
+|storage| Reads/sec| Writes/sec|Bandwidth|
+|-------|----------|------------|--------|
+| 1M users| | ||
+| 1M users| | ||
+| 1M users| | ||
+| 1M users| | ||
+| 1M users| | ||
 
 ### BASE (nosql database)     
 * Basically available
