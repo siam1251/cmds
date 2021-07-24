@@ -1,3 +1,8 @@
+### BASE (nosql database)     
+* Basically available
+* Soft state
+* eventually consistent
+
 [Cassandra and mongoDB & CAP theorem](https://www.ibm.com/cloud/learn/cap-theorem)       
 ACL  (authorized client list)  
 [JWT (JSON Web Token) and OpenID Connect (OIDC, based auth2)](https://www.youtube.com/watch?v=ZjPF8yZ83Wo)       
