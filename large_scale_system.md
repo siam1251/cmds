@@ -5,7 +5,9 @@ ACL  (authorized client list)
   
 | Databases | features |consistency|           
 | ------ | ------ |-----|         
-|DynamoDB, amazon| kv store, key–value and document data structures| enentually consistent|          
+|DynamoDB, amazon| kv store, key–value and document data structures| typically used as consistent|    
+|amazon s3| large object store database, key-value base|--| 
+|cassandra,hbase, big table| wide column store, key-value, use row key| typically used as eventually consistent|
 
 ### spark vs hadoop   
 Hadoop uses persistent data storage for map/reduce operation while spark use in memory (RDD-resilient distributed datasets)
