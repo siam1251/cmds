@@ -1,3 +1,5 @@
+
+
 ### BASE (nosql database)     
 * Basically available
 * Soft state
@@ -151,6 +153,7 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    ```
    
 ### Zookeeper
+   * heartbeat to check if other servers are alive
    * Zookeeper replicates all your data to every node and lets clients watch the data for changes. Changes are sent very quickly (within a bounded amount of time) to clients. You can also create "ephemeral nodes", which are deleted within a specified time if a client disconnects.
    * cluster-wide locks for your services  
    * Finally, the maximum size of a "file" (znode) in Zookeeper is 1MB, but typically they'll be single strings.
