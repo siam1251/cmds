@@ -16,6 +16,8 @@
 [C++ Memory tracking](#mem_track)    
 [copy ellision, move assignmet, move constructor](#copy_ellision)    
 
+#### a semaphore is a variable or abstract data type used to control access to a common resource by multiple processes and avoid critical section problems in a concurrent system 
+
 ### C++ 17 if initialization      
 
 ```
