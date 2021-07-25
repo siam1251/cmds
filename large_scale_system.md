@@ -1,6 +1,11 @@
 |storage| lookup time|
 |-------|-----|
 |RAM    |100x faster than disk|
+|Reading 1 MB from RAM| 250 μs .25 ms|
+|Reading 1 MB from SSD| 1,000 μs (1 ms)|
+|Transfer 1 MB over Network| 10,000 μs (10 ms)|
+|Reading 1MB from HDD|20,000 μs (20 ms)|
+|Inter-Continental Round Trip|150,000 μs (150 ms)|
 
 ### Capacity estimation   
 youtube
