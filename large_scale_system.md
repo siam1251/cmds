@@ -1,3 +1,7 @@
+|storage| lookup time|
+|-------|-----|
+|RAM    |100x faster than disk|
+
 ### Capacity estimation   
 youtube
 |storage| Reads/sec| Writes/sec|Bandwidth|
