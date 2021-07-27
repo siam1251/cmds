@@ -42,7 +42,9 @@ youtube
 * Soft state
 * eventually consistent
 
-[Cassandra and mongoDB & CAP theorem](https://www.ibm.com/cloud/learn/cap-theorem)       
+[Cassandra and mongoDB & CAP theorem](https://www.ibm.com/cloud/learn/cap-theorem)    
+* Cassandra uses masterless architecture (partition in a ring, consistent hashing) and use gossip protocol to communicate 
+* 
 ACL  (authorized client list)  
 [JWT (JSON Web Token) and OpenID Connect (OIDC, based auth2)](https://www.youtube.com/watch?v=ZjPF8yZ83Wo)       
 * openID activates authn
