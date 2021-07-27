@@ -1,3 +1,17 @@
+### Scaling your design (swiss army knife)
+ * sharding
+ * cacheing
+ * indexing columns
+ * CDN
+ * Geolocation
+ * offloading to job queue-cpu/time intensive
+ * prefetching-keep reads sequentially
+ * batch your writes
+ * Reading/writing from workers, replicas
+ * blocking as less as possible-consitency
+### Scaling your algorithm 
+
+
 ### There are four conditions that are necessary to achieve deadlock:
 * Mutual Exclusion - At least one resource must be held in a non-sharable mode; If any other process requests this resource, then that process must wait for the resource to be released.       
 * Hold and Wait - A process must be simultaneously holding at least one resource and waiting for at least one resource that is currently being held by some other process.
