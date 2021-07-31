@@ -1,3 +1,6 @@
+### Important   
+* stl vector, map have a liner runtime for their destructor or clear() function    
+
 [common problems](#common_problems)     
 [Reverse Iteration](#riteration)      
 [Binary search](#bs)   
