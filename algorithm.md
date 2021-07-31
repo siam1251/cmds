@@ -171,7 +171,7 @@ ans = x & (x-1)
 
 <a name="bs">   
 	
-* upper_bound: prev(it), check if it's not begining
+* upper_bound: prev(it), check if it's not begining ([calender](https://leetcode.com/problems/my-calendar-i))
 * lower_bound: it, check if it's not the end
 * lower_bound: (position-1) where all the elements are strictly smaller than target
 * when lower_bound() == upper_bound, target does not exist 
