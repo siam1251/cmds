@@ -70,6 +70,9 @@ ACL  (authorized client list)
 ```
 Neither Amazon DynamoDB nor Apache HBase support multi-item/cross-row or crosstable transactions due to performance considerations. However, both databases provide batch operations for reading and writing multiple items/rows across multiple tables with no transaction guarantees.
 ```
+```
+For workloads that need high update rates to perform data aggregations or maintain counters, Apache HBase is a good choice. This is because Apache HBase supports a multi-version concurrency control mechanism, which contributes to its strongly consistent reads and writes. Amazon DynamoDB gives you the flexibility to specify whether you want your read request to be eventually consistent or strongly consistent depending on your specific workload. reached within a second.
+```
 ### spark vs hadoop   
 Hadoop uses persistent data storage for map/reduce operation while spark use in memory (RDD-resilient distributed datasets)
 * spark is super fast (realtime) vs map/reduce was never meant for realtime
