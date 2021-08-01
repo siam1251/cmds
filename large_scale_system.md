@@ -53,7 +53,7 @@ ACL  (authorized client list)
 | ------ | ------ |-----|------|         
 |DynamoDB, amazon| kv store, key–value and document data structures| typically used as eventually consistent|  The partition key + the optional sort key form the primary key of the table, so they must be unique.  let's say I'm storing logging data for several applications. My partition key could be the Application Name, and the sort key the timestamp of the log. This allows me to query all logs of a particular application of the last hour in 1 query, using the BEGINS WITH operator, or even all the logs of last Wednesday for an application, by using the BETWEEN operator| 
 |amazon s3| large object store database, key-value base|--|  |
-|cassandra,hbase, big table| wide column store, key-value, use row key| typically used as eventually consistent| hbase has column family then colum name, usually one hfile per column family|
+|cassandra,hbase, big table| wide column store, key-value, use row key| typically used as eventually consistent| [hbase](https://hbase.apache.org/book.html#datamodel) has column family then colum name, usually one hfile per column family|
 |sql| structured storage, used in any transaction| consistent, ACID| |
 ### spark vs hadoop   
 Hadoop uses persistent data storage for map/reduce operation while spark use in memory (RDD-resilient distributed datasets)
