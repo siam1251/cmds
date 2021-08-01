@@ -1,3 +1,13 @@
+Different no-sql database
+|database type| example|
+|-------|-----|
+|Time series| influxDB, prometheus, graphite|
+|graph based|Neo4j|
+|spatial|quadtree, R tree|
+|blob stroe|amazon s3, gcs|
+
+Availability
+
 |Avialability| Downtime per year|
 |-------|-----|
 |90%(one nine)|36 days|
