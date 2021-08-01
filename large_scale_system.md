@@ -1,3 +1,13 @@
+|Avialability| Downtime per year|
+|-------|-----|
+|90%(one nine)|36 days|
+|99%(two nine)|3.6 days|
+|99.9%(3 nine)|8.7 hours|
+|**99.99% ("four nines")**|	52.60 minutes	|
+|**99.999% ("five nines")	|5.26 minutes**|
+|99.9999% ("six nines")	|31.56 seconds|
+|99.99999% ("seven nines")|	3.16 seconds|
+
 ### Scaling your design (swiss army knife)
  * sharding
  * cacheing
