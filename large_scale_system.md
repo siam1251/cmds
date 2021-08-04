@@ -259,4 +259,4 @@ Load balancing software
 ### HFDS ( Hadoop Distributed File System)
 ### apache kafka vs apache spark 
 
-![alt text](./images/system_diagram.png "System Diagram Template")
+![alt text](./.images/system_diagram.png "System Diagram Template")
