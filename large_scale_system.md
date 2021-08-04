@@ -258,3 +258,5 @@ Load balancing software
 ### Peer to Peer connection  or download for machines in a same cluster  
 ### HFDS ( Hadoop Distributed File System)
 ### apache kafka vs apache spark 
+
+![alt text](./images/system_diagram.png "System Diagram Template")
