@@ -260,3 +260,5 @@ Load balancing software
 ### apache kafka vs apache spark 
 
 ![alt text](./.images/system_diagram.png "System Diagram Template")
+  <br/><br/>
+![alt text](./.images/Screenshot from 2021-08-06 22-28-52.png "System Diagram Template2")
