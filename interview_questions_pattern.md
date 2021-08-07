@@ -1,4 +1,8 @@
 ### DP: 
+* If state representation is easy then bottom-up dp is also easy  
+* start bottom-up from the opposite end of top-down  
+* Start not only from a given position, try from end or from start
+
 * try from both end, 
 * first try recursion (top-down) 
 * try what will be the state
@@ -8,11 +12,7 @@
 * Use enum whenver is possible
 * Use class whenever is possible
 
-### Quick Algorithm tips    
 
-* If state representation is easy then bottom-up dp is also easy  
-* start bottom-up from the opposite end of top-down  
-* Start not only from a given position, try from end or from start
 
 ### if you need a sorting window which is removing from end    
 
