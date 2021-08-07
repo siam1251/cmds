@@ -1,3 +1,8 @@
+### DP: 
+* try from both end, 
+* first try recursion (top-down) 
+* try what will be the state
+
 ### Quick coding style    
 
 * Use enum whenver is possible
