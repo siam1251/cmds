@@ -38,7 +38,9 @@ best choice at each state
 apply DP algorithm with greedy!!     
 [jump game](https://leetcode.com/problems/jump-game/)     
 
-
+### DP
+* Try to find subproblem
+* Try from both end, usually we try to find sub problem from one end [buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 ### Bucket sort or counting sort pattern  
 
