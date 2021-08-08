@@ -4,6 +4,7 @@
 * 
 ### DP: 
 * If state representation is easy then bottom-up dp is also easy  
+* if you see the recursion function parameters, that is the <b>STATE</b>
 * start bottom-up from the opposite end of top-down  
 * Start not only from a given position, try from end or from start
 
