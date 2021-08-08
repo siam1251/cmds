@@ -1,3 +1,7 @@
+### Concepts and tecniques: 
+* Windowing technique
+* monotonic increaseing or decreasing deque
+* 
 ### DP: 
 * If state representation is easy then bottom-up dp is also easy  
 * start bottom-up from the opposite end of top-down  
