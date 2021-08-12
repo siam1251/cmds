@@ -1,7 +1,10 @@
 ### Concepts and tecniques: 
 * Windowing technique
 * monotonic increaseing or decreasing deque
-* 
+
+### DP subproblem:
+* do this one operation at last [burst ballons](https://leetcode.com/problems/burst-balloons/) or do this one operation at the begining
+* write sub-problem like f([1,3,4])+f([6,7])
 ### DP: 
 * If state representation is easy then bottom-up dp is also easy  
 * if you see the recursion function parameters, that is the <b>STATE</b>
