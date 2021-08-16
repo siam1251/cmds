@@ -21,7 +21,8 @@
 [Heap algorithm](#heap)  
 [Approching any unknown problem](#unknown)  
 [LinkedList](#linkedlist)   
-expression evaluation, basic calculator [my_code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/basic_calculator.cpp) [rpn](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/RPN_reverse_polish_notation.cpp)           
+[expression evaluation, basic calculator my_code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/basic_calculator.cpp)         
+[expression evaluation,reverse polish notation](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/RPN_reverse_polish_notation.cpp)                     
 tarjan / strongly connected (scc) [my code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/tarjan.cpp)              
 [Approching Any unknown problem](#unknown)        
 
