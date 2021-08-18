@@ -505,7 +505,12 @@ public:
 2. Define state (find complexity from possible states)  
 3. If you see you can build from middle, meaning you can also start from both end and squeeze [problem](https://leetcode.com/problems/longest-palindromic-subsequence/)
 4. You may also reduce the number of state by figuring out these states are actully same [problem](https://leetcode.com/problems/greatest-sum-divisible-by-three/)
-5. You may have define a state, that takes the corresponding element too. Like LIS, LCS or others [problem](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+5. You may have define a state, that takes the corresponding element too. Like LIS, LCS or others [problem](https://leetcode.com/problems/longest-arithmetic-subsequence/)      
+
+## Base case 
+1. you have two lists, list1 and list2 
+2. one case: list1 is empty
+3. another case: list2 is empty
 
 
  
