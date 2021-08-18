@@ -1,6 +1,7 @@
 ### Important ideas   
 * stl vector, map have a liner runtime for their destructor or clear() function    
-* new idea!! hashmap capabilities of doing snapshot or setting a single value [my code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/storing_multiple_versions_map)  [snapshot array](https://leetcode.com/problems/snapshot-array/)             
+* new idea!! hashmap capabilities of doing snapshot or setting a single value [my code](https://github.com/siam1251/algorithms/blob/master/algorithm%20interview/storing_multiple_versions_map)  [snapshot array](https://leetcode.com/problems/snapshot-array/)       
+* sorting two dimensions, box inside a box [russian doll](https://leetcode.com/problems/russian-doll-envelopes/)                 
 [common problems](#common_problems)     
 [Reverse Iteration](#riteration)      
 [Binary search](#bs)   
