@@ -5,7 +5,7 @@
 [Evaluation metrics](#metrics)       
 [basics](https://www.analyticsvidhya.com/blog/2020/04/comprehensive-popular-deep-learning-interview-questions-answers/)   
 [pdf](https://github.com/siam1251/cmds/blob/master/.images/ML%20Interview%20Cheat%20sheet.pdf)     
-[my scan](https://github.com/siam1251/cmds/blob/master/.images/ml%system%design.pdf)        
+[my scan](https://github.com/siam1251/cmds/blob/master/.images/ml%20system%20design.pdf.pdf)        
 [different activation functions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
 another link [activation functions](https://towardsdatascience.com/activation-functions-in-deep-neural-networks-aae2a598f211)       
 [avoid overfitting (variance)](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/)  
