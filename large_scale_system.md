@@ -1,7 +1,8 @@
 steps:
 * capacity estimation, QPS, storage
 * CAP theorem
-* high level api
+* high level api 
+* Caching
 
 idempotent             
 [security](#security)      
