@@ -90,10 +90,9 @@ ACL  (authorized client list)
 |amazon s3| large object store database, key-value base|--|  |
 |cassandra,hbase, big table| wide column store, key-value, use row key, Online analytical processing (OLAP)| typically used as eventually consistent| [hbase](https://hbase.apache.org/book.html#datamodel) has column family then colum name, usually one hfile per column family, row_key, column-family[c1, c2] are sorted based on row_key. searching based on row_key is fast (get operation) [link](https://www.linkedin.com/pulse/secondary-indexing-hbase-tale-how-screw-up-simple-idea-michael-segel/) but with other keys it's slow (scan operation), you may create another  table with another row_key for faster search|
 |sql| structured storage, used in any transaction| consistent, ACID| |
-|CouchDB and MongoDB|Document Databases: In these databases, data is stored in documents
-(instead of rows and columns in a table) and these documents are grouped
+|CouchDB and MongoDB |Document Databases In these databases, data is stored in documents (instead of rows and columns in a table) and these documents are grouped
 together in collections. Each document can have an entirely different
-structure. Document databases include the CouchDB and MongoDB.||
+structure | Document databases include the CouchDB and MongoDB|
 * Transaction Model [stack overflow](https://stackoverflow.com/a/29381684)
 ```
 Neither Amazon DynamoDB nor Apache HBase support multi-item/cross-row or crosstable transactions due to performance considerations.
