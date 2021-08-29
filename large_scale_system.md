@@ -8,7 +8,13 @@ idempotent
 [security](#security)      
 
 <a name="security">   
-  
+ 
+### Conversion
+  |number| memory| unit|
+  |------|-------|------|
+  |1 Billion |  1 GB | 10^9|
+  |1 Trillion| 1 Terabyte| 10^12|
+  |1 Quadrillion| 1 Petabyte| 10^15|
 ### Security   
  TLS handshake [link](https://www.cloudflare.com/en-ca/learning/ssl/what-happens-in-a-tls-handshake/#:~:text=A%20TLS%20handshake%20is%20the,and%20agree%20on%20session%20keys.)
 
