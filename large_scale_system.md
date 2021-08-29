@@ -12,7 +12,8 @@ idempotent
 ### Conversion
   |number| memory| unit|
   |------|-------|------|
-  |1 Billion |  1 GB | 10^9|
+  |1 Million |  1 MegaByte | 10^6|
+  |1 Billion |  1 GigaByte | 10^9|
   |1 Trillion| 1 Terabyte| 10^12|
   |1 Quadrillion| 1 Petabyte| 10^15|
 ### Security   
