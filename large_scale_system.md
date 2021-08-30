@@ -4,7 +4,8 @@ steps:
 * high level api 
 * Caching
 
-[hbase table desing choices](https://github.com/siam1251/cmds/blob/master/.images/hbase_design.pdf)           
+[hbase table desing choices](https://github.com/siam1251/cmds/blob/master/.images/hbase_design.pdf)        
+[hbase design examples](https://dzone.com/articles/understanding-hbase-and-bigtab)           
 
 idempotent             
 [security](#security)      
