@@ -448,7 +448,9 @@ So, the stack insertion will be something like below
 st.push(Rec(r->right))
 st.push(print(r->val))
 st.push(Rec(r->left))
-[binary search tree iterator](https://leetcode.com/problems/binary-search-tree-iterator/)      
+  
+```
+[binary search tree iterator](https://leetcode.com/problems/binary-search-tree-iterator/)    
 ```
 // push all the rights and if no rights print(r->val);
 void push_left(TreeNode* r, stack<TreeNode*> st){
