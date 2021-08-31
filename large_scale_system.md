@@ -2,7 +2,10 @@ steps:
 * capacity estimation, QPS, storage
 * CAP theorem
 * high level api 
+* load balancing
 * Caching
+* Data partition/ sharding
+* Fault tollerant and replication
 
 [hbase table desing choices](https://github.com/siam1251/cmds/blob/master/.images/hbase_design.pdf)        
 [hbase design examples](https://dzone.com/articles/understanding-hbase-and-bigtab)           
