@@ -194,7 +194,10 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * Redis
    * Kafka (pub/sub)
 
-#### Write-ahead logging       
+### Bloom Filters      
+ * n hash functions map to k positions             
+ * each hash will give one value from between 0.. k value and we will set that position to 1            
+ #### Write-ahead logging       
 * write-ahead logging (WAL) is a family of techniques for providing atomicity and durability (two of the ACID properties) in database systems.
 * The changes are first recorded in the log, which must be written to stable storage, before the changes are written to the database.       
  
