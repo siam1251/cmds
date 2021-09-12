@@ -194,6 +194,10 @@ Client  -> Gateway server -> load balancer --> clusters --> database
    * Redis
    * Kafka (pub/sub)
 
+#### Write-ahead logging       
+* write-ahead logging (WAL) is a family of techniques for providing atomicity and durability (two of the ACID properties) in database systems.
+* The changes are first recorded in the log, which must be written to stable storage, before the changes are written to the database.       
+ 
 ### Caching software (CDN for video cache, asset server )           
 * Redis (S3 for object or video cache, asset server)  
 * Memcache
