@@ -3,6 +3,7 @@ steps:
 * CAP theorem
 * high level api 
 * load balancing
+* Task queue and central status checkpoints   
 * Caching
 * Data partition/ sharding
 * Fault tollerant and replication
