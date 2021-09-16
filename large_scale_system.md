@@ -1,5 +1,6 @@
 steps:
-* capacity estimation, QPS, storage
+* capacity estimation, QPS, storage, Bandwidth
+* Number of total machines required
 * CAP theorem
 * high level api 
 * load balancing
