@@ -7,7 +7,7 @@ steps:
 * Task queue and central status checkpoints   
 * Caching
 * Data partition/ sharding
-* Fault tollerant and replication
+* Fault tollerant and replication                 
 [Designing Data Intensive Application](http://xfido.com/pdf/designing-data-intensive-applications.pdf)       
 [hbase table desing choices](https://github.com/siam1251/cmds/blob/master/.images/hbase_design.pdf)        
 [hbase design examples](https://dzone.com/articles/understanding-hbase-and-bigtab)           
