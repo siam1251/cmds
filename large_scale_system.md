@@ -48,6 +48,15 @@ Availability
 |99.9999% ("six nines")	|31.56 seconds|
 |99.99999% ("seven nines")|	3.16 seconds|
 
+ACID properties
+ 
+|Property| Definition|
+|-------|-----|
+|Atomicity| either all succeed or all fail|
+|Consistency|none of balances go zero;cannot have duplicates ...|
+|Isolation| serialization; thread safe; each of the transactions will happen like one by one|
+|Durability| guarantees that transactions that have committed will survive permanentl|
+ 
 ### Scaling your design (swiss army knife)
  * sharding
  * cacheing
