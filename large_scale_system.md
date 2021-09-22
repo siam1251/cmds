@@ -9,6 +9,9 @@ steps:
 * Data partition/ sharding
 * Fault tollerant and replication                 
 [Designing Data Intensive Application](http://xfido.com/pdf/designing-data-intensive-applications.pdf)       
+[mit course link](http://nil.csail.mit.edu/6.824/2018/schedule.html?fbclid=IwAR2R-VKSo2hGhDqVE7veo7SWoRK62h3eKrOxliz6yRgSSrhbsuBzA1bYn7o)       
+[DDIA youtube](https://www.youtube.com/watch?v=PdtlXdse7pw&list=PL4KdJM8LzAMecwInbBK5GJ3Anz-ts75RQ)         
+[martin kleppmann series](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB)             
 [hbase table desing choices](https://github.com/siam1251/cmds/blob/master/.images/hbase_design.pdf)        
 [hbase design examples](https://dzone.com/articles/understanding-hbase-and-bigtab)           
 
