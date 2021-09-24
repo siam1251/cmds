@@ -1,3 +1,5 @@
+[intro to pytorch mnist](https://github.com/siam1251/deep-learning-v2-pytorch/tree/master/intro-to-pytorch)      
+
 ```
 net = Net()
 optimizer = SGD()
