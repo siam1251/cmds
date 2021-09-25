@@ -170,7 +170,7 @@ for epoch in range(2):  # loop over the dataset multiple times
         optimizer.zero_grad()
 
         # forward + backward + optimize
-        outputs = net(inputs)
+        outputs = net(inputs) // same as net.forward(inputs)
         loss = criterion(outputs, labels)
         loss.backward()
         optimizer.step()
