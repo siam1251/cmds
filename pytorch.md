@@ -1,5 +1,6 @@
 [intro to pytorch mnist](https://github.com/siam1251/deep-learning-v2-pytorch/tree/master/intro-to-pytorch)    
 [pytorch models](https://github.com/siam1251/pytorch-cifar/tree/master/models)      
+[my dummy code](https://github.com/siam1251/pytorch_deep_learning_dummy)    
 
 ```
 net = Net()
