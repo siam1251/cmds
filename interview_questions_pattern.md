@@ -75,4 +75,4 @@ apply DP algorithm with greedy!!
   
   
  ### [interview steps]()
-![alt text](./.images/interview_steps.pdf "System Diagram Template")
+[pdf](./.images/interview_steps.pdf)
