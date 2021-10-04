@@ -1,3 +1,5 @@
+
+
 ### Concepts and tecniques: 
 * Windowing technique
 * monotonic increaseing or decreasing deque
@@ -69,4 +71,8 @@ apply DP algorithm with greedy!!
   * Is order required in linkedlist or vector
   * you can pop last element from vector in constant time
   [insert delet getRandom](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
- 
+  
+  
+  
+ ### [interview steps]()
+![alt text](./.images/interview_steps.pdf "System Diagram Template")
