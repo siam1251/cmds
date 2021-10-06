@@ -11,7 +11,9 @@ chery-pick
 // If you want to ignore A itself, run:
 git cherry-pick A..B
   ```
-ours and theirs is a somewhat confusing concept; exacerbated when performing a rebase:
+
+ [ours vs theirs](https://stackoverflow.com/a/31817910/1049109)    
+ ours and theirs is a somewhat confusing concept; exacerbated when performing a rebase:
 
 When performing a merge, ours refers to the branch you're merging into, and theirs refers to the branch you are merging from. So if you are trying to resolve conflicts in the middle of a merge:
 
