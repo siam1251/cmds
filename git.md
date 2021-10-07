@@ -1,5 +1,6 @@
 [rebase](https://womanonrails.com/git-rebase-onto)       
 [rebase conflicts](https://demisx.github.io/git/rebase/2015/07/02/git-rebase-keep-my-branch-changes.html)        
+[hg vs git commands](https://www.mercurial-scm.org/wiki/GitConcepts)    
 
 git rebase --onto <newparent> <oldparent> <until>           
   change parents
