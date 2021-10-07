@@ -20,6 +20,9 @@
 [Python](#python)    
 
 
+ps -ef | head -1; ps -ef | grep "your-pattern-goes-here"
+
+
 bazel build -c opt --config=cuda //tensorflow:libtensorflow.so
 ```
 dpkg-query -l
