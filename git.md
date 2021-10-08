@@ -30,4 +30,5 @@ When rebasing, ours and theirs are inverted. Rebases pick files into a "detached
 I.e., rebasing replays the current branch's commits (one at a time) on top of the branch that we intend to rebase with.
 
   |Git | hg|
+  |----|----|
   |git checkout branch_name| hg update branch_name|
