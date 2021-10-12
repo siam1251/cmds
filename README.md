@@ -13,4 +13,6 @@
 
 [Keyboard shortcut](https://github.com/siam1251/cmds/blob/master/keys.md)              
 
-[advanced google search](https://github.com/siam1251/cmds/blob/master/search.md)         
+[advanced google search](https://github.com/siam1251/cmds/blob/master/search.md)   
+
+[mercurial vs git](https://github.com/siam1251/cmds/blob/master/git.md)         
