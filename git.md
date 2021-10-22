@@ -31,4 +31,5 @@ I.e., rebasing replays the current branch's commits (one at a time) on top of th
 
   |Git | hg|
   |----|----|
-  |git checkout branch_name| hg update branch_name|
+  |git checkout branch_name| hg update (branch_name, change_set)|
+  |git checkout branch_name| hg -r (revision) revision_id|
