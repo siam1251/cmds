@@ -1,4 +1,5 @@
 # list
+[fb cmds](https://github.com/siam1251/scripts/blob/master/fb_cmds.md)              
 [Pytorch](https://github.com/siam1251/cmds/blob/master/pytorch.md)     
 [Deep Learning basics](https://github.com/siam1251/cmds/blob/master/dl_basics.md)  
 
