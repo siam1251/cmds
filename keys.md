@@ -45,3 +45,9 @@ del
 save breakpoints file // to save  
 source file // To load
 ```
+### mac os     
+```
+cmd+cnt+D to toggle dock
+cmd+` to navigate between windows of the same app
+
+```
