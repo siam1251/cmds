@@ -19,7 +19,13 @@
 [Tensorflow](#tensorflow)   
 [Python](#python)    
 
+#### Port.      
+```
+lsof -i:8080
+kill -9 pid
 
+netstat -na|grep port
+```
 ps -ef | head -1; ps -ef | grep "your-pattern-goes-here"
 
 
