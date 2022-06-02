@@ -1,3 +1,8 @@
+Requirement:
+ * functional
+ * non-functional (latency, consistency, realtime)
+ * extended requirements
+
 steps:
 * capacity estimation, QPS, storage, Bandwidth
 * Number of total machines required
