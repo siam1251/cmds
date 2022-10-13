@@ -1,6 +1,6 @@
 ### mac tool
-   flycut
-   rectangle
+   * flycut
+   * rectangle
 
 ### vim    
 ```
