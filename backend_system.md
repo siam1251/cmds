@@ -12,3 +12,6 @@ Resource states are fixed and live in server. For example you upload a image res
 ### Rest vs RPC
 * Rest uses HTTP while RPC uses TCP or UDP
 * RPC relies on contractual negotiations; in other words, the client-server relationship directly influences how communication occurs. While contracts aren’t absent with REST, the arrangement is notably different. REST contracts are linked to hostnames, paths, HTTP methods, headers, request bodies, response bodies, and more. Additionally, RESTful interactions are defined via standardized terms.
+
+
+[rest vs rpc](https://www.geeksforgeeks.org/difference-between-rest-api-and-rpc-api/) 
